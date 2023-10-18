@@ -59,7 +59,9 @@ Per quanto riguarda le attività di preparazione alla messa in piedi del sistema
 
 Il processo implementato vede lo svolgimento delle seguenti attività:
 1. All'inizio di un nuovo mese, uno degli utenti con il ruolo di `gestione-personale` avvia l'operazione di generazione e condivisione dei fogli orari da compilare con il personale coinvolto in attività di ricerca, tramite l'opzione "Produzione fogli orari" disponibile all'interno della piattaforma
+
 ![Produzione fogli orari](img/produzionefogliorari.png)
+
 2. La singola unità di personale si vedrà recapitare via email il foglio orario (in formato Microsoft Excel) con le ore lavorate per il mese passato; la email conterrà informazioni per poter caricare il documento compilato
 3. La singola unità di personale, dopo aver debitamente compilato il documento ricevuto, caricherà lo stesso al link riportato nella email
 4. Il sistema importerà il documento e lo processerà di conseguenza, inviando via email un messaggio (di successo o di errore) all'utente che ha caricato il file
