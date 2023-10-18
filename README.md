@@ -6,7 +6,10 @@ Questo repository riporta una guida di utilizzo della [piattaforma RECCO](https:
 
 ### Sommario ###
 
-TODO
+1. [Introduzione](docs/1-introduzione.md)
+2. [Installazione](docs/2-installazione.md)
+3. [Prima configurazione](docs/3-primaconfigurazione.md)
+4. [Utilizzo del sistema](docs/4-utilizzo.md)
 
 ### Riferimenti ###
 
