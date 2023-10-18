@@ -7,7 +7,7 @@ Obiettivo del sistema è quello di fornire uno strumento intuitivo volto a minim
 
 Sistemi di integrazione:
 * Integrazione con il sistema [ePAS](https://epas.amministrazione.cnr.it) per il recupero delle ore lavorate dal personale, di permessi, ferie o altre informazioni utili
-* Accesso al sistema con credenziali Microsoft Office fornite dall'Ente
+* Accesso al sistema con credenziali [Microsoft Office](https://www.office.com) fornite dall'Ente
 * Supporto a comunicazioni e sistemi di notifica via email
 * Generazione automatica di fogli da compilare, con successiva importazione, in formato Microsoft Excel
 * Generazione automatica di fogli riassuntivi specifici per progetto, in formato Microsoft Excel e PDF
