@@ -11,6 +11,8 @@ Questo repository riporta una guida di utilizzo della piattaforma RECCO, svilupp
 3. [Prima configurazione](docs/3-primaconfigurazione.md)
 4. [Utilizzo del sistema](docs/4-utilizzo.md)
 
+La versione considerata è la versione `0.7`.
+
 ### Riferimenti ###
 
 L'intero progetto RECCO e la relativa documentazione sono un prodotto di [Enrico Cambiaso](https://www.ieiit.cnr.it/people/Cambiaso-Enrico).
