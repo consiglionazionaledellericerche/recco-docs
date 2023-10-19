@@ -6,10 +6,10 @@ Questo repository riporta una guida di utilizzo della piattaforma RECCO, svilupp
 
 ### Sommario ###
 
-1. [Introduzione](docs/1-introduzione.md)
-2. [Installazione](docs/2-installazione.md)
-3. [Prima configurazione](docs/3-primaconfigurazione.md)
-4. [Utilizzo del sistema](docs/4-utilizzo.md)
+1. [Introduzione](docs/introduzione.md)
+2. [Installazione](docs/installazione.md)
+3. [Prima configurazione](docs/primaconfigurazione.md)
+4. [Utilizzo del sistema](docs/utilizzo.md)
 
 La versione considerata è la versione `0.7`.
 
