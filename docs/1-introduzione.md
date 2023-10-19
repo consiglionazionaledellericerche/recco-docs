@@ -95,3 +95,19 @@ Il processo implementato vede lo svolgimento delle seguenti attività:
 5. Alla corretta importazione del documento, il sistema genererà in automatico i documenti riassuntivi, specifici per ogni progetto, per l'unità di personale che ha caricato il documento; questi documenti verranno prodotti sia in formato Microsoft Excel che (opzionamente) in formato PDF
 6. Nel caso in cui i documenti in formato PDF siano stati prodotti, questi verranno inviati via email all'unità di personale, chiedendo di firmarli e caricarli ad un link fornito nell'email
 7. Una volta firmati i documenti, la singola unità di personale caricherà gli stessi al link indicato
+
+### Interfaccia di RECCO ###
+
+Vengono di seguito mostrate alcune schermate dell'interfaccia di RECCO.
+
+<img src="img/interfaccia_home.png" height="250">
+
+<img src="img/interfaccia_fogli.png" height="250">
+
+<img src="img/interfaccia_amministrazione.png" height="250">
+
+<img src="img/interfaccia_progetti.png" height="250">
+
+<img src="img/interfaccia_personale.png" height="250">
+
+<img src="img/interfaccia_rendicontazione.png" height="250">
