@@ -100,14 +100,14 @@ Il processo implementato vede lo svolgimento delle seguenti attività:
 
 Vengono di seguito mostrate alcune schermate dell'interfaccia di RECCO.
 
-<img src="img/interfaccia_home.png" height="500">
+<img src="img/interfaccia_home.png" width="800">
 
-<img src="img/interfaccia_fogli.png" height="500">
+<img src="img/interfaccia_fogli.png" width="800">
 
-<img src="img/interfaccia_amministrazione.png" height="500">
+<img src="img/interfaccia_amministrazione.png" width="800">
 
-<img src="img/interfaccia_personale.png" height="500">
+<img src="img/interfaccia_personale.png" width="800">
 
-<img src="img/interfaccia_progetti.png" height="500">
+<img src="img/interfaccia_progetti.png" width="800">
 
-<img src="img/interfaccia_rendicontazione.png" height="500">
+<img src="img/interfaccia_rendicontazione.png" width="800">
