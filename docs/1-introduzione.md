@@ -102,12 +102,12 @@ Vengono di seguito mostrate alcune schermate dell'interfaccia di RECCO.
 
 <img src="img/interfaccia_home.png">
 
-<img src="img/interfaccia_fogli.png" width="800">
+<img src="img/interfaccia_fogli.png">
 
-<img src="img/interfaccia_amministrazione.png" width="800">
+<img src="img/interfaccia_amministrazione.png">
 
-<img src="img/interfaccia_personale.png" width="800">
+<img src="img/interfaccia_personale.png">
 
-<img src="img/interfaccia_progetti.png" width="800">
+<img src="img/interfaccia_progetti.png">
 
-<img src="img/interfaccia_rendicontazione.png" width="800">
+<img src="img/interfaccia_rendicontazione.png">
