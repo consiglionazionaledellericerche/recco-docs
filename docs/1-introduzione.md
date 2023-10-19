@@ -100,14 +100,20 @@ Il processo implementato vede lo svolgimento delle seguenti attività:
 
 Vengono di seguito mostrate alcune schermate dell'interfaccia di RECCO.
 
+**Schermata visibile per tutti gli utenti**
 <img src="img/interfaccia_home.png">
 
+**Schermata visibile per le unità di personale coinvolte in attività di ricerca**
 <img src="img/interfaccia_fogli.png">
 
+**Schermata visibile per utenti di tipo `amministratore`**
 <img src="img/interfaccia_amministrazione.png">
 
+**Schermata visibile per utenti di tipo `gestione-personale`**
 <img src="img/interfaccia_personale.png">
 
+**Schermata visibile per utenti di tipo `gestione-progetti`**
 <img src="img/interfaccia_progetti.png">
 
+**Schermata visibile per utenti di tipo `gestione-rendicontazione`**
 <img src="img/interfaccia_rendicontazione.png">
