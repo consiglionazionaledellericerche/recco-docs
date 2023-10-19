@@ -15,4 +15,4 @@ La versione considerata è la versione `0.7`.
 
 ### Riferimenti ###
 
-L'intero progetto RECCO e la relativa documentazione sono un prodotto di [Enrico Cambiaso](https://www.ieiit.cnr.it/people/Cambiaso-Enrico).
+L'intero progetto RECCO e la relativa documentazione sono una idea ed un prodotto di [Enrico Cambiaso](https://www.ieiit.cnr.it/people/Cambiaso-Enrico).
