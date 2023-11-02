@@ -62,6 +62,10 @@ Obiettivo del sistema è quello di fornire uno strumento intuitivo volto a minim
 ### Limiti del sistema ###
 
 Allo stato attuale, il sistema:
+* Richiede l'utilizzo di [ePAS](https://epas.amministrazione.cnr.it) da parte dell'istituto coinvolto
+* Permette l'accesso al sistema esclusivamente tramite credenziali [Microsoft Office](https://www.office.com) fornite dall'Ente
+* Si basa su uno scambio dati prevalentemente in formato Microsoft Excel (alternative open-source non sono supportate)
+* Richiede l'utilizzo di un account [Microsoft Office](https://www.office.com) ad-hoc per le attività di generazione automatica di PDF (per le quali è necessario un ambiente ospitante in ambiente Microsoft Windows e l'installazione di Microsoft Excel)
 * Permette la gestione di dati esclusivamente per il singolo mese passato, rispetto a quello corrente
 * Non supporta personale non strutturato
 
