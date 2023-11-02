@@ -76,7 +76,7 @@ Il sistema supporta i seguenti tipi di utenti, dove ogni utente può essere asso
 * `amministratore-readonly`: ruolo solitamente assegnato al direttore dell'istituto, è in grado di visualizzare tutte le informazioni disponibili, senza poter operare su di esse
 * `gestione-completa`: ruolo in grado di eseguire qualunque operazione sulla piattaforma, ad esclusione delle attività di configurazione della stessa
 * `gestione-personale`: ruolo in grado di gestire le unità di personale registrate all'interno della piattaforma
-* `gestione-personale`: ruolo in grado di gestire i progetti registrati all'interno della piattaforma
+* `gestione-progetti`: ruolo in grado di gestire i progetti registrati all'interno della piattaforma
 * `gestione-rendicontazione`: ruolo in grado di seguire e gestire le attività di rendicontazione gestite dalla piattaforma
 * `personale`: ruolo assegnato a tutte le unità di personale coinvolte in attività di ricerca
 
