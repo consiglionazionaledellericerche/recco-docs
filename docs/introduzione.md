@@ -11,6 +11,11 @@ Obiettivo del sistema è quello di fornire uno strumento intuitivo volto a minim
 
 **What:** Una piattaforma basata su interfaccia web e sullo scambio di documenti in formati comunemente utilizzati (Microsoft Excel e PDF) mette in relazione ricercatori con personale amministrativo per minimizzare i tempi di collezione ed esportazione di informazioni di rendicontazione progettuale.
 
+### Approccio di sviluppo ###
+
+Lo sviluppo della piattaforma RECCO ha seguito un approccio di tipo "lean", volto a sviluppare un prototipo funzionante in tempi relativamente rapidi, con l'obiettivo di mettere in piedi il sistema in breve tempo, per far fronte ad una specifica emergenza emersa.
+Nel tempo, lo sviluppo è stato raffinato e la piattaforma è stata estesa, non solo migliorandone la struttura a livello di back-end, ma implementando anche nuove funzionalità, in risposta a determinate esigenze emerse.
+
 ### Vantaggi e caratteristiche del sistema ###
 
 **Sistemi di integrazione:**
@@ -23,6 +28,7 @@ Obiettivo del sistema è quello di fornire uno strumento intuitivo volto a minim
 **Automatismi:**
 * Generazione automatica di fogli da compilare, con successiva importazione, in formato Microsoft Excel
 * Generazione automatica di fogli riassuntivi specifici per progetto, in formato Microsoft Excel e PDF
+* Generazione automatica di report testuali riassuntivi specifici, in formato Microsoft Word e PDF
 
 **Backend:**
 * Memorizzazione dei dati su database, con possibilità di accesso semplificata
@@ -44,6 +50,10 @@ Obiettivo del sistema è quello di fornire uno strumento intuitivo volto a minim
 * Esportazione di dati specifici per progetto, in formato Microsoft Excel e PDF
 * Supporto a template di esportazione differenti
 * Supporto a template riassuntivi specifici in formato Microsoft Excel, con allocazione degli stessi su diversi progetti
+* Supporto a template di esportazione di report testuali differenti (es. template di DSAN utilizzati nei progetti PNRR)
+* Supporto a template riassuntivi specifici in formato Microsoft Word (es. per DSAN utilizzati nei progetti PNRR)
+* Esportazione di dati specifici di rendicontazione per utente, in formato CSV
+* Esportazione di dati specifici di rendicontazione per progetto, in formato CSV
 
 **Gestione dell'istituto:**
 * Supporto ad istituti distributi su più sedi
@@ -52,7 +62,10 @@ Obiettivo del sistema è quello di fornire uno strumento intuitivo volto a minim
 * Supporto a personale di diverso profilo e con caratteristiche differenti (es. part-time)
 
 **Funzionalità per il personale:**
+* Visualizzazione di informazioni riassuntive sulle attività di rendicontazione globali
+* Visualizzazione di informazioni riassuntive sulle attività di rendicontazione per progetto
 * Possibilità di fornire alle singole unità di personale coinvolte informazioni dettagliate di rendiconto e sulle attività progettuali in corso
+* Possibilità di fornire alle singole unità di personale coinvolte informazioni dettagliate in merito alle ore previste da allocare per i progetti in corso
 
 **Gestione dei progetti:**
 * Supporto a progetti di ricerca di diverso tipo (es. Europei, PNRR, ecc.)
@@ -65,7 +78,7 @@ Allo stato attuale, il sistema:
 * Richiede l'utilizzo di [ePAS](https://epas.amministrazione.cnr.it) da parte dell'istituto coinvolto
 * Permette l'accesso al sistema esclusivamente tramite credenziali [Microsoft Office](https://www.office.com) fornite dall'Ente
 * Si basa su uno scambio dati prevalentemente in formato Microsoft Excel (alternative open-source non sono supportate)
-* Richiede l'utilizzo di un account [Microsoft Office](https://www.office.com) ad-hoc per le attività di generazione automatica di PDF (per le quali è necessario un ambiente ospitante in ambiente Microsoft Windows e l'installazione di Microsoft Excel)
+* Richiede l'utilizzo di un account [Microsoft Office](https://www.office.com) ad-hoc per le attività di generazione automatica di PDF (per le quali è necessario un ambiente ospitante in ambiente Microsoft Windows e l'installazione di Microsoft Excel e Microsoft Word)
 * Permette la gestione di dati esclusivamente per il singolo mese passato, rispetto a quello corrente
 * Non supporta personale non strutturato
 
@@ -74,7 +87,7 @@ Allo stato attuale, il sistema:
 Il sistema supporta i seguenti tipi di utenti, dove ogni utente può essere associato ad un solo ruolo:
 * `amministratore`: ruolo solitamente assegnato a personale tecnico, è in grado di eseguire qualunque operazione
 * `amministratore-readonly`: ruolo solitamente assegnato al direttore dell'istituto, è in grado di visualizzare tutte le informazioni disponibili, senza poter operare su di esse
-* `gestione-completa`: ruolo in grado di eseguire qualunque operazione sulla piattaforma, ad esclusione delle attività di configurazione della stessa
+* `gestione-completa`: ruolo in grado di eseguire qualunque operazione sulla piattaforma, ad esclusione delle attività di configurazione ed amministrazione della stessa
 * `gestione-personale`: ruolo in grado di gestire le unità di personale registrate all'interno della piattaforma
 * `gestione-progetti`: ruolo in grado di gestire i progetti registrati all'interno della piattaforma
 * `gestione-rendicontazione`: ruolo in grado di seguire e gestire le attività di rendicontazione gestite dalla piattaforma
@@ -108,7 +121,7 @@ Vengono di seguito mostrate alcune schermate dell'interfaccia di RECCO.
 <img src="img/interfaccia_home.png">
 
 **Schermata visibile per le unità di personale coinvolte in attività di ricerca**
-<img src="img/interfaccia_fogli.png">
+<img src="img/interfaccia_my.png">
 
 **Schermata visibile per utenti di tipo `amministratore`**
 <img src="img/interfaccia_amministrazione.png">
