@@ -54,7 +54,7 @@ Questa sezione riporta i dettagli sui fogli orari prodotti.
 
 E' disponibile una scheda di dettaglio relativa ai fogli orari prodotti per il periodo di riferimento corrente, come mostrato nella figura seguente.
 
-<img src="img/interfaccia_personale_home_card_fogliorariprodotti.png">
+<img src="img/interfaccia_personale_home_card_fogliorariprodotti.png" height="250">
 
 *Scheda di dettaglio dei fogli orari prodotti per il mese di riferimento corrente*
 
@@ -71,7 +71,7 @@ Cliccando il bottone `Visualizza documenti` è possibile consultare tutti i docu
 
 Analogamente alla consultazione dei fogli orari per il periodo di riferimento corrente, è disponibile una scheda di dettaglio relativa all'archivio di tutti i fogli orari prodotti, come mostrato nella figura seguente.
 
-<img src="img/interfaccia_personale_home_card_archiviofogliorariprodotti.png">
+<img src="img/interfaccia_personale_home_card_archiviofogliorariprodotti.png" height="250">
 
 *Scheda di dettaglio dell'archivio dei fogli orari prodotti*
 
@@ -80,3 +80,5 @@ Cliccando il bottone `Visualizza documenti` è possibile selezionare il periodo 
 #### Produzione di fogli orari ####
 
 TODO
+
+<img src="img/produzionefogliorari.png" height="250">
