@@ -79,6 +79,10 @@ Cliccando il bottone `Visualizza documenti` è possibile selezionare il periodo 
 
 #### Produzione di fogli orari ####
 
-TODO
+E' disponibile una scheda di dettaglio relativa alla produzione di fogli orari per il periodo di riferimento corrente, come mostrato nella figura seguente.
 
 <img src="img/produzionefogliorari.png" height="250">
+
+*Scheda di dettaglio per la produzione di fogli orari per il periodo di riferimento corrente*
+
+TODO
