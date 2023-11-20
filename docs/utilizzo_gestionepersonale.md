@@ -71,7 +71,7 @@ Cliccando il bottone `Visualizza documenti` è possibile consultare tutti i docu
 
 Analogamente alla consultazione dei fogli orari per il periodo di riferimento corrente, è disponibile una scheda di dettaglio relativa all'archivio di tutti i fogli orari prodotti, come mostrato nella figura seguente.
 
-<img src="img/interfaccia_personale_home_card_archiviofogliorariprodotti.png" height="250">
+<img src="img/interfaccia_personale_home_card_archiviofogliorariprodotti.png" height="200">
 
 *Scheda di dettaglio dell'archivio dei fogli orari prodotti*
 
