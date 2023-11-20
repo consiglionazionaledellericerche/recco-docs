@@ -106,16 +106,17 @@ Il processo implementato è riportato in forma semplificata nella figura seguent
 <img src="img/flow_normal.png">
 
 In particolare, è previsto lo svolgimento delle seguenti attività:
-1. All'inizio di un nuovo mese, uno degli utenti con il ruolo di `gestione-personale` avvia l'operazione di generazione e condivisione dei fogli orari da compilare con il personale coinvolto in attività di ricerca, tramite l'opzione "Produzione fogli orari" disponibile all'interno della piattaforma
+1. All'inizio di un nuovo mese, uno degli utenti con il ruolo di `gestione-personale` avvia l'operazione di generazione e condivisione dei fogli orari da compilare con il personale coinvolto in attività di ricerca, tramite l'opzione `Produzione fogli orari` disponibile all'interno della piattaforma
 
 <img src="img/produzionefogliorari.png" height="250">
 
-2. La singola unità di personale si vedrà recapitare via email il foglio orario (in formato Microsoft Excel) con le ore lavorate per il mese passato; la email conterrà informazioni per poter caricare il documento compilato
-3. La singola unità di personale, dopo aver debitamente compilato il documento ricevuto, caricherà lo stesso al link riportato nella email
-4. Il sistema importerà il documento e lo processerà di conseguenza, inviando via email un messaggio (di successo o di errore) all'utente che ha caricato il file
-5. Alla corretta importazione del documento, il sistema genererà in automatico i documenti riassuntivi, specifici per ogni progetto, per l'unità di personale che ha caricato il documento; questi documenti verranno prodotti sia in formato Microsoft Excel che (opzionamente) in formato PDF
-6. Nel caso in cui i documenti in formato PDF siano stati prodotti, questi verranno inviati via email all'unità di personale, chiedendo di firmarli e caricarli ad un link fornito nell'email
-7. Una volta firmati i documenti, la singola unità di personale caricherà gli stessi al link indicato
+2. Per ogni unità di personale coinvolta in attività di ricerca, la piattaforma RECCO genererà un foglio orario mensile riassuntivo (in formato Microsoft Excel) ed invierà una email alla persona di riferimento, informandola della disponibilità di tale documento all'interno della piattaforma, chiedendole la compilazione dello stesso e fornendo informazioni utili alla compilazione
+3. La singola unità di personale, a seguito della ricezione della email, accederà alla piattaforma per poter scaricare e consultare il foglio orario con le ore lavorate per il mese passato
+3. La singola unità di personale, dopo aver debitamente compilato il documento ricevuto, caricherà lo stesso all'interno della piattaforma
+4. La piattaforma RECCO importerà il documento e lo processerà di conseguenza
+5. Alla corretta importazione del documento, il sistema genererà in automatico i timesheet riassuntivi, specifici per ogni progetto, per l'unità di personale che ha caricato il documento; questi documenti verranno prodotti sia in formato Microsoft Excel che (opzionamente) in formato PDF
+6. Nel caso in cui i documenti in formato PDF siano stati prodotti, l'unità di personale coinvolta riceverà una notifica via email dell'avvenuta generazione, informazione utile al fine di poter scaricare i dati dalla piattaforma e firmarli
+7. Una volta scaricati e firmati i documenti, la singola unità di personale caricherà gli stessi all'interno della piattaforma
 
 ### Interfaccia di RECCO ###
 
