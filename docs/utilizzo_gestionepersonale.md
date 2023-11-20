@@ -22,10 +22,12 @@ Tale finestra mostra una lista di unità di personale registrate all'interno del
 
 Per ogni unità di personale è possibile modificare le informazioni associate (bottone `Modifica`).
 
-<figure>
-	<img src="img/interfaccia_personale_lista_modifica.png">
-	<figcaption>Finestra di modifica di una unità di personale</figcaption>
-</figure>
+<p align="center">
+	<figure>
+		<img src="img/interfaccia_personale_lista_modifica.png">
+		<figcaption>Finestra di modifica di una unità di personale</figcaption>
+	</figure>
+</p>
 
 E' inoltre possibile rimuovere (previa conferma) una unità di personale specifica dal sistema (bottone `Rimuovi`); in questo caso, l'unità di personale verrà rimossa solamente se questa non è coinvolta in alcun progetto di ricerca.
 
