@@ -22,24 +22,21 @@ Tale finestra mostra una lista di unità di personale registrate all'interno del
 
 Per ogni unità di personale è possibile modificare le informazioni associate (bottone `Modifica`).
 
-<p align="center">
-	<figure>
-		<img src="img/interfaccia_personale_lista_modifica.png">
-		<figcaption>Finestra di modifica di una unità di personale</figcaption>
-	</figure>
-</p>
+<img src="img/interfaccia_personale_lista_modifica.png">
+
+*Finestra di modifica di una unità di personale*
 
 E' inoltre possibile rimuovere (previa conferma) una unità di personale specifica dal sistema (bottone `Rimuovi`); in questo caso, l'unità di personale verrà rimossa solamente se questa non è coinvolta in alcun progetto di ricerca.
 
 <img src="img/interfaccia_personale_lista_rimozione.png">
 
-**Finestra di conferma di rimozione di una unità di personale**
+*Finestra di conferma di rimozione di una unità di personale*
 
 E' inoltre possibile registrare una nuova unità di personale all'interno del sistema, tramite il bottone `Aggiungi unità di personale`.
 
 <img src="img/interfaccia_personale_lista_aggiungi.png">
 
-**Finestra di aggiunta di una nuova unità di personale**
+*Finestra di aggiunta di una nuova unità di personale*
 
 
 ### Fogli orari ###
