@@ -50,4 +50,33 @@ E' inoltre possibile registrare una nuova unità di personale all'interno del si
 
 Questa sezione riporta i dettagli sui fogli orari prodotti.
 
+#### Consultazione dei fogli orari prodotti ####
+
+E' disponibile una scheda di dettaglio relativa ai fogli orari prodotti per il periodo di riferimento corrente, come mostrato nella figura seguente.
+
+<img src="img/interfaccia_personale_home_card_fogliorariprodotti.png">
+
+*Scheda di dettaglio dei fogli orari prodotti per il mese di riferimento corrente*
+
+In particolare, la scheda mostra informazioni quali il numero di fogli orari prodotti e la percentuale di questi rispetto al numero di unità di personale registrate all'interno della piattaforma.
+Occorre considerare che una percentuale inferiore al 100% può indicare uno dei seguenti scenari:
+* Si è verificato un errore in fase di generazione di uno o più documenti (es. l'unità di personale non è più associata ad un account ePAS, la piattaforma ePAS non è temporaneamente raggiungibile, le informazioni disponibili non sono complete, ecc.)
+* Una o più unità di personale non sono coinvolte in alcun progetto, per il periodo di rifererimento considerato
+
+In caso la percentuale fornita sia inferiore al 100%, si invita a verificare, con il supporto del referente tecnico, la causa di tale anomalia, considerati i due possibili scenari menzionati.
+
+Cliccando il bottone `Visualizza documenti` è possibile consultare tutti i documenti generati: per ogni documento è possibile scaricare lo stesso o eliminarlo.
+
+#### Consultazione dell'archivio dei fogli orari prodotti ####
+
+Analogamente alla consultazione dei fogli orari per il periodo di riferimento corrente, è disponibile una scheda di dettaglio relativa all'archivio di tutti i fogli orari prodotti, come mostrato nella figura seguente.
+
+<img src="img/interfaccia_personale_home_card_archiviofogliorariprodotti.png">
+
+*Scheda di dettaglio dell'archivio dei fogli orari prodotti*
+
+Cliccando il bottone `Visualizza documenti` è possibile selezionare il periodo di riferimento di interesse (espresso nel formato `YYYYMM`), dunque accedere ai documenti di interesse, con possibilità di scaricarli o eliminarli.
+
+#### Produzione di fogli orari ####
+
 TODO
