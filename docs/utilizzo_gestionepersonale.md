@@ -11,7 +11,7 @@ E' possibile vedere quante unità di personale sono registrate all'interno della
 
 Cliccando sul bottone `Gestisci personale` viene aperta una nuova finestra dedicata.
 
-**Consultazione delle unità di personale registrate all'interno della piattaforma**
+#### Consultazione delle unità di personale registrate all'interno della piattaforma ####
 
 <img src="img/interfaccia_personale_lista.png">
 
@@ -22,7 +22,7 @@ Tale finestra mostra una lista di unità di personale registrate all'interno del
 * ore annuali da svolgere
 * percentuale di ore rendicontate nell'anno corrente, rispetto al totale delle ore annuali
 
-**Modifica di una unità di personale**
+#### Modifica di una unità di personale ####
 
 Per ogni unità di personale è possibile modificare le informazioni associate (bottone `Modifica`).
 
@@ -30,7 +30,7 @@ Per ogni unità di personale è possibile modificare le informazioni associate (
 
 *Finestra di modifica di una unità di personale*
 
-**Rimozione di una unità di personale**
+#### Rimozione di una unità di personale ####
 
 E' inoltre possibile rimuovere (previa conferma) una unità di personale specifica dal sistema (bottone `Rimuovi`); in questo caso, l'unità di personale verrà rimossa solamente se questa non è coinvolta in alcun progetto di ricerca.
 
@@ -38,7 +38,7 @@ E' inoltre possibile rimuovere (previa conferma) una unità di personale specifi
 
 *Finestra di conferma di rimozione di una unità di personale*
 
-**Aggiunta di una unità di personale**
+#### Aggiunta di una unità di personale ####
 
 E' inoltre possibile registrare una nuova unità di personale all'interno del sistema, tramite il bottone `Aggiungi unità di personale`.
 
