@@ -101,7 +101,11 @@ Per quanto riguarda le attività di preparazione alla messa in piedi del sistema
 * Tutti i progetti sono inseriti all'interno della piattaforma, eventualmente suddivisi per WP/OR (da utenti con il ruolo di `gestione-progetti`)
 * Tutte le unità di personale coinvolte per ogni singolo progetto sono state associate ad esso, in qualità di partecipanti (da utenti con il ruolo di `gestione-progetti`)
 
-Il processo implementato vede lo svolgimento delle seguenti attività:
+Il processo implementato è riportato in forma semplificata nella figura seguente.
+
+<img src="img/flow_normal.png">
+
+In particolare, è previsto lo svolgimento delle seguenti attività:
 1. All'inizio di un nuovo mese, uno degli utenti con il ruolo di `gestione-personale` avvia l'operazione di generazione e condivisione dei fogli orari da compilare con il personale coinvolto in attività di ricerca, tramite l'opzione "Produzione fogli orari" disponibile all'interno della piattaforma
 
 <img src="img/produzionefogliorari.png" height="250">

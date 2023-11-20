@@ -1,0 +1,30 @@
+# image generated with the following tool: https://piperita.streamlit.app
+title: RECCO - Normal workflow
+colourtheme: ORANGEPEEL
+
+# Define the swimlane and BPMN elements
+lane: Gestore personale
+    (start) as start
+    [Richiesta generazione fogli orari] as requestfogli
+
+lane: Piattaforma RECCO
+    [Generazione dei fogli orari] as generafogli
+    [Caricamento foglio orario] as uploadfoglio
+    <@exclusive Compilato correttamente?> as isfogliook
+    [Genera timesheet progettuali] as generatetimesheets
+    [Converti timesheet in PDF] as generatetimesheetspdf
+    [Caricamento timesheet PDF firmati] as uploadtimesheetspdf
+    (end) as end_recco
+
+lane: Personale
+    [Ricezione notifica foglio orario] as notifyfoglio
+    [Compilazione foglio orario] as filledinfoglio
+    [Notifica errore in compilazione] as notifywrongcompilation
+    [Notifica timesheet PDF disponibili] as notifytimesheets
+    [Firma timesheet PDF] as signtimesheets
+    (end) as end_personale
+
+# Connect all the elements    
+start->requestfogli->generafogli->notifyfoglio->filledinfoglio->uploadfoglio->isfogliook
+isfogliook-"Sì"->generatetimesheets->generatetimesheetspdf->notifytimesheets->signtimesheets->uploadtimesheetspdf->end_recco
+isfogliook-"No"->notifywrongcompilation->end_personale
