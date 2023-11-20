@@ -20,20 +20,20 @@ In base alle opzioni disponibili nel menu, vengono riportate nel dettaglio le op
 
 ### Accesso come unità di personale coinvolta in attività di ricerca (voce del menu "I miei dati") ###
 
-In questo caso, consultare la guida di utilizzo relativa alla [pagina "I miei dati"](utilizzo_my.md).
+In questo caso, consultare la guida di utilizzo relativa alla pagina ["I miei dati"](utilizzo_my.md).
 
 ### Amministrazione del sistema (voce del menu "Amministrazione") ###
 
-In questo caso, consultare la guida di utilizzo relativa alla [pagina "Amministrazione"](utilizzo_amministratore.md).
+In questo caso, consultare la guida di utilizzo relativa alla pagina ["Amministrazione"](utilizzo_amministratore.md).
 
 ### Gestione del personale (voce del menu "Personale") ###
 
-In questo caso, consultare la guida di utilizzo relativa alla [pagina "Personale"](utilizzo_gestionepersonale.md).
+In questo caso, consultare la guida di utilizzo relativa alla pagina ["Personale"](utilizzo_gestionepersonale.md).
 
 ### Gestione dei progetti (voce del menu "Progetti") ###
 
-In questo caso, consultare la guida di utilizzo relativa alla [pagina "Progetti"](utilizzo_gestioneprogetti.md).
+In questo caso, consultare la guida di utilizzo relativa alla pagina ["Progetti"](utilizzo_gestioneprogetti.md).
 
 ### Gestione degli aspetti di rendicontazione (voce del menu "Rendicontazione") ###
 
-In questo caso, consultare la guida di utilizzo relativa alla [pagina "Rendicontazione"](utilizzo_gestionerendicontazione.md).
+In questo caso, consultare la guida di utilizzo relativa alla pagina ["Rendicontazione"](utilizzo_gestionerendicontazione.md).
