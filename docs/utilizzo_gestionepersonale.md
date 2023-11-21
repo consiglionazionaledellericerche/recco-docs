@@ -30,7 +30,7 @@ Per ogni unità di personale è possibile modificare le informazioni associate (
 
 *Finestra di modifica di una unità di personale*
 
-Per modificare di una unità di personale, procedere come segue:
+Per modificare una unità di personale, procedere come segue:
 1. Accedere alla piattaforma RECCO
 2. Aprire il menu `Personale`
 3. Cliccare il bottone `Modifica` adiacente all'unità di personale da modificare
@@ -45,7 +45,7 @@ E' inoltre possibile rimuovere (previa conferma) una unità di personale specifi
 
 *Finestra di conferma di rimozione di una unità di personale*
 
-Per rimuovere di una unità di personale, procedere come segue:
+Per rimuovere una unità di personale, procedere come segue:
 1. Accedere alla piattaforma RECCO
 2. Aprire il menu `Personale`
 3. Cliccare il bottone `Rimuovi` adiacente all'unità di personale da rimuovere
@@ -59,7 +59,7 @@ E' inoltre possibile registrare una nuova unità di personale all'interno del si
 
 *Finestra di aggiunta di una nuova unità di personale*
 
-Per aggiungere di una unità di personale, procedere come segue:
+Per aggiungere una unità di personale, procedere come segue:
 1. Accedere alla piattaforma RECCO
 2. Aprire il menu `Personale`
 3. Cliccare il bottone `Aggiungi unità di personale` in fondo alla pagina
