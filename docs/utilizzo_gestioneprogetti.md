@@ -77,6 +77,8 @@ TODO
 
 #### Rimozione di un progetto ####
 
+TODO
+
 E' inoltre possibile rimuovere (previa conferma) un progetto specifico dal sistema (bottone `Rimuovi`).
 
 <img src="img/interfaccia_progetti_lista_rimozione.png">
