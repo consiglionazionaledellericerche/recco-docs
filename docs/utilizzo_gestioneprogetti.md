@@ -79,20 +79,14 @@ E' possibile visualizzare una schermata di dettaglio dei progetti, come mostrato
 
 *Scheda di dettaglio di un progetto*
 
-In particolare, la scheda mostra informazioni quali il numero di fogli orari prodotti e la percentuale di questi rispetto al numero di unità di personale registrate all'interno della piattaforma.
-Occorre considerare che una percentuale inferiore al 100% può indicare uno dei seguenti scenari:
-* Si è verificato un errore in fase di generazione di uno o più documenti (es. l'unità di personale non è più associata ad un account [ePAS](https://epas.amministrazione.cnr.it), la piattaforma [ePAS](https://epas.amministrazione.cnr.it) non è temporaneamente raggiungibile, le informazioni disponibili non sono complete, ecc.)
-* Una o più unità di personale non sono coinvolte in alcun progetto, per il periodo di rifererimento considerato
+TODO da qui
 
-In caso la percentuale fornita sia inferiore al 100%, si invita a verificare, con il supporto del referente tecnico, la causa di tale anomalia, considerati i due possibili scenari menzionati.
-
-Cliccando il bottone `Visualizza documenti` è possibile consultare tutti i documenti generati: per ogni documento è possibile scaricare lo stesso o eliminarlo.
-
-Pertanto, per poter visualizzare i fogli orari prodotti per il periodo di riferimento corrente, procedere come segue:
+Pertanto, per poter visualizzare i dettagli un progetto, procedere come segue:
 1. Accedere alla piattaforma RECCO
-2. Aprire il menu `Personale`
-3. Cliccare il bottone `Visualizza documenti` all'interno della scheda `Fogli orari prodotti`
-4. Si aprirà una pagina contenente tutti i documenti, con la possibilità di scaricarli o rimuoverli
+2. Aprire il menu `Progetti`
+3. Cliccare il bottone `Gestisci progetti` all'interno della scheda `Gestione progetti`
+4. Si aprirà una pagina contenente una lista dei progetti registrati all'interno della piattaforma
+5. Identificare il progetto di interesse e cliccare il relativo bottone `Visualizza`
 
 #### Rimozione di un progetto ####
 
