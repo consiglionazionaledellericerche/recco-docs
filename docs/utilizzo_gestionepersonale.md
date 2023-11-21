@@ -125,13 +125,13 @@ Una volta confermata l'operazione, interfacciandosi con la piattaforma [ePAS](ht
 
 La schermata di conferma dell'operazione, con ulteriori dettagli, descritti in modo approfondito in seguito, è mostrata in figura seguente.
 
-<img src="img/interfaccia_personale_confermaproduzionefogliorari.png" height="250">
+<img src="img/interfaccia_personale_confermaproduzionefogliorari.png">
 
 *Schermata di conferma di produzioen di fogli orari*
 
 Un esempio di foglio orario generato è disponibile nella figura seguente.
 
-<img src="img/excel_fogliodacompilare.png" height="250">
+<img src="img/excel_fogliodacompilare.png">
 
 *Esempio di foglio orario da compilare*
 
