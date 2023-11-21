@@ -30,6 +30,13 @@ Per ogni unità di personale è possibile modificare le informazioni associate (
 
 *Finestra di modifica di una unità di personale*
 
+Per modificare di una unità di personale, procedere come segue:
+1. Accedere alla piattaforma RECCO
+2. Aprire il menu `Personale`
+3. Cliccare il bottone `Modifica` adiacente all'unità di personale da modificare
+4. Si aprirà una finestra di modifica: aggiornare i dati secondo le necessità
+5. Cliccare il bottone `Conferma` per confermare l'operazione
+
 #### Rimozione di una unità di personale ####
 
 E' inoltre possibile rimuovere (previa conferma) una unità di personale specifica dal sistema (bottone `Rimuovi`); in questo caso, l'unità di personale verrà rimossa solamente se questa non è coinvolta in alcun progetto di ricerca.
@@ -38,6 +45,12 @@ E' inoltre possibile rimuovere (previa conferma) una unità di personale specifi
 
 *Finestra di conferma di rimozione di una unità di personale*
 
+Per rimuovere di una unità di personale, procedere come segue:
+1. Accedere alla piattaforma RECCO
+2. Aprire il menu `Personale`
+3. Cliccare il bottone `Rimuovi` adiacente all'unità di personale da rimuovere
+4. Si aprirà una finestra di conferma: cliccare il bottone `Conferma` per confermare l'operazione
+
 #### Aggiunta di una unità di personale ####
 
 E' inoltre possibile registrare una nuova unità di personale all'interno del sistema, tramite il bottone `Aggiungi unità di personale`.
@@ -45,6 +58,15 @@ E' inoltre possibile registrare una nuova unità di personale all'interno del si
 <img src="img/interfaccia_personale_lista_aggiungi.png">
 
 *Finestra di aggiunta di una nuova unità di personale*
+
+Per modificare di una unità di personale, procedere come segue:
+1. Accedere alla piattaforma RECCO
+2. Aprire il menu `Personale`
+3. Cliccare il bottone `Aggiungi unità di personale` in fondo alla pagina
+4. Si aprirà una finestra di aggiunta: inserire i dati secondo le necessità
+5. Cliccare il bottone `Conferma` per confermare l'operazione
+
+Occorre in particolare considerare che l'indirizzo email da specificare deve coincidere con quello utilizzato dalla piattaforma [ePAS](https://epas.amministrazione.cnr.it); solitamente il formato segue la regola `PrimoNomeSecondoNome.Cognome@cnr.it` (ad esempio, per l'unità di personale fittizia Mario Stefano Rossi, la email associata sarebbe mariostefano.rossi@cnr.it).
 
 ### Fogli orari ###
 
@@ -60,7 +82,7 @@ E' disponibile una scheda di dettaglio relativa ai fogli orari prodotti per il p
 
 In particolare, la scheda mostra informazioni quali il numero di fogli orari prodotti e la percentuale di questi rispetto al numero di unità di personale registrate all'interno della piattaforma.
 Occorre considerare che una percentuale inferiore al 100% può indicare uno dei seguenti scenari:
-* Si è verificato un errore in fase di generazione di uno o più documenti (es. l'unità di personale non è più associata ad un account ePAS, la piattaforma ePAS non è temporaneamente raggiungibile, le informazioni disponibili non sono complete, ecc.)
+* Si è verificato un errore in fase di generazione di uno o più documenti (es. l'unità di personale non è più associata ad un account [ePAS](https://epas.amministrazione.cnr.it), la piattaforma [ePAS](https://epas.amministrazione.cnr.it) non è temporaneamente raggiungibile, le informazioni disponibili non sono complete, ecc.)
 * Una o più unità di personale non sono coinvolte in alcun progetto, per il periodo di rifererimento considerato
 
 In caso la percentuale fornita sia inferiore al 100%, si invita a verificare, con il supporto del referente tecnico, la causa di tale anomalia, considerati i due possibili scenari menzionati.
