@@ -131,7 +131,7 @@ La schermata di conferma dell'operazione, con ulteriori dettagli, descritti in m
 
 Un esempio di foglio orario generato è disponibile nella figura seguente.
 
-<img src="img/exel_fogliodacompilare.png" height="250">
+<img src="img/excel_fogliodacompilare.png" height="250">
 
 *Esempio di foglio orario da compilare*
 
