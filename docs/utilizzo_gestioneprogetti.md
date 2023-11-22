@@ -25,7 +25,7 @@ Tale finestra mostra una lista di progetti registrati all'interno del sistema, c
 
 In particolare, la percentuale di rendicontazione normalizzata viene calcolata andando a sommare le ore di rendicontazione totali previste per l'intero progetto per tutte le unità di personale, dunque rapportandole all'attuale stato di avanzamento del progetto; infine, confrontando le ore effettivamente rendicontate ad oggi da tutti i partecipanti al progetto con tale valore.
 
-**Informazioni sul progetto principale**
+#### Informazioni sul progetto principale ####
 
 Occorre considerare che ogni progetto inserito nella piattaforma può essere associato ad un "progetto principale", una stringa testuale (senza spazi o caratteri speciali) che viene utilizzata per raggruppare più progetti.
 Ad esempio, l'utilizzo di tale parametro può tornare utile per poter raggruppare più progetti in uno solo, in fase di esportazione o visualizzazione; si pensi ad esempio ad una suddivisione di un progetto in più Work Packages/Obiettivi Realizzativi/Spoke.
@@ -79,7 +79,8 @@ E' possibile visualizzare una schermata di dettaglio dei progetti, come mostrato
 
 *Scheda di dettaglio di un progetto*
 
-TODO da qui
+Come mostrato in figura, le informazioni disponibili sono svariate e vengono descritte nel dettaglio di seguito.
+Occorre notare che visualizzazioni di tipo differente per la stessa pagina sono disponibili per i Principal Investigator e per i partecipanti al progetto.
 
 Pertanto, per poter visualizzare i dettagli un progetto, procedere come segue:
 1. Accedere alla piattaforma RECCO
@@ -88,13 +89,73 @@ Pertanto, per poter visualizzare i dettagli un progetto, procedere come segue:
 4. Si aprirà una pagina contenente una lista dei progetti registrati all'interno della piattaforma
 5. Identificare il progetto di interesse e cliccare il relativo bottone `Visualizza`
 
+**Dettagli sul progetto**
+
+Nella parte in alto vengono mostrati i dettagli del progetto, includendo informazioni quali:
+* l'acronimo del progetto
+* il titolo (es. nome del progetto)
+* il sottotitolo (es. nome del Work Package/Obiettivo Realizzativo/Spoke)
+* il "progetto principale" (fare riferimento a quanto descritto in precedenza per ulteriori dettagli)
+* il CUP
+* il codice del progetto
+* il codice GAE
+* la tipologia di progetto (i valori possibili sono EU, MISE, MUR, PNRR, PRIN, Altro)
+* il tipo di raggruppamento (fare riferimento a quanto descritto in precedenza per ulteriori dettagli)
+* il template di generazione di timesheet associato (fare riferimento a quanto descritto in precedenza per ulteriori dettagli)
+* la data di inizio
+* la data di fine
+
+Viene inoltre fornita la possibilità di rimuovere il progetto dal sistema.
+
+**Informazioni sui Principal Investigator del progetto**
+
+Vengono dunque riportati i dettagli sui Principal Investigator del progetto, con possibilità di aggiungerne di nuovi o rimuovere quelli esistenti.
+Siccome in alcuni casi specifici un progetto potrebbe essere associato a più di un Principal Investigator, è possibile aggiungerne un numero arbitrario.
+
+I Principal Investigator indicati verranno da una parte esposti nei confronti dei partecipanti al progetto stesso (es. per comunicazioni dirette, essendo i nominativi cliccabili e collegati alle email dei Principal Investigator), dall'altra permettono agli stessi Principal Investigator di eseguire attività specifiche sul progetto (come la modifica delle ore di rendicontazione previste per ogni partecipante, la visualizzazione di informazioni statistiche sull'andamento delle attività di rendicontazione, o l'esportazione dei dati in formato strutturato).
+
+**Informazioni sui partecipanti al progetto**
+
+Viene mostrata una tabella contenente le informazioni sui partecipanti al progetto.
+In particolare, per ogni partecipante, vengono mostrate le seguenti informazioni:
+* nominativo di riferimento
+* ruolo
+* effort totale atteso per l'intero progetto, in ore, secondo quanto inserito dai Principal Investigator (se presente)
+* effort atteso alla data odierna in ore, computato (solamente se è presente l'effort totale atteso) in modo lineare rapportando l'effort totale atteso con la percentuale di avanzamento del progetto
+* effort inizialmente rendicontato (se presente), riportante le ore rendicontate antecedentemente all'utilizzo della piattaforma RECCO; tale informazione è modificabile dagli utenti della piattaforma con il ruolo di `gestione-rendicontazione` (di conseguenza anche da utenti con il ruolo di `gestione-completa` e `amministratore`)
+* effort rendicontato alla data odierna, in ore, internamente alla piattaforma RECCO
+* percentuale di rendicontazione normalizzata, computata (se le informazioni sull'effort atteso alla data odierna sono disponibili) rapportando la somma l'effort inizialmente rendicontato (se presente) con l'effort rendicontato ad oggi, con l'effort atteso alla data odierna
+
+Queste informazioni forniscono da una parte informazioni di rendicontazione dettagliate, dall'altra permettono di visualizzare in modo rapido ed intuitivo l'andamento della rendicontazione, per ogni singola unità di personale.
+
+Inoltre, se le informazioni sull'effort totale atteso per il progetto sono disponibili, i singoli partecipanti avranno la possibilità di ottenere, mensilmente, informazioni in merito alle ore di rendicontazione previste per il mese corrente per il progetto specifico.
+
+Infine, relativamente ai singoli partecipanti al progetto, viene fornita la possibilità di aggiornare l'effort iniziale, rimuovere l'unità di personale dal progetto o aggiungerne di nuove.
+
+**Informazioni statistiche sul progetto e sull'andamento delle attività di rendicontazione**
+
+Vengono mostrate tre schede relative a:
+* percentuale di avanzamento del progetto, rispetto all'intera durata dello stesso
+* percentuale di ore rendicontate alla data odierna, rispetto al totale atteso (se tali informazioni sono disponibili)
+* percentuale di ore rendicontate alla data odierna, normalizzate rispetto al totale delle ore atteso ad oggi, distribuendo le ore in modo lineare per l'intera durata del progetto
+
+**Informazioni riassuntive sull'effort del progetto**
+
+Vengono mostrati due grafici volti a mostrare in forma grafica l'effort complessivo sul progetto.
+Da una parte, viene mostrato un grafico "a ciambella" che mostra, per ogni partecipante al progetto, la percentuale di ore rendicontate sullo stesso, rispetto ai colleghi.
+Dall'altra, viene mostrato, mese per mese, quante ore ogni singolo partecipante ha rendicontato sul progetto.
+Informazioni di dettaglio sulle ore rendicontate per ogni partecipante sono infine disponibili in una tabella dedicata.
+
+**Download dei dati relativi alla rendicontazione sul progetto**
+
+E' possibile scaricare un documento in formato CSV (dunque, importabile in modo molto semplice su Microsoft Excel, o facilmente interpretabile da un software) contenente i dettagli delle ore rendicontate sul progetto.
+Occorre tuttavia notare che tale documento includerà solamente le informazioni sulle ore rendicontate tramite la piattaforma RECCO: dunque, eventuali ore rendicontate antecedentemente all'utilizzo della piattaforma non verranno esportate.
+
 #### Rimozione di un progetto ####
 
-TODO
+Come menzionato in precedenza, è possibile rimuovere (previa conferma) un progetto specifico dal sistema.
 
-E' inoltre possibile rimuovere (previa conferma) un progetto specifico dal sistema (bottone `Rimuovi`).
-
-<img src="img/interfaccia_progetti_lista_rimozione.png">
+<img src="img/interfaccia_progetti_rimozione.png">
 
 *Finestra di conferma di rimozione di un progetto*
 
@@ -102,5 +163,93 @@ Per rimuovere un progetto, procedere come segue:
 1. Accedere alla piattaforma RECCO
 2. Aprire il menu `Progetti`
 3. Cliccare il bottone `Visualizza` per aprire il progetto da rimuovere
-4. Cliccare il bottone `Rimuovi` per procedere con la rimozione del progetto
-5. Si aprirà una finestra di conferma: cliccare il bottone `Conferma` per confermare l'operazione
+4. Eventualmente, se il progetto aperto mostra le informazioni sul "progetto principale" del progetto da rimuovere, cliccare il bottone `Visualizza` per aprire il (sotto-)progetto da rimuovere
+5. Cliccare il bottone `Rimuovi` per procedere con la rimozione del progetto
+6. Si aprirà una finestra di conferma: cliccare il bottone `Conferma` per confermare l'operazione
+
+#### Aggiunta di un Principal Investigator ad un progetto ####
+
+Come menzionato in precedenza, è possibile aggiungere un Principal Investigator ad un progetto.
+
+<img src="img/interfaccia_progetti_aggiuntapi.png">
+
+*Finestra di aggiunta di un Principal Investigator ad un progetto*
+
+Per aggiungere un Principal Investigator ad un progetto, procedere come segue:
+1. Accedere alla piattaforma RECCO
+2. Aprire il menu `Progetti`
+3. Cliccare il bottone `Visualizza` per aprire il progetto di riferimento
+4. Eventualmente, se il progetto aperto mostra le informazioni sul "progetto principale" del progetto da rimuovere, cliccare il bottone `Visualizza` per aprire il (sotto-)progetto di riferimento
+5. Cliccare il bottone `Aggiungi Principal Investigator` per procedere con l'aggiunta
+6. Si aprirà una schermata: inserire i dettagli secondo le necessità
+7. Cliccare il bottone `Conferma` per confermare l'operazione
+
+#### Rimozione di un Principal Investigator da un progetto ####
+
+Come menzionato in precedenza, è possibile rimuovere (previa conferma) un Principal Investigator da un progetto.
+
+<img src="img/interfaccia_progettirimozionepi.png">
+
+*Finestra di conferma di rimozione di un Principal Investigator da un progetto*
+
+Per rimuovere un Principal Investigator da un progetto, procedere come segue:
+1. Accedere alla piattaforma RECCO
+2. Aprire il menu `Progetti`
+3. Cliccare il bottone `Visualizza` per aprire il progetto da rimuovere
+4. Eventualmente, se il progetto aperto mostra le informazioni sul "progetto principale" del progetto da rimuovere, cliccare il bottone `Visualizza` per aprire il (sotto-)progetto da rimuovere
+5. Cliccare il bottone `Rimuovi` a fianco al nominativo del Principal Investigator da rimuovere per procedere con la rimozione dello stesso
+6. Si aprirà una finestra di conferma: cliccare il bottone `Conferma` per confermare l'operazione
+
+#### Aggiunta di un partecipante ad un progetto ####
+
+Come menzionato in precedenza, è possibile aggiungere un partecipante ad un progetto.
+
+<img src="img/interfaccia_progetti_aggiuntapartecipante.png">
+
+*Finestra di aggiunta di un partecipante ad un progetto*
+
+Per aggiungere un partecipante ad un progetto, procedere come segue:
+1. Accedere alla piattaforma RECCO
+2. Aprire il menu `Progetti`
+3. Cliccare il bottone `Visualizza` per aprire il progetto di riferimento
+4. Eventualmente, se il progetto aperto mostra le informazioni sul "progetto principale" del progetto da rimuovere, cliccare il bottone `Visualizza` per aprire il (sotto-)progetto di riferimento
+5. Cliccare il bottone `Aggiungi partecipante` per procedere con l'aggiunta
+6. Si aprirà una schermata: inserire i dettagli secondo le necessità
+7. Cliccare il bottone `Conferma` per confermare l'operazione
+
+#### Aggiornamento dell'effort iniziale di un partecipante per un progetto ####
+
+Come menzionato in precedenza, è possibile inserire od aggiornare l'effort di un partecipante ad un progetto rendicontato antecedentemente all'utilizzo della piattaforma RECCO.
+Tale informazione, indicata con il termine "effort iniziale", garantisce una corretta computazione delle informazioni di rendicontazione, informazione particolarmente utile per attività di previsione e gestione dell'andamento delle attività di rendicontazione sul progetto.
+Nel caso in cui tale valore sia pari a zero, non è necessario procedere con alcun aggiornamento di tale valore.
+Analogamente, non è necessario aggiornare tale valore per i progetti presenti in piattaforma al momento dell'avvio degli stessi.
+
+<img src="img/interfaccia_progetti_aggiornaeffortiniziale.png">
+
+*Finestra di modifica dell'effort iniziale di un partecipante ad un progetto*
+
+Per aggiungere o modificare l'effort iniziale di un partecipante ad un progetto, procedere come segue:
+1. Accedere alla piattaforma RECCO
+2. Aprire il menu `Progetti`
+3. Cliccare il bottone `Visualizza` per aprire il progetto di riferimento
+4. Eventualmente, se il progetto aperto mostra le informazioni sul "progetto principale" del progetto da rimuovere, cliccare il bottone `Visualizza` per aprire il (sotto-)progetto di riferimento
+5. Cliccare il bottone `Aggiorna effort iniziale` a fianco al nominativo del relativo partecipante al progetto
+6. Si aprirà una schermata: inserire i dettagli secondo le necessità
+7. Cliccare il bottone `Conferma` per confermare l'operazione
+
+#### Rimozione di un partecipante da un progetto ####
+
+Come menzionato in precedenza, è possibile rimuovere (previa conferma) un partecipante da un progetto.
+
+<img src="img/interfaccia_progettirimozionepartecipante.png">
+
+*Finestra di conferma di rimozione di un partecipante da un progetto*
+
+Per rimuovere un partecipante da un progetto, procedere come segue:
+1. Accedere alla piattaforma RECCO
+2. Aprire il menu `Progetti`
+3. Cliccare il bottone `Visualizza` per aprire il progetto da rimuovere
+4. Eventualmente, se il progetto aperto mostra le informazioni sul "progetto principale" del progetto da rimuovere, cliccare il bottone `Visualizza` per aprire il (sotto-)progetto da rimuovere
+5. Cliccare il bottone `Rimuovi dal progetto` a fianco al nominativo del partecipante al progetto da rimuovere per procedere con la rimozione dello stesso
+6. Si aprirà una finestra di conferma: cliccare il bottone `Conferma` per confermare l'operazione
+
