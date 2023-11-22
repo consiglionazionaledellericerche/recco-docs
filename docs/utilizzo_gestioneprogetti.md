@@ -151,6 +151,24 @@ Informazioni di dettaglio sulle ore rendicontate per ogni partecipante sono infi
 E' possibile scaricare un documento in formato CSV (dunque, importabile in modo molto semplice su Microsoft Excel, o facilmente interpretabile da un software) contenente i dettagli delle ore rendicontate sul progetto.
 Occorre tuttavia notare che tale documento includerà solamente le informazioni sulle ore rendicontate tramite la piattaforma RECCO: dunque, eventuali ore rendicontate antecedentemente all'utilizzo della piattaforma non verranno esportate.
 
+L'output fornito avrà un contenuto analogo al seguente.
+
+```
+Year,Month,mario.rossi@cnr.it,stefano.bianchi@cnr.it
+2025,01,10,20
+2025,02,11,21
+2025,03,12,22
+```
+
+A tal proposito, al fine di esportare i dettagli sulle ore rendicontate dai partecipanti per un progetto specifico, procedere come segue:
+Per rimuovere un progetto, procedere come segue:
+1. Accedere alla piattaforma RECCO
+2. Aprire il menu `Progetti`
+3. Cliccare il bottone `Visualizza` per aprire il progetto da rimuovere
+4. Eventualmente, se il progetto aperto mostra le informazioni sul "progetto principale" del progetto da rimuovere, cliccare il bottone `Visualizza` per aprire il (sotto-)progetto da rimuovere
+5. Cliccare il bottone `Scarica` all'interno della scheda `Download dei dati di rendiconto di progetto` per procedere con l'esportazione
+6. Verrà scaricato il file CSV contenente le informazioni richieste
+
 #### Rimozione di un progetto ####
 
 Come menzionato in precedenza, è possibile rimuovere (previa conferma) un progetto specifico dal sistema.
