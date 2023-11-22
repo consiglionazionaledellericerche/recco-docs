@@ -2,7 +2,7 @@
 
 *This project is supposed to be used for Italian users. Therefore, the whole content of the generated documents, including the README file, is in Italian language.*
 
-<img src="docs/img/logo.png">
+<img src="docs/img/logo_512px.png">
 
 Questo repository riporta una guida di utilizzo della piattaforma RECCO, sviluppata per ottimizzare le attività di rendicontazione delle ore lavorate dal personale nell'ambito di progetti di ricerca.
 
