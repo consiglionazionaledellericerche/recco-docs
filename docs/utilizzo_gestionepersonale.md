@@ -41,6 +41,11 @@ Per modificare una unità di personale, procedere come segue:
 
 E' inoltre possibile rimuovere (previa conferma) una unità di personale specifica dal sistema (bottone `Rimuovi`); in questo caso, l'unità di personale verrà rimossa solamente se questa non è coinvolta in alcun progetto di ricerca.
 
+Al fine di evitare eventuali problematiche, è fondamentale rimuovere unità di personale non più in rapporti con l'Ente prima della generazione dei fogli orari mensili.
+
+Occorre inoltre notare che la rimozione di una unità di personale non comporta l'effettiva eliminazione dei dati ad essa associati, né della stessa unità di personale, in quanto potrebbero essere presenti informazioni utili relative a progetti terminati.
+L'eliminazione rende di fatto non più operativa l'unità di personale relativa e, pertanto, non sarà più visibile nell'elenco delle unità di personale, né sarà associabile a progetti
+
 <img src="img/interfaccia_personale_lista_rimozione.png">
 
 *Finestra di conferma di rimozione di una unità di personale*
