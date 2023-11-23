@@ -54,11 +54,37 @@ Riassumendo, per poter caricare manualmente il foglio orario compilato di un dip
 
 #### Consultazione dei fogli orari compilati ####
 
-TODO
+E' disponibile una scheda di dettaglio, dal titolo `Fogli orari compilati`, relativa ai fogli orari compilati per il periodo di riferimento corrente.
 
-#### Archivio dei fogli orari compilati ####
+In particolare, la scheda mostra informazioni quali il numero di fogli orari compilati caricati sulla piattaforma, il numero massimo di fogli attesi, e la percentuale dei fogli caricati rispetto al totale.
+Occorre considerare che una percentuale inferiore al 100% può indicare uno dei seguenti scenari:
+* Una unità di personale non ha ore da rendicontare su alcun progetto per il periodo di riferimento corrente
+* Una unità di personale non ha (ancora) caricato il foglio orario compilato sulla piattaforma
 
-TODO
+In quest'ultimo caso, è possibile, se la configurazione del sistema lo permette, ricordare alle unità di personale che non hanno ancora caricato il foglio orario, di caricarlo entro la scadenza (si veda la relativa sezione più avanti).
+
+Cliccando il bottone `Visualizza documenti` è possibile consultare tutti i documenti caricati: per ogni documento è possibile scaricare lo stesso o eliminarlo.
+
+Pertanto, per poter visualizzare i fogli orari compilati disponibili all'interno della piattaforma per il periodo di riferimento corrente, procedere come segue:
+1. Accedere alla piattaforma RECCO
+2. Aprire il menu `Rendicontazione`
+3. Cliccare il bottone `Visualizza documenti` all'interno della scheda `Fogli orari compilati`
+4. Si aprirà una pagina contenente tutti i documenti, con la possibilità di scaricarli o rimuoverli
+
+#### Consultazione dell'archivio dei fogli orari compilati ####
+
+Analogamente alla consultazione dei fogli orari compilati per il periodo di riferimento corrente, è disponibile una scheda di dettaglio relativa all'archivio di tutti i fogli orari compilati.
+Tale scheda ha come titolo `Archivio fogli orari compilati`.
+
+Cliccando il bottone `Visualizza documenti` è possibile selezionare il periodo di riferimento di interesse (espresso nel formato `YYYYMM`), dunque accedere ai documenti di interesse, con possibilità di scaricarli o eliminarli.
+
+Pertanto, per poter visualizzare tutti i fogli orari compilati all'interno della piattaforma, procedere come segue:
+1. Accedere alla piattaforma RECCO
+2. Aprire il menu `Rendicontazione`
+3. Cliccare il bottone `Visualizza documenti` all'interno della scheda `Archivio fogli orari compilati`
+4. Si aprirà una pagina contenente tutti i periodi di riferimento, espressi nel formato `YYYYMM`
+5. Selezionare il periodo di riferimento di interesse cliccando sul bottone `Visualizza`
+6. Si aprirà una nuova pagina contenente tutti i documenti, con la possibilità di scaricarli o rimuoverli
 
 #### Consultazione dei fogli orari compilati contenenti periodi in missione ####
 
