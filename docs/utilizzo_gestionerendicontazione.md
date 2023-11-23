@@ -7,11 +7,50 @@ Occorre in particolare notare che non tutte le schede mostrate potrebbero essere
 
 ### Fogli orari compilati ###
 
-TODO
+Questa sezione permette la gestione dei fogli orari compilati dal personale coinvolto in attività di ricerca e registrati all'interno della piattaforma.
 
 #### Caricamento manuale dei fogli orari compilati ####
 
-TODO
+Se il sistema è configurato per permettere tale opzione, è possibile caricare manualmente i fogli orari (senza attendere la compilazione da parte delle relative unità di personale).
+Per procedere in tal senso, cliccare il bottone `Carica documenti` all'interno della scheda `Caricamento fogli orari compilati`.
+
+Verrà aperta una finestra analoga alla seguente.
+
+<img src="img/interfaccia_rendicontazione_caricamentomanuale_lista.png">
+
+*Schermata di visualizzazione delle unità di personale registrate per caricamento manuale dei fogli orari compilati*
+
+In particolare, per ogni unità di personale, è possibile aprire la finestra di caricamento dei fogli orari cliccando sul relativo bottone `Visualizza`.
+
+Tale finestra sarà analoga alla seguente.
+
+<img src="img/interfaccia_rendicontazione_uploadfogliocompilato.png">
+
+*Schermata di visualizzazione delle unità di personale registrate per caricamento manuale dei fogli orari compilati*
+
+Opzionalmente, in base alle configurazioni della piattaforma, verranno mostrati i progetti che vedono l'unità di personale di riferimento come partecipante.
+
+Una volta aperta la finetra, è possibile caricare il foglio orario compilato, selezionandolo attraverso il relativo bottone `Scegli file` (da notare che il testo del bottone potrebbe variare in base al browser utilizzato), dunque cliccando il bottone `Invia`.
+
+Una volta premuto il tasto di invio, comparirà una notifica di successo o di errore, in base al risultato di un pre-processamento del file caricato.
+Ad esempio, un errore potrebbe essere dovuto al caricamento di un file con estensione differente rispetto a quella attesa.
+
+Inoltre, il nome del file caricato non è rilevante ai fini dell'importazione, in quanto il file caricato verrà rinominato automaticamente dalla piattaforma.
+
+E' importante notare che, se tale opzione è configurata, a caricamento avvenuto l'unità di personale coinvolta riceverà una email di conferma.
+Inoltre, indipendentemente da tale configurazione, l'attività verrà registrata all'interno dei log della piattaforma, associando l'utente che ha caricato il file con l'operazione.
+
+Il caricamento implica inoltre la generazione automatica dei timesheet relativi, come descritto relativamente al [processo implementato](introduzione.md#il-processo-implementato).
+
+Riassumendo, per poter caricare manualmente il foglio orario compilato di un dipendente, ammesso che tale opzione sia possibile dalla configurazione della piattaforma, è necessario procedere come segue:
+1. Accedere alla piattaforma RECCO
+2. Aprire il menu `Rendicontazione`
+3. Cliccare il bottone `Carica documenti` all'interno della scheda `Caricamento fogli orari compilati`
+4. Si aprirà una finestra con la lista del personale registrato: cliccare il bottone `Visualizza` adiacente all'unità di personale di riferimento
+5. Si aprirà una finestra di caricamento del foglio orario: cliccare il bottone `Scegli file`
+6. Selezionare dal proprio computer il file da caricare, in formato Microsoft Excel
+7. Cliccare il bottone `Invia` per confermare l'operazione
+8. Verificare la finestra di notifica
 
 #### Consultazione dei fogli orari compilati ####
 
