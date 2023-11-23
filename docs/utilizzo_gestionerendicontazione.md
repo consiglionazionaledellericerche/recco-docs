@@ -149,15 +149,84 @@ Dunque, al fine di consultare i template dei timesheet mensili disponibili, proc
 3. Cliccare il bottone `Gestisci template` all'interno della scheda `Template di timesheet disponibili`
 4. Si aprirà una finestra che elenca i template registrati all'interno della piattaforma, con possibilità di operare su di essi o aggiungerne di nuovi
 
-##### Consultazione delle informazioni relative ad un template dei timesheet mensili #####
+##### Informazioni associate ad un template di timesheet mensili #####
 
-La consultazione dei dati relativi ad un template considera due elementi differenti: da una parte, il template Microsoft Excel registrato, dall'altra, i dati ad esso associati, che coincidono con gli aspetti di configurazione della modalità di esportazione dei dati.
+Come anticipato in precedenza, ogni template di timesheet mensili è rappresentato dai seguenti elementi:
+* un documento Microsoft Excel, che rappresenta il documento di base da utilizzare in fase di creazione del timesheet
+* un insieme di informazioni volte a specificare quali dati si intende esportare e dove, rispetto alla struttura del documento Microsoft Excel
 
-Per quest'ultimo caso, viene riportato un esempio di tali informazioni nella figura seguente.
+Per quanto riguarda il documento Microsoft Excel, nel caso in cui questo contenga immagini raggruppate tra loro, è importante rimuoverle dal gruppo e/o inserire una singola immagine, per evitare che, per un apparente limite della libreria di esportazione utilizzata, venga esportata solamente la prima delle immagini del gruppo.
+
+Invece, scopo delle informazioni strutturate, giusto per fare un esempio, è quello di definire, ad esempio, in quale cella inserire il nome dell'unità di personale di riferimento.
+
+A titolo esplicativo, viene riportato un esempio di informazioni strutturate nella figura seguente.
 
 <img src="img/interfaccia_rendicontazione_template_info.png">
 
 *Schermata di visualizzazione delle informazioni relative ad un template dei timesheet mensili*
+
+Queste informazioni sono fondamentali per la corretta generazione di timesheet e comprenderne al meglio la necessità è un aspetto di primaria importanza.
+In particolare, le informazioni includono:
+* il nome del template: si tratta di un nome univoco senza caratteri speciali, ereditato ed assegnato automaticamente a partire dal nome del file caricato
+* aggiunta della sede: indica se l'output prodotto deve includere o meno dettagli relativi alla sede dell'istituto al quale l'unità di personale afferisce
+* un parametro che indica se le l'output prodotto deve includere o meno celle con valori pari a zero (es. indicare le `0:00` ore lavorate)
+* informazioni su indice di riga e di colonna per il titolo del progetto
+* informazioni su indice di riga e di colonna per il CUP del progetto
+* informazioni su indice di riga e di colonna per il codice del progetto
+* informazioni su indice di riga e di colonna per il nome del soggetto (solitamente, il nome dell'istituto)
+* informazioni su indice di riga e di colonna per il nome dell'unità di personale di riferimento
+* informazioni su indice di riga e di colonna per il cognome dell'unità di personale di riferimento
+* informazioni su indice di riga e di colonna per il nome completo (inteso come nome e cognome) dell'unità di personale di riferimento
+* informazioni su indice di riga e di colonna per il codice fiscale dell'unità di personale di riferimento
+* informazioni su indice di riga e di colonna per il ruolo dell'unità di personale di riferimento
+* informazioni su indice di riga e di colonna per le ore annuali svolte (da contratto) dall'unità di personale di riferimento
+* informazioni su indice di riga e di colonna per l'anno di riferimento
+* informazioni su indice di riga e di colonna per il mese di riferimento
+* informazioni su indice di riga e di colonna per il mese di riferimento, in formato testuale esteso
+* informazioni sull'indice di colonna per il titolo dei progetti da includere, per per i progetti inclusi nell'esportazione condiderata
+* informazioni su riga iniziale e finale relativa ai progetti da includere, per per i progetti inclusi nell'esportazione condiderata
+* informazioni sull'indice di colonna di inizio di allocazione delle ore, relativo al primo giorno del mese, per i progetti inclusi nell'esportazione considerata
+* informazioni sull'indice di colonna per il titolo degli altri progetti, per per i progetti non relativi all'esportazione condiderata
+* informazioni su riga iniziale e finale relativa agli altri progetti, per per i progetti non relativi all'esportazione condiderata
+* informazioni sull'indice di colonna di inizio di allocazione delle ore, relativo al primo giorno del mese, per i progetti non relativi all'esportazione considerata
+* informazioni sull'indice di riga relativa all'attività ordinaria
+* informazione sull'indice di colonna di inizio relativo all'attività ordinaria, relativo al primo giorno del mese
+* informazioni sull'indice di riga relativa alle altre attività (es. ferie, malattie, permessi, ecc.)
+* informazione sull'indice di colonna di inizio relativa alle altre attività (es. ferie, malattie, permessi, ecc.), relativo al primo giorno del mese
+* il file del template da caricare (campo da lasciare vuoto, in caso di modifica di un template esistente, nel caso in cui non si intenda aggiornare il documento)
+
+In particolare, occorre considerare che gli indici di riga e di colonna devono essere indicati come valori interi: ad esempio, la cella `C4` verrà indicata come colonna `3`, riga `4`.
+
+Occorre inoltre considerare che è obbligatorio specificare tutti i campi. Nel caso in cui alcuni campi non siano necessari per lo specifico template, è possibile specificarne l'inserimento in righe/colonne nascoste.
+
+Al fine di rendere più chiara la configurazione, vengono di seguito riportati alcuni possibili valori per un template di esempio.
+
+<img src="img/template_sampleinfo.png">
+
+*Esempio di associazione di alcune delle informazioni ad un template di timesheet mensile*
+
+Occorre in particolare notare che l'associazione di valori per celle unite deve considerare la prima cella: ad esempio, se si ha una unione delle celle `C4:C10` e si intende inserire il titolo del progetto in tale insieme (unito) di celle, occorrerà obbligatoriamente fare riferimento alla cella `C4`, dunque, alla colonna `3` ed alla riga `4`.
+
+Sulla base del template mostrato, la figura seguente riporta un esempio di output, con ulteriori dettagli.
+
+<img src="img/template_sampledata.png">
+
+*Esempio di output per un template di timesheet mensile*
+
+E' possibile notare come le righe inutilizzate relative all'elenco dei progetti vengano nascoste in automatico in fase di esportazione.
+
+Inoltre, per questo caso specifico, è stato deciso di mostrare le altre attività (es. ferie, malattie, permessi, ecc.) con una `X` al posto delle relative ore associate.
+Siccome in fase di esportazione questo caso non è previsto, è stato deciso di mostrare le altre attività in una riga dedicata nascosta (riga `51`, visibile nella prima immagine, per motivi esplitativi), che includerà i relativi valori. Dunque, in riga `40`, per tutte le celle relative ai giorni del mese, è stata inserita una formula ad-hoc volta a convertire il valore originario in una `X`.
+Ad esempio, in riferimento alla cella `C40`, una possibile formula potrebbe essere la seguente:
+```
+=SE(C51="";"";"X")
+```
+
+Tramite un approccio di questo tipo è possibile produrre report di svariate tipologie, in modo del tutto flessibile.
+
+##### Consultazione delle informazioni relative ad un template dei timesheet mensili #####
+
+La consultazione dei dati relativi ad un template considera due elementi differenti: da una parte, il template Microsoft Excel registrato, dall'altra, i dati ad esso associati, che coincidono con gli aspetti di configurazione della modalità di esportazione dei dati.
 
 In particolare, per poter procedere con l'esportazione del documento del template Microsoft Excel registrato all'interno della piattaforma, è necessario eseguire le seguenti attività:
 1. Accedere alla piattaforma RECCO
@@ -175,11 +244,11 @@ Invece, al fine di consultare le informazioni di configurazione dell'esportazion
 6. Si aprirà una schermata che mostra le informazioni relative al template
 7. Consultare le informazioni, dunque, se non si intende effettuare alcuna modifica, premere il bottone `Chiudi` in fondo alla schermata
 
-##### Modifica di un template dei timesheet mensili #####
+##### Aggiunta di un template dei timesheet mensili #####
 
 TODO
 
-##### Aggiunta di un template dei timesheet mensili #####
+##### Modifica di un template dei timesheet mensili #####
 
 TODO
 
