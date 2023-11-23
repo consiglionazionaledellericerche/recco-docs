@@ -121,9 +121,41 @@ Per procedere con l'invio del remind per la compilazione dei fogli orari verso i
 
 ### Timesheet ###
 
-TODO
+Questa sezione permette la gestione dei timesheet di rendicontazione mensili.
 
 #### Gestione dei template dei timesheet mensili ####
+
+Al fine di poter produrre un timesheet per un dato progetto, è necessario disporre di un template da utilizzare come base per la generazione del timesheet stesso.
+Il template è rappresentato da un file in formato Microsoft Excel e dalle istruzioni relative al posizionamento dei diversi valori possibili all'interno dello stesso.
+
+La gestione dei timesheet presenti all'interno della piattaforma avviene tramite il bottone `Gestisci template` all'interno della scheda `Template di timesheet disponibili`.
+Al click del bottone, verrà aperta una finestra dedicata, volta a mostrare tutti i template registrati.
+
+##### Consultazione dei template dei timesheet mensili disponibili #####
+
+Come accennato in precedenza, è possibile consultare tutti i template dei timesheet mensili disponibili attraverso il bottone `Gestisci template` all'interno della scheda `Template di timesheet disponibili`.
+Al click, verrà aperta una finestra analoga alla seguente.
+
+<img src="img/interfaccia_rendicontazione_template_elenco.png">
+
+*Finestra di visualizzazione dei template disponibili all'interno della piattaforma*
+
+In particolare, per ogni template registrato, è possibile scaricare il file Microsoft Excel relativo, modificare le informazioni relative al template (incluso l'aggiornamento del file Microsoft Excel) o rimuovere il template.
+E' inoltre possibile aggiungere un nuovo template.
+
+##### Consultazione delle informazioni relative ad un template dei timesheet mensili #####
+
+TODO
+
+##### Modifica di un template dei timesheet mensili #####
+
+TODO
+
+##### Aggiunta di un template dei timesheet mensili #####
+
+TODO
+
+##### Rimozione di un template dei timesheet mensili #####
 
 TODO
 
