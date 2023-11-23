@@ -143,9 +143,37 @@ Al click, verrà aperta una finestra analoga alla seguente.
 In particolare, per ogni template registrato, è possibile scaricare il file Microsoft Excel relativo, modificare le informazioni relative al template (incluso l'aggiornamento del file Microsoft Excel) o rimuovere il template.
 E' inoltre possibile aggiungere un nuovo template.
 
+Dunque, al fine di consultare i template dei timesheet mensili disponibili, procedere come segue:
+1. Accedere alla piattaforma RECCO
+2. Aprire il menu `Rendicontazione`
+3. Cliccare il bottone `Gestisci template` all'interno della scheda `Template di timesheet disponibili`
+4. Si aprirà una finestra che elenca i template registrati all'interno della piattaforma, con possibilità di operare su di essi o aggiungerne di nuovi
+
 ##### Consultazione delle informazioni relative ad un template dei timesheet mensili #####
 
-TODO
+La consultazione dei dati relativi ad un template considera due elementi differenti: da una parte, il template Microsoft Excel registrato, dall'altra, i dati ad esso associati, che coincidono con gli aspetti di configurazione della modalità di esportazione dei dati.
+
+Per quest'ultimo caso, viene riportato un esempio di tali informazioni nella figura seguente.
+
+<img src="img/interfaccia_rendicontazione_template_info.png">
+
+*Schermata di visualizzazione delle informazioni relative ad un template dei timesheet mensili*
+
+In particolare, per poter procedere con l'esportazione del documento del template Microsoft Excel registrato all'interno della piattaforma, è necessario eseguire le seguenti attività:
+1. Accedere alla piattaforma RECCO
+2. Aprire il menu `Rendicontazione`
+3. Cliccare il bottone `Gestisci template` all'interno della scheda `Template di timesheet disponibili`
+4. Si aprirà una finestra che elenca i template registrati all'interno della piattaforma
+5. Cliccare il bottone `Download` adiacente al template di interesse per poter scaricare il documento Microsoft Excel del template stesso
+
+Invece, al fine di consultare le informazioni di configurazione dell'esportazione correlate ad un template specifico, procedere come segue:
+1. Accedere alla piattaforma RECCO
+2. Aprire il menu `Rendicontazione`
+3. Cliccare il bottone `Gestisci template` all'interno della scheda `Template di timesheet disponibili`
+4. Si aprirà una finestra che elenca i template registrati all'interno della piattaforma
+5. Cliccare il bottone `Modifica` adiacente al template di interesse
+6. Si aprirà una schermata che mostra le informazioni relative al template
+7. Consultare le informazioni, dunque, se non si intende effettuare alcuna modifica, premere il bottone `Chiudi` in fondo alla schermata
 
 ##### Modifica di un template dei timesheet mensili #####
 
