@@ -99,7 +99,25 @@ Per visualizzare i fogli orari compilati per il periodo di riferimento corrente 
 
 #### Invio di remind per la compilazione dei fogli orari ####
 
-TODO
+Se il sistema è configurato per permettere tale operazione, è possibile inviare un remind per la compilazione dei fogli orari al personale che ancora non ha caricato gli stessi.
+Tale operazione è disponibile solamente se non è stato superato il tempo limite per il caricamento, configurato all'interno della piattaforma.
+La scheda di riferimento ha titolo `Richiedi compilazione` e mostra il dettaglio del numero di unità di personale che non hanno caricato i fogli orari compilati al momento della consultazione.
+Al click del bottone `Invia richiesta` interno alla scheda, verrà aperta una schermata analoga alla seguente.
+
+<img src="img/interfaccia_rendicontazione_remindcompilazione.png">
+
+*Schermata di conferma di invio di remind della compilazione di fogli orari*
+
+L'esecuzione di tale operazione invierà, alle sole unità di personale che ancora non hanno caricato i documenti compilati, una email come quella inviata in fase di [produzione di fogli orari](utilizzo_gestionepersonale.md#produzione-di-fogli-orari).
+
+Inoltre, verrà inviata una email di conferma all'utente che ha generato la richiesta.
+
+Per procedere con l'invio del remind per la compilazione dei fogli orari verso il personale che non ha caricato i documenti compilati, procedere come segue:
+1. Accedere alla piattaforma RECCO
+2. Aprire il menu `Rendicontazione`
+3. Cliccare il bottone `Invia richiesta` all'interno della scheda `Richiedi compilazione`
+4. Si aprirà una schermata che mostra i dettagli sulle unità di personale che ancora non hanno caricato i fogli orari compilati sulla piattaforma, per il periodo di riferimento corrente
+5. Cliccare il bottone `Conferma` per confermare l'operazione
 
 ### Timesheet ###
 
