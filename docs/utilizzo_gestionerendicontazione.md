@@ -246,15 +246,39 @@ Invece, al fine di consultare le informazioni di configurazione dell'esportazion
 
 ##### Aggiunta di un template dei timesheet mensili #####
 
-TODO
+E' possibile registrare un nuovo template dei timesheet mensili all'interno del sistema, tramite il bottone `Aggiungi template` all'interno della relativa pagina di gestione dei template.
+
+Per aggiungere un nuovo template dei timesheet mensili, procedere come segue:
+1. Accedere alla piattaforma RECCO
+2. Aprire il menu `Rendicontazione`
+3. Cliccare il bottone `Gestisci template` all'interno della scheda `Template di timesheet disponibili`
+4. Cliccare il bottone `Aggiungi template` in fondo alla pagina
+5. Si aprirà una finestra di aggiunta: inserire i dati secondo le necessità, facendo riferimento a quanto descritto in precedenza relativamente alle informazioni richieste
+6. Cliccare il bottone `Conferma` per confermare l'operazione
 
 ##### Modifica di un template dei timesheet mensili #####
 
-TODO
+E' possibile registrare un nuovo template dei timesheet mensili all'interno del sistema, tramite il bottone `Aggiungi template` all'interno della relativa pagina di gestione dei template.
+
+Per aggiungere un nuovo template dei timesheet mensili, procedere come segue:
+1. Accedere alla piattaforma RECCO
+2. Aprire il menu `Rendicontazione`
+3. Cliccare il bottone `Gestisci template` all'interno della scheda `Template di timesheet disponibili`
+4. Cliccare il bottone `Aggiungi template` in fondo alla pagina
+5. Si aprirà una finestra di aggiunta: inserire i dati secondo le necessità, facendo riferimento a [quanto descritto in precedenza](utilizzo_gestionerendicontazione.md#informazioni-associate-ad-un-template-di-timesheet-mensili) relativamente alle informazioni richieste
+6. Cliccare il bottone `Conferma` per confermare l'operazione
 
 ##### Rimozione di un template dei timesheet mensili #####
 
-TODO
+E' possibile modificare un template dei timesheet mensili presente all'interno del sistema, tramite il relativo bottone `Modifica` all'interno della pagina di gestione dei template.
+
+Per modificare un template dei timesheet mensili, procedere come segue:
+1. Accedere alla piattaforma RECCO
+2. Aprire il menu `Rendicontazione`
+3. Cliccare il bottone `Gestisci template` all'interno della scheda `Template di timesheet disponibili`
+4. Cliccare il bottone `Modifica` adiacente al template da modificare
+5. Si aprirà una finestra di modifica: modificare i dati secondo le necessità, facendo riferimento a [quanto descritto in precedenza](utilizzo_gestionerendicontazione.md#informazioni-associate-ad-un-template-di-timesheet-mensili) relativamente alle informazioni richieste
+6. Cliccare il bottone `Conferma` per confermare l'operazione
 
 #### Produzione manuale di timesheet mensili ####
 
