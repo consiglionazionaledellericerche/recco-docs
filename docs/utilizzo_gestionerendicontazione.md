@@ -441,7 +441,7 @@ Dunque, al fine di consultare i template dei report testuali mensili disponibili
 3. Cliccare il bottone `Gestisci template` all'interno della scheda `Template di report testuali disponibili`
 4. Si aprirà una finestra che elenca i template registrati all'interno della piattaforma, con possibilità di operare su di essi o aggiungerne di nuovi
 
-##### Informazioni associate ad un template di report testuali mensili #####
+##### Informazioni sui template di report testuali mensili #####
 
 Come anticipato in precedenza, ogni template di report testuali mensili è rappresentato da un documento Microsoft Word, che rappresenta il documento di base da utilizzare in fase di creazione del report.
 Al fine di evitare eventuali errori o imprecisioni in fase di generazione dei report, si suggerisce di utilizzare il template di "report testuale base" fornito, come riportato nell'immagine a seguire (notare in particolare il testo in blu: una volta cliccato, verrà scaricato il template base da utilizzare).
@@ -478,15 +478,40 @@ Tramite un approccio di questo tipo è possibile produrre report di svariate tip
 
 ##### Aggiunta di un template di report testuali mensili #####
 
-TODO
+E' possibile registrare un nuovo template dei report testuali mensili all'interno del sistema, tramite il bottone `Aggiungi template` all'interno della relativa pagina di gestione dei template.
 
-##### Modifica di un template di report testuali mensili #####
+Per aggiungere un nuovo template dei report testuali mensili, procedere come segue:
+1. Accedere alla piattaforma RECCO
+2. Aprire il menu `Rendicontazione`
+3. Cliccare il bottone `Gestisci template` all'interno della scheda `Template di report testuali disponibili`
+4. Cliccare il bottone `Carica file` in fondo alla pagina
+5. Si aprirà una finestra di caricamento: selezionare il file del template da caricare, facendo riferimento a quanto descritto sia all'interno della finestra, sia in precedenza relativamente all'utilizzo dei template di report testuali
+6. Cliccare il bottone `Conferma` per confermare l'operazione
 
-TODO
+##### Modifica di un template dei report testuali mensili #####
 
-##### Rimozione di un template di report testuali mensili #####
+Per poter modificare un template dei report testuali mensili presente all'interno del sistema è necessario sostituirlo.
+Ciò è possibile tramite il relativo bottone `Sostituisci` all'interno della pagina di gestione dei template.
+La sostituzione richiede una motivazione testuale, che verrà esclusivamente registrata all'interno della piattaforma.
 
-TODO
+Per modificare/sostituire un template dei report testuali mensili, procedere come segue:
+1. Accedere alla piattaforma RECCO
+2. Aprire il menu `Rendicontazione`
+3. Cliccare il bottone `Gestisci template` all'interno della scheda `Template di report testuali disponibili`
+4. Cliccare il bottone `Sostituisci` adiacente al template da modificare/sostituire
+5. Si aprirà una finestra di sostituzione del documento: specificare il nuovo documento e motivare la sostituzione
+6. Cliccare il bottone `Conferma` per confermare l'operazione
+
+##### Rimozione di un template dei report testuali mensili #####
+
+E' possibile rimuovere un template dei report testuali mensili presente all'interno del sistema, tramite il relativo bottone `Rimuovi` all'interno della pagina di gestione dei template.
+
+Per modificare un template dei report testuali mensili, procedere come segue:
+1. Accedere alla piattaforma RECCO
+2. Aprire il menu `Rendicontazione`
+3. Cliccare il bottone `Gestisci template` all'interno della scheda `Template di report testuali disponibili`
+4. Cliccare il bottone `Rimuovi` adiacente al template da modificare
+5. Si aprirà una finestra di conferma: cliccare il bottone `Conferma` per confermare l'operazione
 
 #### Produzione manuale di report testuali mensili ####
 
