@@ -309,11 +309,61 @@ Riassumendo, per procedere con la generazione manuale di timesheet mensili per i
 
 #### Consultazione dei timesheet mensili prodotti in formato Microsoft Excel ####
 
-TODO
+E' disponibile una scheda di dettaglio relativa ai timesheet mensili prodotti in formato sorgente (Microsoft Excel) per il periodo di riferimento corrente, come mostrato nella figura seguente.
 
-#### Archivio dei timesheet mensili prodotti in formato Microsoft Excel ####
+<img src="img/interfaccia_rendicontazione_home_card_timesheetprodotti.png" height="250">
 
-TODO
+*Scheda di dettaglio dei timesheet mensili prodotti in formato sorgente per il mese di riferimento corrente*
+
+In particolare, la scheda mostra informazioni quali il numero di timesheet mensili prodotti.
+
+Cliccando il bottone `Visualizza documenti` è possibile consultare tutti i documenti generati: per ogni documento è possibile scaricare lo stesso, sostituirlo o eliminarlo.
+
+Pertanto, per poter visualizzare i timesheet mensili prodotti in formato sorgente per il periodo di riferimento corrente, procedere come segue:
+1. Accedere alla piattaforma RECCO
+2. Aprire il menu `Rendicontazione`
+3. Cliccare il bottone `Visualizza documenti` all'interno della scheda `Timesheet prodotti`
+4. Si aprirà una pagina contenente tutti i documenti, con la possibilità di scaricarli, sostituirli o rimuoverli
+
+#### Sostituzione di un timesheet mensile in formato Microsoft Excel ####
+
+Come descritto in precedenza, è possibile sostituire un timesheet mensile in formato sorgente (Microsoft Excel), accedendo all'elenco dei documenti prodotti tramite la scheda `Timesheet prodotti`, dunque utilizzando il bottone `Sostituisci` adiacente al documento da sostituire.
+In caso di sostituzione, verrà richiesta una motivazione, come da figura seguente.
+
+<img src="img/timesheet_sostituzione.png" height="250">
+
+*Schermata di sostituzione di un timesheet mensile*
+
+La motivazione inserita verrà esclusivamente registrata all'interno della piattaforma.
+Inoltre, occorre considerare che il nome del file caricato non è rilevante ai fini del caricamento.
+Infine, una volta sostituito correttamente un documento, non sarà più possibile recuperare il documento originario. 
+
+Pertanto, per poter sostituire un timesheet mensile prodotto in formato sorgente per il periodo di riferimento corrente, procedere come segue:
+1. Accedere alla piattaforma RECCO
+2. Aprire il menu `Rendicontazione`
+3. Cliccare il bottone `Visualizza documenti` all'interno della scheda `Timesheet prodotti`
+4. Si aprirà una pagina contenente tutti i documenti
+5. Cliccare il bottone `Sostituisci` adiacente al documento da sostituire
+6. Si aprirà una finestra: compilare i campi come richiesto
+7. Confermare l'operazione cliccando il bottone `Conferma`
+
+#### Consultazione dell'archivio dei timesheet mensili prodotti in formato Microsoft Excel ####
+
+Analogamente alla consultazione dei timesheet mensili prodotti in formato sorgente (Microsoft Excel) per il periodo di riferimento corrente, è disponibile una scheda di dettaglio relativa all'archivio di tutti i timesheet mensili prodotti in formato sorgente, come mostrato nella figura seguente.
+
+<img src="img/interfaccia_rendicontazione_home_card_archiviotimesheetprodotti.png" height="200">
+
+*Scheda di dettaglio dell'archivio dei timesheet mensili prodotti in formato sorgente per il mese di riferimento corrente*
+
+Cliccando il bottone `Visualizza documenti` è possibile selezionare il periodo di riferimento di interesse (espresso nel formato `YYYYMM`), dunque accedere ai documenti di interesse, con possibilità di scaricarli, sostituirli o eliminarli.
+
+Pertanto, per poter visualizzare tutti i timesheet mensili in formato sorgente presenti all'interno della piattaforma, procedere come segue:
+1. Accedere alla piattaforma RECCO
+2. Aprire il menu `Rendicontazione`
+3. Cliccare il bottone `Visualizza documenti` all'interno della scheda `Archivio timesheet`
+4. Si aprirà una pagina contenente tutti i periodi di riferimento, espressi nel formato `YYYYMM`
+5. Selezionare il periodo di riferimento di interesse cliccando sul bottone `Visualizza`
+6. Si aprirà una nuova pagina contenente tutti i documenti, con la possibilità di scaricarli, sostituirli o rimuoverli
 
 #### Consultazione dei timesheet mensili prodotti in formato PDF ####
 
