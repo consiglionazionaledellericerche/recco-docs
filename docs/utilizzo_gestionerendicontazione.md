@@ -311,7 +311,7 @@ Riassumendo, per procedere con la generazione manuale di timesheet mensili per i
 
 E' disponibile una scheda di dettaglio relativa ai timesheet mensili prodotti in formato sorgente (Microsoft Excel) per il periodo di riferimento corrente, come mostrato nella figura seguente.
 
-<img src="img/interfaccia_rendicontazione_home_card_timesheetprodotti.png" height="250">
+<img src="img/interfaccia_rendicontazione_home_card_timesheetprodotti.png" height="200">
 
 *Scheda di dettaglio dei timesheet mensili prodotti in formato sorgente per il mese di riferimento corrente*
 
@@ -367,11 +367,41 @@ Pertanto, per poter visualizzare tutti i timesheet mensili in formato sorgente p
 
 #### Consultazione dei timesheet mensili prodotti in formato PDF ####
 
-TODO
+E' disponibile una scheda di dettaglio relativa ai timesheet mensili prodotti in formato PDF per il periodo di riferimento corrente.
+Questi documenti vengono prodotti, se tale opzione è abilitata nella configurazione della piattaforma e se l'ambiente utilizzato è compatibile, a partire dai timesheet mensili in formato Microsoft Excel.
+La figura seguente mostra nel dettaglio la scheda di interesse.
 
-#### Archivio dei timesheet mensili prodotti in formato PDF ####
+<img src="img/interfaccia_rendicontazione_home_card_timesheetprodottipdf.png" height="200">
 
-TODO
+*Scheda di dettaglio dei timesheet mensili prodotti in formato PDF per il mese di riferimento corrente*
+
+In particolare, la scheda mostra informazioni quali il numero di timesheet PDF mensili prodotti.
+
+Cliccando il bottone `Visualizza documenti` è possibile consultare tutti i documenti generati: per ogni documento è possibile scaricare lo stesso.
+
+Pertanto, per poter visualizzare i timesheet mensili prodotti in formato PDF per il periodo di riferimento corrente, procedere come segue:
+1. Accedere alla piattaforma RECCO
+2. Aprire il menu `Rendicontazione`
+3. Cliccare il bottone `Visualizza documenti` all'interno della scheda `Timesheet prodotti in PDF`
+4. Si aprirà una pagina contenente tutti i documenti, con la possibilità di scaricarli
+
+#### Consultazione dell'archivio dei timesheet mensili prodotti in formato PDF ####
+
+Analogamente alla consultazione dei timesheet mensili prodotti in formato PDF per il periodo di riferimento corrente, è disponibile una scheda di dettaglio relativa all'archivio di tutti i timesheet mensili prodotti in formato PDF, come mostrato nella figura seguente.
+
+<img src="img/interfaccia_rendicontazione_home_card_archiviotimesheetprodottipdf.png" height="200">
+
+*Scheda di dettaglio dell'archivio dei timesheet mensili prodotti in formato sorgente per il mese di riferimento corrente*
+
+Cliccando il bottone `Visualizza documenti` è possibile selezionare il periodo di riferimento di interesse (espresso nel formato `YYYYMM`), dunque accedere ai documenti di interesse, con possibilità di scaricarli, sostituirli o eliminarli.
+
+Pertanto, per poter visualizzare tutti i timesheet mensili in formato PDF presenti all'interno della piattaforma, procedere come segue:
+1. Accedere alla piattaforma RECCO
+2. Aprire il menu `Rendicontazione`
+3. Cliccare il bottone `Visualizza documenti` all'interno della scheda `Archivio timesheet in PDF`
+4. Si aprirà una pagina contenente tutti i periodi di riferimento, espressi nel formato `YYYYMM`
+5. Selezionare il periodo di riferimento di interesse cliccando sul bottone `Visualizza`
+6. Si aprirà una nuova pagina contenente tutti i documenti, con la possibilità di scaricarli
 
 ### Report testuali ###
 
