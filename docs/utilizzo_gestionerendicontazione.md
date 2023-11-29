@@ -494,6 +494,8 @@ Per poter modificare un template dei report testuali mensili presente all'intern
 Ciò è possibile tramite il relativo bottone `Sostituisci` all'interno della pagina di gestione dei template.
 La sostituzione richiede una motivazione testuale, che verrà esclusivamente registrata all'interno della piattaforma.
 
+Inoltre, una volta completata l'attività, non sarà più possibile recuperare il documento originario.
+
 Per modificare/sostituire un template dei report testuali mensili, procedere come segue:
 1. Accedere alla piattaforma RECCO
 2. Aprire il menu `Rendicontazione`
@@ -515,7 +517,30 @@ Per modificare un template dei report testuali mensili, procedere come segue:
 
 #### Produzione manuale di report testuali mensili ####
 
-TODO
+E' disponibile una scheda di dettaglio relativa alla produzione manuale di report testuali mensili per il periodo di riferimento corrente, come mostrato nella figura seguente.
+
+<img src="img/produzionereporttestuali.png" height="250">
+
+*Scheda di dettaglio per la produzione manuale di report testuali mensili per il periodo di riferimento corrente*
+
+Una volta cliccato il relativo bottone, verrà aperta una finestra di conferma, che chiederà il nome del template da utilizzare per la generazione di report testuali.
+
+<img src="img/interfaccia_rendicontazione_confermagenerazionereporttestuali.png">
+
+*Schermata di conferma di produzione manuale di report testuali mensili*
+
+Una volta selezionato il template di interesse e confermata l'operazione, sulla base delle informazioni di rendicontazione fatte dal personale coinvolto nei progetti associati al template di esportazione, ed a partire dal template utilizzato, verrà generato un report testuale specifico per il periodo di riferimento corrente.
+
+Al termine, se tale opzione è stata abilitata nelle configurazioni della piattaforma, l'utente che ha generato la richiesta riceverà una email di conferma (o di errore).
+
+Riassumendo, per procedere con la generazione manuale di report testuali mensili per il periodo di riferimento corrente, eseguire le seguenti operazioni:
+1. Accedere alla piattaforma RECCO
+2. Aprire il menu `Rendicontazione`
+3. Cliccare il bottone `Genera report` all'interno della scheda `Produzione report testuali`
+4. Si aprirà una finestra di conferma: selezionare il template di interesse per il quale occorre (ri)generare il report testuale
+5. Cliccare il bottone `Conferma` per confermare l'operazione
+6. Attendere una email di successo o di errore
+7. Verificare la correttezza del file dei report testuali mensili per il periodo di riferimento corrente presenti sulla piattaforma relativamente al template indicato
 
 #### Consultazione dei report testuali mensili prodotti in formato Microsoft Word ####
 
