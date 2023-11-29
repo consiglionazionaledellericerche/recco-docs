@@ -465,6 +465,12 @@ In particolare, sono ammessi i seguenti tag:
   * `YEARLYHOURS` identifica la quantità di ore annuali che l'unità di personale deve lavorare, da contratto
   * `MILESTONES` identifica le milestones di progetto (questa colonna verrà compilata come vuota, non essendo disponibile l'informazione all'interno della piattaforma)
 
+A titolo di esempio, relativamente al tag `{TABLE_PNRR}`, nel caso in cui si intendano esportare, ad esempio, informazioni sul livello dell'unità di personale ed i costi, occorrerà specificare all'interno del documento del template il seguente tag:
+
+```
+{TABLE_PNRR:LEVELTYPE+COSTS}
+```
+
 Comprendere al meglio la necessità di questi tag è un aspetto di primaria importanza.
 Occorre considerare che i tag utilizzati supportano ad oggi principalmente informazioni richieste da progetti PNRR ed ai relativi documenti DSAN.
 
