@@ -443,7 +443,32 @@ Dunque, al fine di consultare i template dei report testuali mensili disponibili
 
 ##### Informazioni associate ad un template di report testuali mensili #####
 
-TODO
+Come anticipato in precedenza, ogni template di report testuali mensili è rappresentato da un documento Microsoft Word, che rappresenta il documento di base da utilizzare in fase di creazione del report.
+Al fine di evitare eventuali errori o imprecisioni in fase di generazione dei report, si suggerisce di utilizzare il template di "report testuale base" fornito, come riportato nell'immagine a seguire (notare in particolare il testo in blu: una volta cliccato, verrà scaricato il template base da utilizzare).
+
+<img src="img/interfaccia_reporttestuali_scheda_template.png">
+
+*Scheda di dettaglio per la gestione dei report testuali*
+
+Il nome del file del template (esclusa l'estensione del file stesso) che identifica un template verrà utilizzato come filtro per selezionare i progetti per i quali va utilizzato quello specifico template, in base all'acronimo del progetto o del progetto principale.
+Ad esempio, se il file del template ha nome `APROJECT.docx`, l'output generato includerà i dati del progetto con acronimo `APROJECT` o, nel caso in cui tale acronimo sia associato ad un progetto principale (es. eventualmente suddiviso in Work Packages/Obiettivi Realizzativi/Spoke), l'output generato includerà tutti i dati dei sotto-progetti che hanno specificato `APROJECT` come progetto principale.
+
+Inoltre, come menzionato in precedenza, è necessario aggiungere uno più tra i tag permessi all'interno del documento utilizzato come template.
+Tali tag vanno inseriti in modo opportuno all'interno del documento, laddove sia necessario inserire i relativi oggetti.
+In particolare, sono ammessi i seguenti tag:
+* `{MONTH}` identifica il mese di riferimento in formato numerico
+* `{MONTHNAME}` identifica il mese di riferimento in formato testuale
+* `{YEAR}`0 identifica l'anno di riferimento
+* `{TABLE_PNRR}` identifica la tabella da inserire secondo il formato richiesto dai progetti PNRR; opzionalmente, è possibile definire una specifica nella forma `{TABLE_PNRR:OPZIONE1+OPZIONE2+...}` per esportare colonne specifiche, dove le opzioni permesse sono le seguenti:
+  * `LEVELTYPE` identifica il livello dell'unità di personale
+  * `COSTS` identifica i costi per l'unità di personale
+  * `YEARLYHOURS` identifica la quantità di ore annuali che l'unità di personale deve lavorare, da contratto
+  * `MILESTONES` identifica le milestones di progetto (questa colonna verrà compilata come vuota, non essendo disponibile l'informazione all'interno della piattaforma)
+
+Comprendere al meglio la necessità di questi tag è un aspetto di primaria importanza.
+Occorre considerare che i tag utilizzati supportano ad oggi principalmente informazioni richieste da progetti PNRR ed ai relativi documenti DSAN.
+
+Tramite un approccio di questo tipo è possibile produrre report di svariate tipologie, in modo del tutto flessibile.
 
 ##### Aggiunta di un template di report testuali mensili #####
 
