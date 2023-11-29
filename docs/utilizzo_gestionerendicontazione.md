@@ -405,9 +405,55 @@ Pertanto, per poter visualizzare tutti i timesheet mensili in formato PDF presen
 
 ### Report testuali ###
 
-TODO
+I report testuali sono report generati a partire da un documento Microsoft Word e associati ad uno o più progetti specifici.
+Questa tipologia di report può essere particolarmente utile per alcune tipologie di progetti specifici (si faccia ad esempio riferimento ai documenti DSAN richiesti per i progetti PNRR).
+La generazione di questi report è esclusivamente manuale ed i concetti alla base della gestione di questa tipologia di documenti sono analoghi a quanto descritto relativamente al [processo di gestione ed esportazione dei timesheet](utilizzo_gestionerendicontazione.md#timesheet).
 
 #### Gestione dei template dei report testuali mensili ####
+
+Al fine di poter produrre un report testuale mensile per un dato progetto o un insieme di progetti, è necessario disporre di un template da utilizzare come base per la generazione del documento.
+Il template è rappresentato da un file in formato Microsoft Word.
+Tale template conterrà al suo interno specifici tag, che verranno sostituiti in fase di generazione dei documenti, secondo determinate regole.
+
+La gestione dei report testuali mensili presenti all'interno della piattaforma avviene tramite il bottone `Gestisci template` all'interno della scheda `Template di report testuali disponibili`.
+Al click del bottone, verrà aperta una finestra dedicata, volta a mostrare tutti i template registrati.
+
+##### Consultazione dei template dei report testuali mensili disponibili #####
+
+Come accennato in precedenza, è possibile consultare tutti i template dei report testuali mensili disponibili attraverso il bottone `Gestisci template` all'interno della scheda `Template di report testuali disponibili`.
+
+<img src="interfaccia_reporttestuali_schedatemplate.png" height="200">
+
+*Scheda di dettaglio per la gestione dei report testuali*
+
+Al click, verrà aperta una finestra analoga alla seguente.
+
+<img src="img/interfaccia_reporttestuali_template_elenco.png">
+
+*Finestra di visualizzazione dei template disponibili all'interno della piattaforma*
+
+In particolare, per ogni template registrato, è possibile scaricare il file Microsoft Excel relativo, modificare le informazioni relative al template (incluso l'aggiornamento del file Microsoft Excel) o rimuovere il template.
+E' inoltre possibile aggiungere un nuovo template.
+
+Dunque, al fine di consultare i template dei report testuali mensili disponibili, procedere come segue:
+1. Accedere alla piattaforma RECCO
+2. Aprire il menu `Rendicontazione`
+3. Cliccare il bottone `Gestisci template` all'interno della scheda `Template di report testuali disponibili`
+4. Si aprirà una finestra che elenca i template registrati all'interno della piattaforma, con possibilità di operare su di essi o aggiungerne di nuovi
+
+##### Informazioni associate ad un template di report testuali mensili #####
+
+TODO
+
+##### Aggiunta di un template di report testuali mensili #####
+
+TODO
+
+##### Modifica di un template di report testuali mensili #####
+
+TODO
+
+##### Rimozione di un template di report testuali mensili #####
 
 TODO
 
