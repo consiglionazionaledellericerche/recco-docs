@@ -281,7 +281,31 @@ Per modificare un template dei timesheet mensili, procedere come segue:
 
 #### Produzione manuale di timesheet mensili ####
 
-TODO
+E' disponibile una scheda di dettaglio relativa alla produzione manuale di timesheet mensili per il periodo di riferimento corrente, come mostrato nella figura seguente.
+
+<img src="img/produzionetimesheet.png" height="250">
+
+*Scheda di dettaglio per la produzione manuale di timesheet mensili per il periodo di riferimento corrente*
+
+Una volta cliccato il relativo bottone, verrà aperta una finestra di conferma, che chiederà il nominativo dell'unità di personale per la quale è necessario generare nuovi timesheet.
+
+<img src="img/interfaccia_rendicontazione_confermagenerazionetimesheet.png">
+
+*Schermata di conferma di produzione manuale di timesheet mensili*
+
+Una volta selezionato il nominativo di interesse e confermata l'operazione, verrà recuperato il foglio orario compilato per la persona di riferimento, dunque, interfacciandosi con la piattaforma [ePAS](https://epas.amministrazione.cnr.it) per il recupero di informazioni specifiche (es. il codice fiscale, informazione non memorizzata all'interno della piattaforma RECCO), verranno generati i timesheet relativi, eventualmente sostituendo quelli esistenti o rimuovendo quelli generati erroneamente (es. in precedenza il foglio orario compilato riportava ore su un progetto, non rendicontato all'interno del foglio aggiornato).
+
+Al termine, se tale opzione è stata abilitata nelle configurazioni della piattaforma, l'unità di personale coinvolta riceverà una email per ogni timesheet generato (con eventuale allegato, se configurato), chiedendo di firmare lo stesso e caricare il documento aggiornato all'interno della piattaforma.
+Inoltre, una email contenente lo stato dell'operazione verrà inviata all'utente che ha generato la richiesta.
+
+Riassumendo, per procedere con la generazione manuale di timesheet mensili per il periodo di riferimento corrente, eseguire le seguenti operazioni:
+1. Accedere alla piattaforma RECCO
+2. Aprire il menu `Rendicontazione`
+3. Cliccare il bottone `Genera timesheet` all'interno della scheda `Produzione timesheet`
+4. Si aprirà una finestra di conferma: selezionare il nominativo dell'unità di personale per la quale occorre (ri)generare i timesheet mensili
+5. Cliccare il bottone `Conferma` per confermare l'operazione
+6. Attendere una email di successo o di errore
+7. Verificare la correttezza dei file dei timesheet mensili per il periodo di riferimento corrente presenti sulla piattaforma relativamente all'unità di personale indicata
 
 #### Consultazione dei timesheet mensili prodotti in formato Microsoft Excel ####
 
