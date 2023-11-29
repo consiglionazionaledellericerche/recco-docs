@@ -330,7 +330,7 @@ Pertanto, per poter visualizzare i timesheet mensili prodotti in formato sorgent
 Come descritto in precedenza, è possibile sostituire un timesheet mensile in formato sorgente (Microsoft Excel), accedendo all'elenco dei documenti prodotti tramite la scheda `Timesheet prodotti`, dunque utilizzando il bottone `Sostituisci` adiacente al documento da sostituire.
 In caso di sostituzione, verrà richiesta una motivazione, come da figura seguente.
 
-<img src="img/timesheet_sostituzione.png" height="250">
+<img src="img/timesheet_sostituzione.png">
 
 *Schermata di sostituzione di un timesheet mensile*
 
