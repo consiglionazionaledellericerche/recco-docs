@@ -401,7 +401,7 @@ Pertanto, per poter visualizzare tutti i timesheet mensili in formato PDF presen
 3. Cliccare il bottone `Visualizza documenti` all'interno della scheda `Archivio timesheet in PDF`
 4. Si aprirà una pagina contenente tutti i periodi di riferimento, espressi nel formato `YYYYMM`
 5. Selezionare il periodo di riferimento di interesse cliccando sul bottone `Visualizza`
-6. Si aprirà una nuova pagina contenente tutti i documenti, con la possibilità di scaricarli
+6. Si aprirà una nuova pagina contenente tutti i documenti, con la possibilità di scaricarli, sostiuirli o eliminarli
 
 ### Report testuali ###
 
@@ -544,16 +544,90 @@ Riassumendo, per procedere con la generazione manuale di report testuali mensili
 
 #### Consultazione dei report testuali mensili prodotti in formato Microsoft Word ####
 
-TODO
+E' disponibile una scheda di dettaglio relativa ai report testuali mensili prodotti in formato sorgente (Microsoft Word) per il periodo di riferimento corrente, come mostrato nella figura seguente.
 
-#### Archivio dei report testuali mensili prodotti in formato Microsoft Work ####
+<img src="img/interfaccia_rendicontazione_home_card_reporttestualiprodotti.png" height="200">
 
-TODO
+*Scheda di dettaglio dei report testuali mensili prodotti in formato sorgente per il mese di riferimento corrente*
+
+In particolare, la scheda mostra informazioni quali il numero di report testuali mensili prodotti.
+
+Cliccando il bottone `Visualizza documenti` è possibile consultare tutti i documenti generati: per ogni documento è possibile scaricare lo stesso, sostituirlo o eliminarlo.
+
+Pertanto, per poter visualizzare i report testuali mensili prodotti in formato sorgente per il periodo di riferimento corrente, procedere come segue:
+1. Accedere alla piattaforma RECCO
+2. Aprire il menu `Rendicontazione`
+3. Cliccare il bottone `Visualizza documenti` all'interno della scheda `Report testuali prodotti`
+4. Si aprirà una pagina contenente tutti i documenti, con la possibilità di scaricarli, sostituirli o rimuoverli
+
+#### Sostituzione di un report testuale mensile in formato Microsoft Word ####
+
+Come descritto in precedenza, è possibile sostituire un report testuali mensile in formato sorgente (Microsoft Word), accedendo all'elenco dei documenti prodotti tramite la scheda `Report testuali prodotti`, dunque utilizzando il bottone `Sostituisci` adiacente al documento da sostituire.
+In caso di sostituzione, verrà richiesta una motivazione.
+La motivazione inserita verrà esclusivamente registrata all'interno della piattaforma.
+Una volta sostituito correttamente un documento, non sarà più possibile recuperare il documento originario. 
+
+Pertanto, per poter sostituire un report testuale mensile prodotto in formato sorgente per il periodo di riferimento corrente, procedere come segue:
+1. Accedere alla piattaforma RECCO
+2. Aprire il menu `Rendicontazione`
+3. Cliccare il bottone `Visualizza documenti` all'interno della scheda `Report testuali prodotti`
+4. Si aprirà una pagina contenente tutti i documenti
+5. Cliccare il bottone `Sostituisci` adiacente al documento da sostituire
+6. Si aprirà una finestra: compilare i campi come richiesto
+7. Confermare l'operazione cliccando il bottone `Conferma`
+
+#### Consultazione dell'archivio dei report testuali mensili prodotti in formato Microsoft Word ####
+
+Analogamente alla consultazione dei report testuali mensili prodotti in formato sorgente (Microsoft Word) per il periodo di riferimento corrente, è disponibile una scheda di dettaglio relativa all'archivio di tutti i report testuali mensili prodotti in formato sorgente, come mostrato nella figura seguente.
+
+<img src="img/interfaccia_rendicontazione_home_card_archivioreporttestualiprodotti.png" height="200">
+
+*Scheda di dettaglio dell'archivio dei report testuali mensili prodotti in formato sorgente per il mese di riferimento corrente*
+
+Cliccando il bottone `Visualizza documenti` è possibile selezionare il periodo di riferimento di interesse (espresso nel formato `YYYYMM`), dunque accedere ai documenti di interesse, con possibilità di scaricarli, sostituirli o eliminarli.
+
+Pertanto, per poter visualizzare tutti i report testuali mensili in formato sorgente presenti all'interno della piattaforma, procedere come segue:
+1. Accedere alla piattaforma RECCO
+2. Aprire il menu `Rendicontazione`
+3. Cliccare il bottone `Visualizza documenti` all'interno della scheda `Archivio report testuali`
+4. Si aprirà una pagina contenente tutti i periodi di riferimento, espressi nel formato `YYYYMM`
+5. Selezionare il periodo di riferimento di interesse cliccando sul bottone `Visualizza`
+6. Si aprirà una nuova pagina contenente tutti i documenti, con la possibilità di scaricarli, sostituirli o rimuoverli
 
 #### Consultazione dei report testuali mensili prodotti in formato PDF ####
 
-TODO
+E' disponibile una scheda di dettaglio relativa ai report testuali mensili prodotti in formato PDF per il periodo di riferimento corrente.
+Questi documenti vengono prodotti, se tale opzione è abilitata nella configurazione della piattaforma e se l'ambiente utilizzato è compatibile, a partire dai report testuali mensili in formato Microsoft Word.
+La figura seguente mostra nel dettaglio la scheda di interesse.
 
-#### Archivio dei report testuali mensili prodotti in formato PDF ####
+<img src="img/interfaccia_rendicontazione_home_card_reporttestualiprodottipdf.png" height="200">
 
-TODO
+*Scheda di dettaglio dei report testuali mensili prodotti in formato PDF per il mese di riferimento corrente*
+
+In particolare, la scheda mostra informazioni quali il numero di report testuali PDF mensili prodotti.
+
+Cliccando il bottone `Visualizza documenti` è possibile consultare tutti i documenti generati: per ogni documento è possibile scaricare lo stesso, sostituirlo con un nuovo documento, o eliminarlo.
+
+Pertanto, per poter visualizzare i report testuali mensili prodotti in formato PDF per il periodo di riferimento corrente, procedere come segue:
+1. Accedere alla piattaforma RECCO
+2. Aprire il menu `Rendicontazione`
+3. Cliccare il bottone `Visualizza documenti` all'interno della scheda `Report testuali prodotti in PDF`
+4. Si aprirà una pagina contenente tutti i documenti, con la possibilità di scaricarli, sostuirli o eliminarli
+
+#### Consultazione dell'archivio dei report testuali mensili prodotti in formato PDF ####
+
+Analogamente alla consultazione dei report testuali mensili prodotti in formato PDF per il periodo di riferimento corrente, è disponibile una scheda di dettaglio relativa all'archivio di tutti i report testuali mensili prodotti in formato PDF, come mostrato nella figura seguente.
+
+<img src="img/interfaccia_rendicontazione_home_card_archivioreporttestualiprodottipdf.png" height="200">
+
+*Scheda di dettaglio dell'archivio dei report testuali mensili prodotti in formato sorgente per il mese di riferimento corrente*
+
+Cliccando il bottone `Visualizza documenti` è possibile selezionare il periodo di riferimento di interesse (espresso nel formato `YYYYMM`), dunque accedere ai documenti di interesse, con possibilità di scaricarli, sostituirli o eliminarli.
+
+Pertanto, per poter visualizzare tutti i report testuali mensili in formato PDF presenti all'interno della piattaforma, procedere come segue:
+1. Accedere alla piattaforma RECCO
+2. Aprire il menu `Rendicontazione`
+3. Cliccare il bottone `Visualizza documenti` all'interno della scheda `Archivio report testuali in PDF`
+4. Si aprirà una pagina contenente tutti i periodi di riferimento, espressi nel formato `YYYYMM`
+5. Selezionare il periodo di riferimento di interesse cliccando sul bottone `Visualizza`
+6. Si aprirà una nuova pagina contenente tutti i documenti, con la possibilità di scaricarli, sostiuirli o eliminarli
