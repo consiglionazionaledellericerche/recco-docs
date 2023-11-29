@@ -422,7 +422,7 @@ Al click del bottone, verrà aperta una finestra dedicata, volta a mostrare tutt
 
 Come accennato in precedenza, è possibile consultare tutti i template dei report testuali mensili disponibili attraverso il bottone `Gestisci template` all'interno della scheda `Template di report testuali disponibili`.
 
-<img src="img/interfaccia_reporttestuali_scheda_template.png" height="200">
+<img src="img/interfaccia_reporttestuali_scheda_template.png">
 
 *Scheda di dettaglio per la gestione dei report testuali*
 
