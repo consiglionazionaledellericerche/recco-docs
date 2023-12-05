@@ -15,6 +15,10 @@ Questo repository riporta una guida di utilizzo della piattaforma RECCO, svilupp
 
 La versione considerata è la versione `0.9`.
 
+### FAQ ###
+
+Consultare la [pagina relativa alle FAQ](docs/faq.md).
+
 ### Riferimenti ###
 
 L'intero progetto RECCO e la relativa documentazione sono una idea ed un prodotto di [Enrico Cambiaso](https://www.ieiit.cnr.it/people/Cambiaso-Enrico).

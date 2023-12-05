@@ -132,7 +132,7 @@ La schermata di conferma dell'operazione, con ulteriori dettagli, descritti in m
 
 <img src="img/interfaccia_personale_confermaproduzionefogliorari.png">
 
-*Schermata di conferma di produzioen di fogli orari*
+*Schermata di conferma di produzione di fogli orari*
 
 Un esempio di foglio orario generato è disponibile nella figura seguente.
 
