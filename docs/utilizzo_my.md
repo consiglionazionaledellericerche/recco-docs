@@ -5,7 +5,7 @@ i) comunicare in modo agevole informazioni sulle ore rendicontate sui propri pro
 ii) monitorare l'allocazione delle ore personali per i diversi progetti,
 iii) monitorare e pianificare la rendicontazione delle ore per i progetti per i quali si assume il ruolo di Principal Investigator.
 
-### Accesso alla piattafomra RECCO ###
+### Accesso alla piattaforma RECCO ###
 
 L'accesso alla piattaforma RECCO avviene attraverso il link di istituto fornito ed è concesso solo alle unità di personale abilitate.
 
@@ -15,9 +15,36 @@ Una volta aperta la pagina principale, viene mostrata una interfaccia analoga a 
 
 L'autenticazione avviene a seguito del click sul bottone `Sign in with Microsoft`, sfruttando le credenziali Microsoft fornite dall'Ente.
 
+### Interfaccia principale ###
+
 Una volta autenticati, sarà disponibile una interfaccia analoga alla seguente.
 
 <img src="img/interfaccia_home.png">
+
+L'interfaccia mostra informazioni quali:
+* il logo dell'istituto di riferimento: se cliccato, verrà aperta la pagina web dell'istituto
+* informazioni sull'utente collegato e sul relativo ruolo all'interno della piattaforma
+* il periodo di riferimento attualmente considerato, sempre coincidente con il mese precedente a quello corrente
+* la versione del software della piattaforma in esecuzione
+* un link alla documentazione del software della piattaforma
+
+Inoltre, nella parte alta della pagina, è disponibile un menu che mostra (in base al proprio ruolo) le diverse opzioni disponibili: tipicamente, per le unità di personale che non hanno compiti di gestione e mantenimento della piattaforma, sono disponibili i menu `Home`, `I miei dati`, `Progetti`.
+
+Occorre notare che in versione mobile questo menu potrebbe assumere una forma differente, come mostrato in figura seguente.
+
+<img src="img/interfaccia_home_mobile.png">
+
+In questo caso, per poter accedere il menu, occorre premere il bottone in alto sulla destra, che aprirà un menu in visualizzazione come elenco.
+
+<img src="img/interfaccia_home_mobile_menu.png">
+
+### Interfaccia "I miei dati" ###
+
+TODO
+
+### Interfaccia "Progetti" ###
+
+TODO
 
 ### Comunicazione delle ore rendicontate ###
 
