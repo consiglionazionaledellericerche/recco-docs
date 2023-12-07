@@ -32,11 +32,11 @@ Inoltre, nella parte alta della pagina, è disponibile un menu che mostra (in ba
 
 Occorre notare che in versione mobile questo menu potrebbe assumere una forma differente, come mostrato in figura seguente.
 
-<img src="img/interfaccia_home_mobile.png" height="600">
+<img src="img/interfaccia_home_mobile.png" height="900">
 
 In questo caso, per poter accedere il menu, occorre premere il bottone in alto sulla destra, che aprirà un menu in visualizzazione come elenco.
 
-<img src="img/interfaccia_home_mobile_menu.png">
+<img src="img/interfaccia_home_mobile_menu.png" height="900">
 
 ### Interfaccia "I miei dati" ###
 
