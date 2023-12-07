@@ -28,6 +28,20 @@ Pertanto, per poter visualizzare i fogli orari compilati disponibili all'interno
 3. Cliccare il bottone `Visualizza documenti` all'interno della scheda `Fogli orari compilati`
 4. Si aprirà una pagina contenente tutti i documenti, con la possibilità di scaricarli o rimuoverli
 
+##### Aggiunta di un foglio orario compilato #####
+
+E' possibile aggiungere un nuovo foglio orario compilato per il periodo di riferimento corrente all'interno del sistema, tramite il bottone `Carica file` all'interno della relativa [pagina di consultazione dei fogli orari compilati](utilizzo_gestionerendicontazione.md#consultazione-dei-fogli-orari-compilati).
+
+Per aggiungere un nuovo foglio orario compilato per il periodo di riferimento corrente, procedere come segue:
+1. Accedere alla piattaforma RECCO
+2. Aprire il menu `Rendicontazione`
+3. Cliccare il bottone `Visualizza documenti` all'interno della scheda `Fogli orari compilati`
+4. Cliccare il bottone `Carica file` in fondo alla pagina
+5. Si aprirà una finestra di aggiunta: specificare il file da caricare, facendo attenzione alla nomenclatura dello stesso, che deve essere obbligatoriamente nel formato `nome.cognome.xlsx`
+6. Cliccare il bottone `Conferma` per confermare l'operazione
+
+Occorre in particolare notare che il file verrà caricato, ma non processato dalla piattaforma; pertanto, una volta caricato correttamente il file, secondo le necessità, potrebbe essere necessario procedere con una [produzione manuale dei timesheet mensili per il relativo utente](utilizzo_gestionerendicontazione.md#produzione-manuale-di-timesheet-mensili).
+
 #### Consultazione dell'archivio dei fogli orari compilati ####
 
 Analogamente alla consultazione dei fogli orari compilati per il periodo di riferimento corrente, è disponibile una scheda di dettaglio relativa all'archivio di tutti i fogli orari compilati.
