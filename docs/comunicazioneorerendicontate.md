@@ -14,9 +14,9 @@ In particolare, dal punto di vista dell'unità di personale coinvolta in attivit
 4. Accedendo alla piattaforma RECCO con le proprie credenziali Microsoft fornite dall'Ente, sarà possibile [caricare il documento compilato](comunicazioneorerendicontate.md#comunicazione-delle-ore-rendicontate-per-il-periodo-di-riferimento-corrente)
 5. La piattaforma RECCO genererà i timesheet mensili per ogni progetto per il quale si è lavorato durante il periodo di riferimento
 6. Arriverà una email per ogni progetto specificato all'interno del foglio orario compilato (raggruppando i progetti, ad esempio, in caso di suddivisione degli stessi in Work Package/Obiettivi Realizzativi/Spoke), indicando l'avvenuta generazione del relativo timesheet in formato PDF
-7. Accedendo alla piattaforma RECCO con le proprie credenziali Microsoft fornite dall'Ente, sarà possibile scaricare i documenti prodotti
+7. Accedendo alla piattaforma RECCO con le proprie credenziali Microsoft fornite dall'Ente, sarà possibile [scaricare i documenti prodotti](comunicazioneorerendicontate.md#download-dei-timesheet-mensili-da-firmare)
 8. L'unità di personale firmerà i documenti di conseguenza
-9. Accedendo alla piattaforma RECCO con le proprie credenziali Microsoft fornite dall'Ente, sarà possibile caricare il documenti firmati
+9. Accedendo alla piattaforma RECCO con le proprie credenziali Microsoft fornite dall'Ente, sarà possibile [caricare il documenti firmati](comunicazioneorerendicontate.md#caricamento-dei-timesheet-mensili-firmati)
 
 ### Fogli orari da compilare ###
 
