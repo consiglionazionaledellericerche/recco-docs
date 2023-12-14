@@ -1,9 +1,9 @@
 # Accesso come unità di personale coinvolta in attività di ricerca
 
 La piattaforma RECCO fornisce alle unità di personale coinvolte in attività di ricerca la possibilità di:
-i) comunicare in modo agevole informazioni sulle ore rendicontate sui propri progetti (consultare la sezione dedicata alla [comunicazione delle ore rendicontate](comunicazioneorerendicontate.md)),
-ii) monitorare l'allocazione delle ore personali per i diversi progetti (consultare la sezione dedicata al [monitoraggio delle proprie ore rendicontate](monitoraggioorerendicontate.md)),
-iii) monitorare e pianificare la rendicontazione delle ore per i progetti per i quali si assume il ruolo di Principal Investigator (consultare la sezione dedicata alla [pianificazione della rendicontazione progettuale](pianificazioneprogettuale.md)).
+* comunicare in modo agevole informazioni sulle ore rendicontate sui propri progetti (consultare la sezione dedicata alla [comunicazione delle ore rendicontate](comunicazioneorerendicontate.md)),
+* monitorare l'allocazione delle ore personali per i diversi progetti (consultare la sezione dedicata al [monitoraggio delle proprie ore rendicontate](monitoraggioorerendicontate.md)),
+* monitorare e pianificare la rendicontazione delle ore per i progetti per i quali si assume il ruolo di Principal Investigator (consultare la sezione dedicata alla [pianificazione della rendicontazione progettuale](pianificazioneprogettuale.md)).
 
 In seguito viene descritta nel dettaglio l'interfaccia di gestione della piattaforma da parte delle unità di personale coinvolte in attività di ricerca.
 
