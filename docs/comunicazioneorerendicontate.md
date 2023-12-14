@@ -9,9 +9,9 @@ E' importante considerare che al momento la piattaforma non permette di rendicon
 
 In particolare, dal punto di vista dell'unità di personale coinvolta in attività di ricerca, il processo è idealmente il seguente:
 1. A inizio mese (tipicamente), arriverà una email sulla propria casella di posta elettronica, notificando la disponibilità del proprio foglio orario all'interno della piattaforma RECCO
-2. Accedendo alla piattaforma RECCO con le proprie credenziali Microsoft fornite dall'Ente, sarà possibile [scaricare il relativo documento]()
-3. L'unità di personale compilerà il documento di conseguenza, utilizzando l'applicativo Microsoft Excel (è importante considerare che altri applicativi non sono al momento supportati)
-4. Accedendo alla piattaforma RECCO con le proprie credenziali Microsoft fornite dall'Ente, sarà possibile [caricare il documento compilato]()
+2. Accedendo alla piattaforma RECCO con le proprie credenziali Microsoft fornite dall'Ente, sarà possibile [scaricare il relativo documento](comunicazioneorerendicontate.md#download-dei-fogli-mensili-da-compilare)
+3. L'unità di personale compilerà il documento di conseguenza, utilizzando l'applicativo Microsoft Excel (è importante considerare che altri applicativi non sono al momento supportati), e [consultando eventuali stime di rendicontazione](comunicazioneorerendicontate.md#consultazione-delle-stime-di-rendicontazione-per-il-periodo-di-riferimento-corrente)
+4. Accedendo alla piattaforma RECCO con le proprie credenziali Microsoft fornite dall'Ente, sarà possibile [caricare il documento compilato](comunicazioneorerendicontate.md#comunicazione-delle-ore-rendicontate-per-il-periodo-di-riferimento-corrente)
 5. La piattaforma RECCO genererà i timesheet mensili per ogni progetto per il quale si è lavorato durante il periodo di riferimento
 6. Arriverà una email per ogni progetto specificato all'interno del foglio orario compilato (raggruppando i progetti, ad esempio, in caso di suddivisione degli stessi in Work Package/Obiettivi Realizzativi/Spoke), indicando l'avvenuta generazione del relativo timesheet in formato PDF
 7. Accedendo alla piattaforma RECCO con le proprie credenziali Microsoft fornite dall'Ente, sarà possibile scaricare i documenti prodotti
