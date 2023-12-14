@@ -85,3 +85,25 @@ In particolare, per poter visualizzare tutti i fogli orari compilati compilati m
 4. Si aprirà una pagina contenente tutti i documenti di riferimento, ordinati per anno e mese
 5. Cliccare il tasto `Download` adiacente al periodo di interesse
 6. Verrà avviato il download del documento relativo
+
+#### Download dei timesheet mensili da firmare ####
+
+Nel caso in cui la piattaforma sia configurata per inviare il documento dei timesheet da firmare via email, sarà possibile scaricare il documento ricevuto via email od, in alternativa, seguire il processo descritto di seguito.
+
+In alternativa, sulla base di quanto descritto relativamente ai [timesheet mensili](utilizzo_my.md#timesheet-mensili), per poter scaricare i propri timesheet mensili da firmare per il periodo corrente, occorre procedere come segue:
+1. Accedere alla piattaforma RECCO
+2. Aprire il menu `I miei dati`
+3. Cliccare il bottone `Visualizza` all'interno della scheda `Timesheet da firmare` (se non disponibile, occorre attendere la generazione dei documenti, si veda la [descrizione di dettaglio](utilizzo_my.md#timesheet-mensili))
+4. Verrà aperta una finestra che elenca tutti i timesheet disponibili
+5. Per ogni file di interesse (tendenzialmente, tutti), premere il tasto `Download` adiacente al nome del progetto relativo
+6. Verrà scaricato il documento con il timesheet mensile da firmare
+
+#### Caricamento dei timesheet mensili firmati ####
+
+E' possibile caricare i timesheet mensili firmati tramite la piattafomra RECCO.
+Per procedere in tal senso:
+1. Accedere alla piattaforma RECCO
+2. Aprire il menu `I miei dati`
+3. Cliccare il bottone `Invia` all'interno della scheda `Caricamento dei timesheet PDF firmati` (se non disponibile, occorre attendere la generazione dei documenti, si veda la [descrizione di dettaglio](utilizzo_my.md#timesheet-mensili))
+4. Verrà aperta una pagina web esterna adibita al caricamento dei file
+5. Caricare i file secondo quanto richiesto

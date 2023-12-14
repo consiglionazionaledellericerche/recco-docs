@@ -136,6 +136,9 @@ Nel caso in cui i documenti non siano disponibili, viene mostrato un messaggio d
 <img src="img/interfaccia_timesheets_notavailable.png">
 
 *Interfaccia di gestione dei timesheet personali per il periodo di riferimento corrente, in caso di mancanza di informazioni*
+
+In tal caso, il problema può essere risolto eventualmente caricando il proprio foglio orario compilato: dopo pochi minuti verranno generati i timesheet relativi (per maggiori dettagli, consultare le informazioni relative al [processo implementato](introduzione.md#il-processo-implementato)).
+
 #### Ore allocate nel tempo ####
 
 TODO
