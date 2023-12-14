@@ -141,7 +141,27 @@ In tal caso, il problema può essere risolto eventualmente caricando il proprio 
 
 #### Ore allocate nel tempo ####
 
-TODO
+E' possibile ottenere informazioni riassuntive sulle ore rendicontate sui vari progetti da parte dell'unità di personale collegata.
+Le informazioni mostrate sono analoghe a quelle della figura seguente.
+
+<img src="interfaccia_orerendicontateneltempo.png" height="900">
+
+*Interfaccia riassuntiva delle ore rendicontate nei progetti per una unità di personale specifica*
+
+In questo caso, occorre considerare che, nel caso in cui uno o più progetti siano suddivisi in più sotto-progetti (ad esempio, in base ai Work Package/Obiettivi Realizzativi/Spoke, come da figura), le informazioni riguarderanno ogni singolo sotto-progetto.
+
+Le informazioni mostrate sono disponibili sia sotto forma di grafico a torta e grafico a linee, sia in formato strutturato, fornendo all'utente la possibilità di scaricare i dati di rendicontazione.
+In questo caso, è possibile scaricare un file in [formato CSV](https://it.wikipedia.org/wiki/Comma-separated_values), facilmente [importabile in strumenti come Microsoft Excel](https://support.microsoft.com/it-it/office/importare-o-esportare-file-di-testo-txt-o-csv-5250ac4c-663c-47ce-937b-339e391393ba) o processabile tramite script o programmi ad-hoc.
+Vista la compatibilità offerta di tale formato, è possibile integrare questi dati con documenti già esistenti o processarli secondo le necessità.
+
+Un esempio di contenuto di file, per l'utente fittizio Mario Rossi (account mario.rossi@cnr.it), coinvolto nei progetti `ProgettoA`, `ProgettoB`, `ProgettoC`, per i primi tre mesi dell'anno 2025, viene fornito di seguito (considerare che in questo caso il file scaricato avrà nome `mario.rossi.csv`).
+
+```
+Year,Month,ProgettoA,ProgettoB,ProgettoC
+2025,01,1,2,3
+2025,02,4,5,6
+2025,03,7,8,9
+```
 
 ### Interfaccia "Progetti" ###
 
