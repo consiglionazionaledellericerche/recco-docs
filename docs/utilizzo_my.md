@@ -94,6 +94,14 @@ Se tale opzione è abilitata, e se la data prevista per il caricamento dei fogli
 
 *Interfaccia dei fogli orari mensili, a seguito del caricamento del documento compilato, con eventuale possibilità di aggiornare il documento entro la scadenza*
 
+##### Download dei fogli mensili da compilare #####
+
+Sulla base di quanto descritto relativamente ai [fogli orari mensili](utilizzo_my.md#fogli-orari-mensili), per poter scaricare il proprio foglio mensile da compilare per il periodo corrente, occorre procedere come segue:
+1. Accedere alla piattaforma RECCO
+2. Aprire il menu `I miei dati`
+3. Cliccare il bottone `Download` all'interno della scheda `Foglio mensile da compilare` (se non disponibile, occorre attendere la generazione del documento, si veda [descrizione di dettaglio](utilizzo_my.md#fogli-orari-mensili))
+4. Se disponibile, cliccare il bottone `Mostra dettagli` per consultare eventuali informazioni in merito alla stima delle ore previste per i vari progetti
+
 #### Timesheet mensili ####
 
 TODO
