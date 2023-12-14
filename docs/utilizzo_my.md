@@ -40,6 +40,51 @@ In questo caso, per poter accedere il menu, occorre premere il bottone in alto s
 
 ### Interfaccia "I miei dati" ###
 
+Questa interfaccia rappresenta la schermata principale per la gestione ed il controllo delle proprie informazioni di rendicontazione.
+
+<img src="img/interfaccia_my.png" height="900">
+
+Come mostrato in figura, l'interfaccia include in particolare tre sezioni, relative a:
+* fogli orari mensili
+* timesheet mensili
+* ore allocate nel tempo nei vari progetti di ricerca
+
+Vengono di seguito analizzate tutte le sezioni menzionate.
+
+#### Fogli orari mensili ####
+
+Questa sezione della pagina assume diverse forme, in base allo stato attuale dei propri fogli orari mensili.
+
+In particolare, ad inizio mese, quando i fogli mensili non sono ancora stati generati per il periodo di riferimento corrente, viene mostrata la figura seguente.
+
+<img src="img/interfaccia_fogliorarimensili_nosheets.png">
+
+*Interfaccia dei fogli orari mensili a inizio mese, quando i fogli mensili non sono ancora stati generati*
+
+TODO
+
+<img src="img/interfaccia_fogliorarimensili_uploadpossible.png">
+
+*Interfaccia dei fogli orari mensili, con possibile di caricamento del documento compilato*
+
+<img src="img/interfaccia_fogliorarimensili_deadlineexpired.png">
+
+*Interfaccia dei fogli orari mensili, con impossibilità di caricamento del documento compilato oltre la scadenza*
+
+<img src="img/interfaccia_fogliorarimensili_uploaded.png">
+
+*Interfaccia dei fogli orari mensili, a seguito del caricamento del documento compilato*
+
+<img src="img/interfaccia_fogliorarimensili_uploaded_multiple.png">
+
+*Interfaccia dei fogli orari mensili, a seguito del caricamento del documento compilato, con possibilità di aggiornare il documento entro la scadenza*
+
+#### Timesheet mensili ####
+
+TODO
+
+### Ore allocate nel tempo ####
+
 TODO
 
 ### Interfaccia "Progetti" ###
