@@ -122,8 +122,20 @@ A caricamento ultimato, verranno generati automaticamente i timesheet relativi, 
 
 #### Timesheet mensili ####
 
-TODO
+Questa sezione della pagina è possibile consultare e scaricare i timesheet mensili da firmare, se disponibili, e procedere con il caricamento dei documenti firmati, secondo le modalità richieste dall'istituto di afferenza.
+In figura seguente viene mostrata la sezione di recupero e caricamento dei timesheet per il periodo di riferimento corrente.
 
+<img src="img/interfaccia_timesheets.png">
+
+*Interfaccia di gestione dei timesheet personali per il periodo di riferimento corrente*
+
+In particolare, occorre notare che il caricamento dei documenti firmati rimanda ad un link di upload esterno alla piattaforma RECCO (solitamente accessibile da parte del direttore dell'istituto di riferimento): per questo motivo, non è disponibile all'interno della piattaforma alcuna documentazione storica/di archivio relativamente ai documenti firmati.
+
+Nel caso in cui i documenti non siano disponibili, viene mostrato un messaggio di errore, come mostrato in figura seguente.
+
+<img src="img/interfaccia_timesheets_notavailable.png">
+
+*Interfaccia di gestione dei timesheet personali per il periodo di riferimento corrente, in caso di mancanza di informazioni*
 #### Ore allocate nel tempo ####
 
 TODO
