@@ -144,7 +144,7 @@ In tal caso, il problema può essere risolto eventualmente caricando il proprio 
 E' possibile ottenere informazioni riassuntive sulle ore rendicontate sui vari progetti da parte dell'unità di personale collegata.
 Le informazioni mostrate sono analoghe a quelle della figura seguente.
 
-<img src="interfaccia_orerendicontateneltempo.png" height="900">
+<img src="img/interfaccia_orerendicontateneltempo.png" height="900">
 
 *Interfaccia riassuntiva delle ore rendicontate nei progetti per una unità di personale specifica*
 
