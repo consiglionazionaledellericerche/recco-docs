@@ -73,7 +73,7 @@ Dunque, a seguito della generazione dei timesheet da parte delle unità di perso
 
 In questo caso è possibile scaricare il foglio orario mensile da compilare, mostrare eventuali dettagli utili a fini di redicontazione, caricare il documento compilato e, come in precedenza, accedere all'archivio storico dei documenti compilati.
 
-Relativamente ai dettagli di rendicontazione, se abilitati dalla piattaforma, questi permettono di mostrare, per ogni progetto al quale l'unità di personale partecipa durante il periodo di riferimento corrente, informazioni sulla previsione dell'effort atteso da proposta, secondo quanto indicato dal Principal Investigator.
+Relativamente ai dettagli di rendicontazione, se abilitati dalla piattaforma, questi permettono di mostrare, per ogni progetto al quale l'unità di personale partecipa durante il periodo di riferimento corrente, informazioni sulla previsione dell'effort atteso da proposta, secondo quanto stimato ed indicato dal Principal Investigator.
 Un esempio di schermata viene mostrato in figura seguente.
 
 <img src="img/interfaccia_my_informazionirendicontazione.png" height="900">
@@ -97,6 +97,28 @@ Se tale opzione è abilitata, e se la data prevista per il caricamento dei fogli
 *Interfaccia dei fogli orari mensili, a seguito del caricamento del documento compilato, con eventuale possibilità di aggiornare il documento entro la scadenza*
 
 Per dettagli in merito a come sia possibile eseguire le operazioni menzionate, consultare la sezione dedicata alla [comunicazione delle ore rendicontate](comunicazioneorerendicontate.md).
+
+#### Caricamento dei fogli orari compilati ####
+
+Il caricamento del foglio orario compilato avviene tramite una pagina web dedicata, mostrata in seguito.
+Opzionalmente, in base alle configurazioni della piattaforma, verranno mostrati i progetti che vedono l'unità di personale di riferimento come partecipante.
+Inoltre, in caso di superamento della scadenza prevista per il caricamento dei dati, non sarà possibile caricare alcun documento.
+Similmente, se la piattaforma è stata configurata per non permettere caricamenti multipli dei documenti, una volta caricato il documento, non sarà più possibile caricarne nuove versioni.
+
+<img src="img/interfaccia_rendicontazione_uploadfogliocompilato.png">
+
+*Schermata di caricamento dei fogli orari compilati*
+
+Una volta aperta la finetra, è possibile caricare il foglio orario compilato, selezionandolo attraverso il relativo bottone `Scegli file` (da notare che il testo del bottone potrebbe variare in base al browser utilizzato), dunque cliccando il bottone `Invia`.
+
+Una volta premuto il tasto di invio, comparirà una notifica di successo o di errore, in base al risultato di un pre-processamento del file caricato.
+Ad esempio, un errore potrebbe essere dovuto al caricamento di un file con estensione differente rispetto a quella attesa.
+
+Inoltre, il nome del file caricato non è rilevante ai fini dell'importazione, in quanto il file caricato verrà rinominato automaticamente dalla piattaforma.
+
+E' importante notare che, se tale opzione è configurata, a caricamento avvenuto l'unità di personale coinvolta riceverà una email di conferma.
+
+A caricamento ultimato, verranno generati automaticamente i timesheet relativi, come descritto relativamente al [processo implementato](introduzione.md#il-processo-implementato).
 
 #### Timesheet mensili ####
 
