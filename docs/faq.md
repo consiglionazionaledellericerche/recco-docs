@@ -15,3 +15,9 @@ In tal caso, è necessario procedere manualmente alla generazione del foglio ora
 #### E' necessario caricare un foglio orario compilato oltre i termini
 
 Nel caso in cui sia necessario caricare un foglio compilato oltre i termini dell'invio, è necessario [caricare manualmente il file](utilizzo_gestionerendicontazione.md#aggiunta-di-un-foglio-orario-compilato), dunque procedere con l'[operazione di generazione manuale di timesheet mensili](utilizzo_gestionerendicontazione.md#produzione-manuale-di-timesheet-mensili) per il relativo utente.
+
+#### Nel nostro istituto, i ricercatori sono abituati a comunicare le ore rendicontate secondo altri strumenti, come si può fare?
+
+In questo caso, le opzioni possibili sono due:
+* da una parte, è possibile modificare le abitudini dei singoli ricercatori, inducendo una interazione con la piattaforma RECCO
+* dall'altra parte, è possibile collezionare le informazioni secondo le necessità, per poi [caricare manualmente i fogli compilati](utilizzo_gestionerendicontazione.md#caricamento-manuale-dei-fogli-orari-compilati) all'interno della piattaforma, in qualità di utente della piattaforma; in questo caso, secondo le necessità, sarà ad esempio possibile fare uso della piattaforma per una o più delle seguenti attività: i) generazione automatizzata di tutti timesheet mensili; ii) condivisione dei timesheet con le singole unità di personale, chiedendo loro di firmare i documenti; iii) raccolta dei timesheet firmati 
