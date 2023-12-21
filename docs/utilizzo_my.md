@@ -19,7 +19,7 @@ L'autenticazione avviene a seguito del click sul bottone `Sign in with Microsoft
 
 ### Interfaccia principale ###
 
-Una volta autenticati, sarà disponibile una interfaccia analoga alla seguente.
+Una volta autenticati, sarà disponibile una interfaccia analoga alla seguente (da notare che non tutte le opzioni del menu potrebbero essere disponibile, in base ai permessi associati all'utente autenticato).
 
 <img src="img/interfaccia_home.png">
 
@@ -164,5 +164,77 @@ Year,Month,ProgettoA,ProgettoB,ProgettoC
 ```
 
 ### Interfaccia "Progetti" ###
+
+Questa interfaccia permette la gestione dei progetti ai quali si sta partecipando e/o per i quali si assume il ruolo di Principal Investigator.
+
+<img src="img/interfaccia_progetti.png">
+
+*Interfaccia principale per la gestione dei progetti*
+
+E' al momento disponibile una sola scheda, relativa alla gestione dei progetti: cliccando il bottone `Gestisci progetti` all'interno della scheda `Gestione progetti` sarà possibile ottenere un elenco di tutti i progetti di interesse.
+
+<img src="img/interfaccia_my_progetti_lista.png">
+
+*Interfaccia con l'elenco dei progetti*
+
+Analogamente a quanto [descritto per gli utenti con il ruolo di gestore di progetti](utilizzo_gestioneprogetti.md#consultazione-dei-progetti-registrati-allinterno-della-piattaforma), tale finestra mostra una lista di progetti registrati all'interno del sistema, con le seguenti informazioni:
+* codice progetto
+* acronimo univoco del progetto
+* titolo esteso del progetto
+* tipologia di progetto
+* percentuale di avanzamento del progetto nel tempo
+* percentuale di rendicontazione sul progetto, normalizzata rispetto all'istante corrente
+
+In particolare, la percentuale di rendicontazione normalizzata viene calcolata andando a sommare le ore di rendicontazione totali previste per l'intero progetto per tutte le unità di personale, dunque rapportandole all'attuale stato di avanzamento del progetto; infine, confrontando le ore effettivamente rendicontate ad oggi da tutti i partecipanti al progetto con tale valore.
+
+Cliccando il bottone `Visualizza` adiacente ad un progetto specifico, vengono mostrati i dettagli del progetto stesso.
+In particolare, occorre considerare che i progetti possono essere raggruppati (ad esempio, suddividendo il progetto per Work Package/Obiettivi Realizzativi/Spoke) indicandone il [progetto principale](utilizzo_gestioneprogetti.md#informazioni-sul-progetto-principale).
+Viene di seguito mostrato un esempio di progetto suddiviso in più sotto-progetti.
+
+<img src="img/interfaccia_my_progetti_dettagli_progettoprincipale.png">
+
+*Interfaccia di visualizzazione di un progetto suddiviso in più sotto-progetti*
+
+In questo caso, è possibile visualizzare dettagli sul sotto-progetto relativo attraverso il relativo bottone `Visualizza`.
+
+Per ogni progetto non suddiviso in più sotto-progetti, o per ogni sotto-progetto, viene mostrata una interfaccia di dettaglio specifica analoga alla seguente.
+
+<img src="img/progetti_dettagliprogetto_my.png">
+
+*Interfaccia di visualizzazione di un progetto*
+
+Nell'esempio fornito è presente un solo partecipante al progetto, tra gli utenti registrati all'interno della piattaforma.
+
+Come mostrato in figura, l'interfaccia include in particolare le seguenti sezioni, relative a:
+* informazioni sul progetto
+* Principal Investigator del progetto
+* partecipanti al progetto
+* informazioni statistiche sul progetto
+* effort personale sul progetto
+* effort complessivo sul progetto
+
+Vengono di seguito analizzate tutte le sezioni menzionate.
+
+#### Informazioni sul progetto ####
+
+TODO
+
+#### Principal Investigator del progetto ####
+
+TODO
+
+#### Partecipanti al progetto ####
+
+TODO
+
+#### Informazioni statistiche sul progetto ####
+
+TODO
+
+#### Effort personale sul progetto ####
+
+TODO
+
+#### Effort complessivo sul progetto ####
 
 TODO
