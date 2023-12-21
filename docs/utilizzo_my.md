@@ -258,18 +258,41 @@ In particolare, definita `P` la percentuale di avanzamento del progetto, la tabe
 | - | - | - | - | - | - | - | - |
 | - | - | `A` | `A * P` | `B` | `C` | `(B + C) / (A * P)` | - |
 
-In particolare, l'effort atteso permette non solo di ottenere informazioni di dettaglio in merito all'andamento della rendicontazione rispetto a quanto pianificato, ma fornisce anche alla singola unità di personale, se abilitato da configurazione della piattaforma, informazioni mensili in merito alle ore previste per il progetto specifico.
+In particolare, l'effort atteso permette non solo di ottenere informazioni di dettaglio in merito all'andamento della rendicontazione rispetto a quanto pianificato, ma fornisce anche alla singola unità di personale, se abilitato da configurazione della piattaforma, informazioni mensili in merito alle [ore previste](utilizzo_my.md#fogli-orari-mensili) per il progetto specifico.
 
-Per informazioni in merito all'aggiornamento dell'effort atteso consultare la sezione relativa.
+Per informazioni in merito all'aggiornamento dell'effort atteso consultare la [sezione relativa](pianificazioneprogettuale.md#aggiornamento-delleffort-atteso-per-un-partecipante-al-progetto).
 
 #### Informazioni statistiche sul progetto ####
 
-TODO
+Analogamente a quanto [descritto per utenti con il ruolo di gestore dei progetti](utilizzo_gestioneprogetti.md#consultazione-di-un-progetto), vengono mostrate tre schede relative a:
+* percentuale di avanzamento del progetto, rispetto all'intera durata dello stesso
+* percentuale di ore rendicontate alla data odierna, rispetto al totale atteso (se tali informazioni sono disponibili)
+* percentuale di ore rendicontate alla data odierna, normalizzate rispetto al totale delle ore atteso ad oggi, distribuendo le ore in modo lineare per l'intera durata del progetto
 
 #### Effort personale sul progetto ####
 
-TODO
+In questo caso, in riferimento all'utente connesso (e non ad altri partecipanti al progetto), viene mostrato un grafico a linee che mostra l'andamento delle ore rendicontate sul progetto.
+In aggiunta, è possibile ottenere dettagli specifici, mese per mese, sulla quantità di ore rendicontate sul progetto.
+
+Non viene in questo caso offerta la possibilità di scaricare i dati, in quanto gli stessi sono inclusi nel file prodotto in fase di [esportazione delle ore rendicontate su tutti i progetti per l'utente corrente](monitoraggioorerendicontate.md#download-dei-dati-riassuntivi-di-monitoraggio-delle-ore-rendicontate-su-tutti-i-progetti-in-formato-csv).
 
 #### Effort complessivo sul progetto ####
 
-TODO
+Analogamente a quanto [descritto per utenti con il ruolo di gestore dei progetti](utilizzo_gestioneprogetti.md#consultazione-di-un-progetto), vengono mostrati due grafici volti a mostrare in forma grafica l'effort complessivo sul progetto.
+Da una parte, viene mostrato un grafico "a ciambella" che mostra, per ogni partecipante al progetto, la percentuale di ore rendicontate sullo stesso, rispetto ai colleghi.
+Dall'altra, viene mostrato, mese per mese, quante ore ogni singolo partecipante ha rendicontato sul progetto.
+Informazioni di dettaglio sulle ore rendicontate per ogni partecipante sono infine disponibili in una tabella dedicata.
+
+#### Download dei dati relativi alla rendicontazione sul progetto ####
+
+Analogamente a quanto [descritto per utenti con il ruolo di gestore dei progetti](utilizzo_gestioneprogetti.md#consultazione-di-un-progetto), è possibile scaricare un documento in [formato CSV](https://it.wikipedia.org/wiki/Comma-separated_values) (dunque, importabile in modo molto semplice su Microsoft Excel, o facilmente interpretabile da un software) contenente i dettagli delle ore rendicontate sul progetto.
+Occorre tuttavia notare che tale documento includerà solamente le informazioni sulle ore rendicontate tramite la piattaforma RECCO: dunque, eventuali ore rendicontate antecedentemente all'utilizzo della piattaforma non verranno esportate.
+
+L'output fornito avrà un contenuto analogo al seguente.
+
+```
+Year,Month,mario.rossi@cnr.it,stefano.bianchi@cnr.it
+2025,01,10,20
+2025,02,11,21
+2025,03,12,22
+```
