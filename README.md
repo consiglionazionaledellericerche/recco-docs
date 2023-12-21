@@ -21,4 +21,6 @@ Consultare la [pagina relativa alle FAQ](docs/faq.md).
 
 ### Riferimenti ###
 
+La documentazione corrente al [prodotto CNR PEOPLE n. 490467](https://publications.cnr.it/doc/490467).
+
 L'intero progetto RECCO e la relativa documentazione sono una idea ed un prodotto di [Enrico Cambiaso](https://www.ieiit.cnr.it/people/Cambiaso-Enrico).
