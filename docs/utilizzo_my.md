@@ -217,15 +217,50 @@ Vengono di seguito analizzate tutte le sezioni menzionate.
 
 #### Informazioni sul progetto ####
 
-TODO
+All'interno di questa sezione della pagina vengono mostrati dettagli sul progetto, in particolare:
+* acronimo del progetto (tale informazione, indicata nel titolo della sezione, può differire dall'acronimo ufficiale (ad esempio, non sono ammessi caratteri speciali), ma indica in modo univoco ed inequivocabile il progetto all'interno della piattaforma)
+* titolo del progetto
+* sottotitolo del progetto
+* acronimo del [progetto principale](utilizzo_gestioneprogetti.md#informazioni-sul-progetto-principale)
+* CUP del progetto
+* codice del progetto
+* codice della GAE del progetto
+* tipo di progetto
+* tipologia di raggruppamento (come descritto nella [sezione relativa](utilizzo_gestioneprogetti.md#modifica-di-un-progetto), questa informazione è in particolare utile per utenti con il ruolo di gestore di progetti)
+* template di esportazione da utilizzare (come descritto nella [sezione relativa](utilizzo_gestionerendicontazione.md#gestione-dei-template-dei-timesheet-mensili), questa informazione è in particolare utile per utenti con il ruolo di gestore degli aspetti di rendicontazione)
+* data di inizio progetto
+* data di fine progetto
+
+Occorre considerare che non tutti i campi indicati sono obbligatori.
 
 #### Principal Investigator del progetto ####
 
-TODO
+In questa sezione della pagina vengono elencati i nominativi di tutti i Principal Investigator del progetto.
+Da notare che il click su un nominativo specifico rimanda all'indirizzo email dell'utente ed aprirà una finestra di composizione email con destinatario preconfigurato.
 
 #### Partecipanti al progetto ####
 
-TODO
+Analogamente a quanto descritto per la sezione relativa ai Principal Investigator del progetto, in questa sezione della pagina vengono elencati i partecipanti al progetto.
+Anche in questo caso, il click su un nominativo specifico rimanda all'indirizzo email dell'utente ed aprirà una finestra di composizione email con destinatario preconfigurato.
+
+In aggiunta, in questa tabella vengono mostrate, per ogni partecipante, le seguenti informazioni:
+* ruolo e livello dell'unità di personale
+* effort totale atteso in ore per l'intero progetto, se specificato dal Principal Investigator
+* effort totale atteso in ore ad oggi, computato con una formula "lineare" che va a moltiplicare l'effort totale atteso per l'unità di personale per la percentuale di avanzamento del progetto
+* effort inizialmente rendicontato in ore: in questo caso, se specificato da utenti con il ruolo di gestore della rendicontazione, questa cella conterrà la quantità di ore rendicontate sul progetto fino al momento di inserimento dello stesso all'interno della piattaforma
+* effort rendicontato ad oggi in ore: questa cella contiene il totale delle ore rendicontate dall'unità di personale tramite la piattaforma
+* percentuale di rendicontazione normalizzata: tale valore è calcolato come la somma tra effort inizialmente rendicontato e l'effort rendicontato, in rapporto all'effort atteso ad oggi
+* bottone di aggiornamento dell'effort atteso sul progetto per la specifica unità di personale
+
+In particolare, definita `P` la percentuale di avanzamento del progetto, la tabella seguente fornisce dettagli sulla computazione dei valori delle varie celle.
+
+| **Nominativo** | **Ruolo** | **Effort totale atteso (in ore)** | **Effort atteso ad oggi (in ore)** | **Effort inizialmente rendicontato (in ore)** | **Effort rendicontato ad oggi (in ore)** | **% rendicontazione normalizzata** | **Azioni** |
+| - | - | - | - | - | - | - | - |
+| - | - | `A` | `A * P` | `B` | `C` | `(B + C) / (A * P)` | - |
+
+In particolare, l'effort atteso permette non solo di ottenere informazioni di dettaglio in merito all'andamento della rendicontazione rispetto a quanto pianificato, ma fornisce anche alla singola unità di personale, se abilitato da configurazione della piattaforma, informazioni mensili in merito alle ore previste per il progetto specifico.
+
+Per informazioni in merito all'aggiornamento dell'effort atteso consultare la sezione relativa.
 
 #### Informazioni statistiche sul progetto ####
 
