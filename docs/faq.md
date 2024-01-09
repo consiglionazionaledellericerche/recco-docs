@@ -14,7 +14,7 @@ In tal caso, è necessario procedere manualmente alla generazione del foglio ora
 
 #### Non è stato creato alcun timesheet per una unità di personale non più parte dell'organico
 
-Analogamente a quanto descritto in precedenza, nel caso di dimissioni di una unità di personale durante il mese, o, più in generale, nel caso in cui al momento della generazione dei timesheet (ma, in questo caso, non dei fogli da compilare) tale unità di personale non sia più in rapporto con l'Ente, questa non comparirà più su [ePAS](https://epas.amministrazione.cnr.it).
+Analogamente a quanto [descritto in precedenza](faq.md#non-è-stato-creato-alcun-foglio-da-compilare-per-una-unità-di-personale-non-più-parte-dellorganico), nel caso di dimissioni di una unità di personale durante il mese, o, più in generale, nel caso in cui al momento della generazione dei timesheet (ma, in questo caso, non dei fogli da compilare) tale unità di personale non sia più in rapporto con l'Ente, questa non comparirà più su [ePAS](https://epas.amministrazione.cnr.it).
 Per questo motivo, non sarà possibile scaricare informazioni specifiche (es. il codice fiscale) utili alla generazione dei timesheet per tale unità di personale.
 In tal caso, è necessario procedere manualmente alla generazione dei timesheet a partire dagli eventuali fogli orari compilati ed all'intera gestione del processo.
 
