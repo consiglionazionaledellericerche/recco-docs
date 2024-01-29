@@ -172,6 +172,7 @@ Per rimuovere un progetto, procedere come segue:
 #### Rimozione di un progetto ####
 
 Come menzionato in precedenza, è possibile rimuovere (previa conferma) un progetto specifico dal sistema.
+In tal caso, occorre considerare che la rimozione di un progetto terminato è possibile solo da utenti di tipo `amministratore` (per maggiori informazioni, consultare la [relativa FAQ](faq.md#e-possibile-cambiare-lacronimo-di-un-progetto-o-di-un-sotto-progetto)).
 
 <img src="img/interfaccia_progetti_rimozione.png">
 
