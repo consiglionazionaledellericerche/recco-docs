@@ -172,7 +172,7 @@ Per rimuovere un progetto, procedere come segue:
 #### Rimozione di un progetto ####
 
 Come menzionato in precedenza, è possibile rimuovere (previa conferma) un progetto specifico dal sistema.
-In tal caso, occorre considerare che la rimozione di un progetto terminato è possibile solo da utenti di tipo `amministratore` (per maggiori informazioni, consultare la [relativa FAQ](faq.md#e-possibile-cambiare-lacronimo-di-un-progetto-o-di-un-sotto-progetto)).
+In tal caso, occorre considerare che la rimozione di un progetto terminato è possibile solo da utenti di tipo `amministratore` (per maggiori informazioni, consultare la [relativa FAQ](faq.md#e-possibile-cambiare-lacronimo-di-un-progetto-o-di-un-sotto-progetto)), mentre è possibile estendere un progetto terminato.
 
 <img src="img/interfaccia_progetti_rimozione.png">
 
@@ -185,6 +185,23 @@ Per rimuovere un progetto, procedere come segue:
 4. Eventualmente, se il progetto aperto mostra le informazioni sul "progetto principale" del progetto da rimuovere, cliccare il bottone `Visualizza` per aprire il (sotto-)progetto da rimuovere
 5. Cliccare il bottone `Rimuovi` per procedere con la rimozione del progetto
 6. Si aprirà una finestra di conferma: cliccare il bottone `Conferma` per confermare l'operazione
+
+#### Estensione di un progetto terminato ####
+
+Per l'estensione di un progetto non terminato, questa operazione è possibile tramite la funzione di modifica di un progetto attivo.
+Diversamente, nel caso di progetti terminati, è possibile estenderli (e, dunque, riportarli nello stato di progetto attivo).
+
+<img src="img/interfaccia_progetti_estensione.png">
+
+*Finestra di estensione di un progetto terminato*
+
+Per estendere un progetto terminato, procedere come segue:
+1. Accedere alla piattaforma RECCO
+2. Aprire il menu `Progetti`
+3. Cliccare il bottone `Visualizza` per aprire il progetto da rimuovere
+4. Eventualmente, se il progetto aperto mostra le informazioni sul "progetto principale" del progetto da rimuovere, cliccare il bottone `Visualizza` per aprire il (sotto-)progetto da rimuovere
+5. Cliccare il bottone `Modifica data di fine progetto` per procedere con l'estensione del progetto
+6. Si aprirà una finestra di conferma: compilare secondo le necessità, dunque cliccare il bottone `Conferma` per confermare l'operazione
 
 #### Aggiunta di un Principal Investigator ad un progetto ####
 
