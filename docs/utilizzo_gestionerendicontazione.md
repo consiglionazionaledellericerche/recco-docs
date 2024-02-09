@@ -60,6 +60,7 @@ Pertanto, per poter visualizzare tutti i fogli orari compilati all'interno della
 #### Caricamento manuale dei fogli orari compilati ####
 
 Se il sistema è configurato per permettere tale opzione, è possibile caricare manualmente i fogli orari (senza attendere la compilazione da parte delle relative unità di personale).
+E' possibile utilizzare tale funzione solo entro i termini di invio previsti.
 Per procedere in tal senso, cliccare il bottone `Carica documenti` all'interno della scheda `Caricamento fogli orari compilati`.
 
 Verrà aperta una finestra analoga alla seguente.
