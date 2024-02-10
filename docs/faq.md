@@ -22,6 +22,10 @@ In tal caso, è necessario procedere manualmente alla generazione dei timesheet 
 
 Nel caso in cui sia necessario caricare un foglio compilato oltre i termini dell'invio, è necessario [caricare manualmente il file](utilizzo_gestionerendicontazione.md#aggiunta-di-un-foglio-orario-compilato), dunque procedere con l'[operazione di generazione manuale di timesheet mensili](utilizzo_gestionerendicontazione.md#produzione-manuale-di-timesheet-mensili) per il relativo utente.
 
+#### E' necessario generare un foglio orario da compilare e sottomettere oltre i termini
+
+Nel caso in cui sia necessario, oltre i termini di invio dei fogli compilati, procedere con la (ri-)generazione di un foglio orario da compilare, ammesso che i dati su [ePAS](https://epas.amministrazione.cnr.it) siano disponibili per l'unità di personale ed il mese di riferimento (in alternativa, sarà necessario procedere manualmente con le attività), è necessario prima di tutto [generare il foglio orario da compilare](utilizzo_gestionepersonale.md#produzione-di-fogli-orari-per-utenti-specifici) relativo all'unità di personale, dunque, dopo aver ricevuto il foglio orario compilato (esternamente alla piattaforma RECCO, in quanto i termini di invio sono scaduti), in linea con [quanto descritto in precedenza](faq.md#e-necessario-caricare-un-foglio-orario-compilato-oltre-i-termini), è necessario procedere con il [caricamento manuale del foglio orario compilato](utilizzo_gestionerendicontazione.md#aggiunta-di-un-foglio-orario-compilato) ed infine con l'[operazione di generazione manuale di timesheet mensili](utilizzo_gestionerendicontazione.md#produzione-manuale-di-timesheet-mensili) per il relativo utente.
+
 #### Nel nostro istituto, i ricercatori sono abituati a comunicare le ore rendicontate secondo altri strumenti, come si può fare?
 
 In questo caso, le opzioni possibili sono due:
