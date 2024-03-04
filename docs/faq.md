@@ -39,3 +39,8 @@ Considerando che l'acronimo indicato non ha alcun valore esternamente alla piatt
 Nel caso in cui fosse indispensabile modificare l'acronimo di un progetto, l'unica opzione possibile, con potenziale perdita delle informazioni sulle ore rendicontate, è quella di [rimuovere il progetto (o sotto-progetto)](utilizzo_gestioneprogetti.md#rimozione-di-un-progetto) con l'acronimo errato, dunque [reinserirlo](utilizzo_gestioneprogetti.md#aggiunta-di-un-progetto) con l'acronimo corretto.
 Al reinserimento, sarà necessario [assegnare uno o più Principal Investigator al progetto](aggiunta-di-un-principal-investigator-ad-un-progetto), [assegnare uno o più partecipanti al progetto](utilizzo_gestioneprogetti.md#aggiunta-di-un-partecipante-ad-un-progetto) e, se necessario, [aggiornare l'effort iniziale per i partecipanti al progetto](utilizzo_gestioneprogetti.md#aggiornamento-delleffort-iniziale-di-un-partecipante-per-un-progetto).
 E' importante considerare che questa operazione può portare ad una perdita di informazioni relative alle ore rendicontate fino al momento attuale, e, a meno di progetti inseriti di recente e per i quali non si sono rendicontate ore, è pertanto altamente sconsigliata.
+
+#### Una unità di personale non trova un progetto da rendicontare per il mese corrente
+
+In questo caso, se il progetto è in corso nel periodo di riferimento, è probabile che l'unità di personale coinvolta non sia stata inserita come partecipante al progetto.
+E' possibile procedere con l'[inserimento di un partecipante al progetto](utilizzo_gestioneprogetti.md#aggiunta-di-un-partecipante-ad-un-progetto), dunque, con una nuova [produzione dei fogli orari da compilare](utilizzo_gestionepersonale.md#produzione-di-fogli-orari) per l'unità di personale aggiunta al progetto.

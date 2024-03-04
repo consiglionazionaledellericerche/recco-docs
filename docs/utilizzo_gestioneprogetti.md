@@ -253,6 +253,8 @@ Per aggiungere un partecipante ad un progetto, procedere come segue:
 6. Si aprirà una schermata: inserire i dettagli secondo le necessità
 7. Cliccare il bottone `Conferma` per confermare l'operazione
 
+In base alle tempistiche dell'inserimento, occorre notare che a seguito dello stesso potrebbe esser necessario [produrre nuovamente i fogli orari da compilare](utilizzo_gestionepersonale.md#produzione-di-fogli-orari) per l'unità di personale aggiunta al progetto.
+
 #### Aggiornamento dell'effort iniziale di un partecipante per un progetto ####
 
 Come menzionato in precedenza, è possibile inserire od aggiornare l'effort di un partecipante ad un progetto rendicontato antecedentemente all'utilizzo della piattaforma RECCO.
