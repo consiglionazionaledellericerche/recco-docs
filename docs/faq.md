@@ -47,4 +47,5 @@ E' possibile procedere con l'[inserimento di un partecipante al progetto](utiliz
 
 #### Una unità di personale ha la necessità di compilare nuovamente il proprio foglio orario
 
-In questo caso, è possibile procedere con una sostituzione del foglio orario compilato.
+In questo caso, è possibile procedere con una [sostituzione del foglio orario compilato](utilizzo_gestionerendicontazione.md#sostituzione-di-un-foglio-orario-compilato).
+Dunque, sarà necessario procedere con la [produzione manuale dei timesheet](utilizzo_gestionerendicontazione.md#produzione-manuale-di-timesheet-mensili) per l'unità di personale di riferimento.

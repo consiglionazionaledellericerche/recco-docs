@@ -49,9 +49,9 @@ In caso di sostituzione, verrà richiesta una motivazione.
 
 *Schermata di sostituzione di un timesheet mensile*
 
-La motivazione inserita verrà esclusivamente registrata all'interno della piattaforma.
-Inoltre, occorre considerare che il nome del file caricato non è rilevante ai fini del caricamento.
-Infine, una volta sostituito correttamente un documento, non sarà più possibile recuperare il documento originario. 
+La motivazione inserita verrà registrata all'interno della piattaforma e condivisa con l'unità di personale di riferimento, tramite una email dedicata.
+Una volta sostituito correttamente un documento, non sarà più possibile recuperare il documento originario.
+Infine, è importante considerare che il caricamento del file aggiornato non comporta la generazione automatica dei timesheet relativi. Pertanto, in tal caso, sarà necessario procedere con una [produzione manuale dei timesheet](utilizzo_gestionerendicontazione.md#produzione-manuale-di-timesheet-mensili) per l'unità di personale di riferimento.
 
 Pertanto, per poter sostituire un timesheet mensile prodotto in formato sorgente per il periodo di riferimento corrente, procedere come segue:
 1. Accedere alla piattaforma RECCO
