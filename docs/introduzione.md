@@ -90,7 +90,7 @@ Il sistema supporta i seguenti tipi di utenti, dove ogni utente può essere asso
 * `gestione-completa`: ruolo in grado di eseguire qualunque operazione sulla piattaforma, ad esclusione delle attività di configurazione ed amministrazione della stessa
 * `gestione-personale`: ruolo in grado di gestire le unità di personale registrate all'interno della piattaforma
 * `gestione-progetti`: ruolo in grado di gestire i progetti registrati all'interno della piattaforma
-* `gestione-rendicontazione`: ruolo in grado di seguire e gestire le attività di rendicontazione gestite dalla piattaforma
+* `gestione-rendicontazione`: ruolo in grado di seguire e gestire le attività di rendicontazione gestite dalla piattaforma; è necessario che questa utenza abbia conoscenze avanzate della suite Microsoft Office ed, in particolare, nell'utilizzo di Microsoft Excel (in caso di necessità, si veda la [guida formativa fornita dall'Ente](https://support.microsoft.com/it-it/office/video-di-formazione-su-excel-9bc05390-e94c-46af-a5b3-d7c22f6990bb))
 * `personale`: ruolo assegnato a tutte le unità di personale coinvolte in attività di ricerca
 
 ### Il processo implementato ###
