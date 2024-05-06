@@ -42,6 +42,26 @@ Per aggiungere un nuovo foglio orario compilato per il periodo di riferimento co
 
 Occorre in particolare notare che il file verrà caricato, ma non processato dalla piattaforma; pertanto, una volta caricato correttamente il file, secondo le necessità, potrebbe essere necessario procedere con una [produzione manuale dei timesheet mensili per il relativo utente](utilizzo_gestionerendicontazione.md#produzione-manuale-di-timesheet-mensili).
 
+##### Sostituzione di un foglio orario compilato #####
+
+E' possibile sostituire un foglio orario mensile compilato (in formato Microsoft Excel), accedendo all'elenco dei fogli orari caricati dal personale tramite la scheda `Fogli orari compilati`, dunque utilizzando il bottone `Sostituisci` adiacente al documento da sostituire.
+In caso di sostituzione, verrà richiesta una motivazione.
+
+*Schermata di sostituzione di un timesheet mensile*
+
+La motivazione inserita verrà esclusivamente registrata all'interno della piattaforma.
+Inoltre, occorre considerare che il nome del file caricato non è rilevante ai fini del caricamento.
+Infine, una volta sostituito correttamente un documento, non sarà più possibile recuperare il documento originario. 
+
+Pertanto, per poter sostituire un timesheet mensile prodotto in formato sorgente per il periodo di riferimento corrente, procedere come segue:
+1. Accedere alla piattaforma RECCO
+2. Aprire il menu `Rendicontazione`
+3. Cliccare il bottone `Visualizza documenti` all'interno della scheda `Fogli orari compilati`
+4. Si aprirà una pagina contenente tutti i documenti
+5. Cliccare il bottone `Sostituisci` adiacente al documento da sostituire
+6. Si aprirà una finestra: compilare i campi come richiesto
+7. Confermare l'operazione cliccando il bottone `Conferma`
+
 #### Consultazione dell'archivio dei fogli orari compilati ####
 
 Analogamente alla consultazione dei fogli orari compilati per il periodo di riferimento corrente, è disponibile una scheda di dettaglio relativa all'archivio di tutti i fogli orari compilati.

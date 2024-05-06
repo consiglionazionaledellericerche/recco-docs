@@ -44,3 +44,7 @@ E' importante considerare che questa operazione può portare ad una perdita di i
 
 In questo caso, se il progetto è in corso nel periodo di riferimento, è probabile che l'unità di personale coinvolta non sia stata inserita come partecipante al progetto.
 E' possibile procedere con l'[inserimento di un partecipante al progetto](utilizzo_gestioneprogetti.md#aggiunta-di-un-partecipante-ad-un-progetto), dunque, con una nuova [produzione dei fogli orari da compilare](utilizzo_gestionepersonale.md#produzione-di-fogli-orari) per l'unità di personale aggiunta al progetto.
+
+#### Una unità di personale ha la necessità di compilare nuovamente il proprio foglio orario
+
+In questo caso, è possibile procedere con una sostituzione del foglio orario compilato.
