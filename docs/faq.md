@@ -40,6 +40,12 @@ Nel caso in cui fosse indispensabile modificare l'acronimo di un progetto, l'uni
 Al reinserimento, sarà necessario [assegnare uno o più Principal Investigator al progetto](aggiunta-di-un-principal-investigator-ad-un-progetto), [assegnare uno o più partecipanti al progetto](utilizzo_gestioneprogetti.md#aggiunta-di-un-partecipante-ad-un-progetto) e, se necessario, [aggiornare l'effort iniziale per i partecipanti al progetto](utilizzo_gestioneprogetti.md#aggiornamento-delleffort-iniziale-di-un-partecipante-per-un-progetto).
 E' importante considerare che questa operazione può portare ad una perdita di informazioni relative alle ore rendicontate fino al momento attuale, e, a meno di progetti inseriti di recente e per i quali non si sono rendicontate ore, è pertanto altamente sconsigliata.
 
+#### Una unità di personale è stata inserita come Principal Investigator per un progetto, ma non può accedervi
+
+In questo caso, occorre considerare che un progetto è visibile su piattaforma solamente ai suoi partecipanti.
+Pertanto, l'inserimento del Principal Investigator di un progetto non è sufficiente per mostrare il progetto all'utente.
+Al fine di mostrare questa informazione, è possibile procedere con l'[inserimento dell'unità di personale come partecipante al progetto](utilizzo_gestioneprogetti.md#aggiunta-di-un-partecipante-ad-un-progetto).
+
 #### Una unità di personale non trova un progetto da rendicontare per il mese corrente
 
 In questo caso, se il progetto è in corso nel periodo di riferimento, è probabile che l'unità di personale coinvolta non sia stata inserita come partecipante al progetto.
