@@ -59,6 +59,6 @@ Dunque, sarà necessario procedere con la [produzione manuale dei timesheet](uti
 #### Una unità di personale non riesce a caricare un foglio orario in quanto viene dato costantemente errore
 
 In questo caso bisogna considerare che eventuali celle del foglio orario compilato colorate con sfondo rosso potrebbero causare l'errore.
-In aggiunta, l'utilizzo di formule o l'inserimento di informazioni in formato errato (esempio, indicando "7,00" invece di "7:00") potrebbero causare l'errore.
+In aggiunta, l'utilizzo di formule o l'inserimento di informazioni in formato errato (esempio, indicando `7,00` o `7.00` invece di `7:00`) potrebbero causare l'errore.
 Si suggerisce dunque di effettuare una analisi accurata di ogni cella compilata all'interno del foglio orario compilato.
 
