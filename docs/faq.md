@@ -55,3 +55,10 @@ E' possibile procedere con l'[inserimento di un partecipante al progetto](utiliz
 
 In questo caso, è possibile procedere con una [sostituzione del foglio orario compilato](utilizzo_gestionerendicontazione.md#sostituzione-di-un-foglio-orario-compilato).
 Dunque, sarà necessario procedere con la [produzione manuale dei timesheet](utilizzo_gestionerendicontazione.md#produzione-manuale-di-timesheet-mensili) per l'unità di personale di riferimento.
+
+#### Una unità di personale non riesce a caricare un foglio orario in quanto viene dato costantemente errore
+
+In questo caso bisogna considerare che eventuali celle del foglio orario compilato colorate con sfondo rosso potrebbero causare l'errore.
+In aggiunta, l'utilizzo di formule o l'inserimento di informazioni in formato errato (esempio, indicando "7,00" invece di "7:00") potrebbero causare l'errore.
+Si suggerisce dunque di effettuare una analisi accurata di ogni cella compilata all'interno del foglio orario compilato.
+
