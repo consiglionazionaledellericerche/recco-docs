@@ -420,6 +420,22 @@ Pertanto, per poter visualizzare i timesheet mensili prodotti in formato PDF per
 3. Cliccare il bottone `Visualizza documenti` all'interno della scheda `Timesheet prodotti in PDF`
 4. Si aprirà una pagina contenente tutti i documenti, con la possibilità di scaricarli
 
+Occorre notare che, nel caso in cui la conversione a PDF per alcuni dei documenti non sia andata a buon fine, comparirà un bottone `Mostra errori` volto ad elencare i documenti non correttamente convertiti.
+
+#### Consultazione dei timesheet mensili non correttamente prodotti in formato PDF ####
+
+Siccome la conversione dei timesheet mensili dal formato Microsoft Excel al formato PDF potrebbe non andare a buon fine, potrebbero verificarsi delle asimmetrie, dove sono presenti più documenti in formato originale (Microsoft Excel) di quelli convertiti in PDF.
+In tal caso, come menzionato in precedenza, all'interno della scheda `Timesheet prodotti in PDF` sarà visibile un bottone `Mostra errori`, volto ad elencare i documetni non correttamente convertiti.
+Nel caso in cui non siano stati riscontrati errori, il bottone non sarà visibile.
+
+Occorre notare che la conversione a PDF deve essere effettuata manualmente attraverso l'opportuna funzioanlità di [produzione manuale dei timesheet mensili](utilizzo_gestionerendicontazione.md#produzione-manuale-di-timesheet-mensili).
+
+Pertanto, per poter visualizzare i report testuali mensili non correttamente prodotti in formato PDF per il periodo di riferimento corrente, procedere come segue:
+1. Accedere alla piattaforma RECCO
+2. Aprire il menu `Rendicontazione`
+3. Cliccare il bottone `Mostra erorri` all'interno della scheda `Timesheet prodotti in PDF`, se visibile
+4. Si aprirà una finestra con l'elenco dei documenti di interesse
+
 #### Consultazione dell'archivio dei timesheet mensili prodotti in formato PDF ####
 
 Analogamente alla consultazione dei timesheet mensili prodotti in formato PDF per il periodo di riferimento corrente, è disponibile una scheda di dettaglio relativa all'archivio di tutti i timesheet mensili prodotti in formato PDF, come mostrato nella figura seguente.
@@ -648,6 +664,22 @@ Pertanto, per poter visualizzare i report testuali mensili prodotti in formato P
 2. Aprire il menu `Rendicontazione`
 3. Cliccare il bottone `Visualizza documenti` all'interno della scheda `Report testuali prodotti in PDF`
 4. Si aprirà una pagina contenente tutti i documenti, con la possibilità di scaricarli, sostuirli o eliminarli
+
+Occorre notare che, nel caso in cui la conversione a PDF per alcuni dei documenti non sia andata a buon fine, comparirà un bottone `Mostra errori` volto ad elencare i documenti non correttamente convertiti.
+
+#### Consultazione dei report testuali mensili non correttamente prodotti in formato PDF ####
+
+Siccome la conversione dei report testuali mensili dal formato Microsoft Word al formato PDF potrebbe non andare a buon fine, potrebbero verificarsi delle asimmetrie, dove sono presenti più documenti in formato originale (Microsoft Word) di quelli convertiti in PDF.
+In tal caso, come menzionato in precedenza, all'interno della scheda `Report testuali prodotti in PDF` sarà visibile un bottone `Mostra errori`, volto ad elencare i documetni non correttamente convertiti.
+Nel caso in cui non siano stati riscontrati errori, il bottone non sarà visibile.
+
+Occorre notare che la conversione a PDF deve essere effettuata manualmente attraverso l'opportuna funzioanlità di [produzione manuale di report testuali mensili](utilizzo_gestionerendicontazione.md#produzione-manuale-di-report-testuali-mensili).
+
+Pertanto, per poter visualizzare i report testuali mensili non correttamente prodotti in formato PDF per il periodo di riferimento corrente, procedere come segue:
+1. Accedere alla piattaforma RECCO
+2. Aprire il menu `Rendicontazione`
+3. Cliccare il bottone `Mostra errori` all'interno della scheda `Report testuali prodotti in PDF`, se visibile
+4. Si aprirà una finestra con l'elenco dei documenti di interesse
 
 #### Consultazione dell'archivio dei report testuali mensili prodotti in formato PDF ####
 
