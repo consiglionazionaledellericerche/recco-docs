@@ -61,3 +61,10 @@ Dunque, sarà necessario procedere con la [produzione manuale dei timesheet](uti
 In questo caso bisogna considerare che eventuali celle del foglio orario compilato colorate con sfondo rosso potrebbero causare l'errore.
 In aggiunta, l'utilizzo di formule o l'inserimento di informazioni in formato errato (esempio, indicando `7,00` o `7.00` invece di `7:00`) potrebbero causare l'errore.
 Si suggerisce dunque di effettuare una analisi accurata di ogni cella compilata all'interno del foglio orario compilato.
+
+#### Per una unità di personale non è stato generato alcun timesheet
+
+In questo caso, [verificare il foglio orario compilato](utilizzo_gestionerendicontazione.md#consultazione-dei-fogli-orari-compilati) dall'unità di personale di riferimento.
+In particolare, [verificare che sia stato indicato almeno un progetto (vedi riga 4 del documento) e verificare che non vi siano errori nella compilazione](comunicazioneorerendicontate.md#fogli-orari-da-compilare).
+Dunque, se necessario, [sostituire](sostituzione-di-un-foglio-orario-compilato) il documento con quello corretto.
+Infine, procedere con la [produzione manuale dei timesheet](utilizzo_gestionerendicontazione.md#produzione-manuale-di-timesheet-mensili) per l'unità di personale di riferimento.
