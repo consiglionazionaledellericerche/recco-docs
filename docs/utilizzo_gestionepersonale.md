@@ -102,6 +102,9 @@ Pertanto, per poter visualizzare i fogli orari prodotti per il periodo di riferi
 3. Cliccare il bottone `Visualizza documenti` all'interno della scheda `Fogli orari prodotti`
 4. Si aprirà una pagina contenente tutti i documenti, con la possibilità di scaricarli o rimuoverli
 
+Occorre notare che, nel caso in cui non siano stati generati i fogli orari da compilare per tutte le unità di personale registrate sul sistema, comparirà un bottone `Mostra errori` volto ad elencare le unità di personale senza alcun foglio orario generato.
+La causa di una mancata generazione può essere dovuta, ad esempio, ad un errato inserimento dell'indirizzo email sulla piattaforma ePAS o al fatto che l'unità di personale non è associata ad alcun progetto attivo per il periodo di riferimento corrente.
+
 #### Consultazione dell'archivio dei fogli orari prodotti ####
 
 Analogamente alla consultazione dei fogli orari per il periodo di riferimento corrente, è disponibile una scheda di dettaglio relativa all'archivio di tutti i fogli orari prodotti, come mostrato nella figura seguente.
@@ -144,7 +147,7 @@ Un esempio di foglio orario generato è disponibile nella figura seguente.
 
 In particolare, per ogni giorno del mese (colonna `A`), il foglio include informazioni sul tipo di assenza (colonna `B`), le ore lavorate in ufficio (colonna `C`), fuori ufficio (colonna `D`), il totale delle ore lavorate (colonna `E`), il totale delle altre attività (colonna `P`).
 
-Da notare che i codici di assenza di riferimento sono gli stessi utilizzati dalla piattaforma [ePAS](https://epas.amministrazione.cnr.it). Maggiori informazioni sono disponibili sulla [sulla pagina dedicata su GitHub](https://github.com/consiglionazionaledellericerche/epas/blob/b9155fc0127fab96b3121236a5d07e7b83ee8852/app/models/absences/definitions/DefaultAbsenceType.java).
+Da notare che i codici di assenza di riferimento sono gli stessi utilizzati dalla piattaforma [ePAS](https://pas.amministrazione.cnr.it). Maggiori informazioni sono disponibili sulla [sulla pagina dedicata su GitHub](https://github.com/consiglionazionaledellericerche/epas/blob/b9155fc0127fab96b3121236a5d07e7b83ee8852/app/models/absences/definitions/DefaultAbsenceType.java).
 
 Per ogni giorno è inoltre possibile specificare quante ore sono state lavorate per ogni progetto che vede coinvolta l'unità di personale: per far ciò, occorre selezionare (in riga `4`, colonne da `F` a `O`, a partire dalla prima colonna libera sulla sinistra) l'acronimo del progetto, tramite un menu a tendina che mostrerà solamente i progetti di interesse.
 Dunque, per ogni giorno, sarà possibile indicare quante ore sono state lavorate sul progetto.
