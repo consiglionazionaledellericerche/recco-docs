@@ -1,5 +1,9 @@
 # Frequently Asked Questions (FAQ)
 
+#### Non sono stati generati fogli orari per tutte le unità di personale registrate sul sistema
+
+La causa di una mancata generazione può essere dovuta, ad esempio, ad un errato inserimento dell'indirizzo email sulla piattaforma [ePAS](https://epas.amministrazione.cnr.it) o al fatto che l'unità di personale non è associata ad alcun progetto attivo per il periodo di riferimento corrente.
+
 #### Il timesheet è stato generato in formato Microsoft Excel, ma non in PDF
 
 In questo caso, la generazione del PDF ha dato errore, probabilmente a causa di un problema con l'interazione con l'applicativo Microsoft Excel.
