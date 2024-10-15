@@ -33,6 +33,30 @@ Ad esempio, l'utilizzo di tale parametro può tornare utile per poter raggruppar
 In fase di visualizzazione, un "progetto principale" erediterà i valori di campi quale il titolo dal primo "sotto-progetto" (il primo progetto, in ordine alfabetico, che fa uso dell'acronimo del "progetto principale").
 Inoltre, non sarà possibile modificare un "progetto principale", ma soltanto i singoli "sotto-progetti" ad esso associati.
 
+**Download dei dati relativi alla rendicontazione di un progetto principale**
+
+In aggiunta all'elenco dei "sotto-progetti", alla visualizzazione di un "progetto principale", per gli amministratori di sistema e per i Principal Investigator di tutti i sotto-progetti è possibile visualizzare una scheda che permette di scaricare dati riassuntivi di rendiconto sull'intero progetto.
+
+In particolare, è possibile scaricare un documento in [formato CSV](https://it.wikipedia.org/wiki/Comma-separated_values) (dunque, importabile in modo molto semplice su Microsoft Excel, o facilmente interpretabile da un software) contenente i dettagli delle ore rendicontate sul progetto.
+Occorre tuttavia notare che tale documento includerà solamente le informazioni sulle ore rendicontate tramite la piattaforma RECCO: dunque, eventuali ore rendicontate antecedentemente all'utilizzo della piattaforma non verranno esportate.
+
+L'output fornito avrà un contenuto analogo al seguente.
+
+```
+Acronym,Year,Month,mario.rossi@cnr.it,stefano.bianchi@cnr.it
+Project1-WP1,2025,01,10,20
+Project1-WP1,2025,02,11,21
+Project1-WP2,2025,03,12,22
+```
+
+A tal proposito, al fine di esportare i dettagli sulle ore rendicontate dai partecipanti per un progetto specifico, procedere come segue:
+Per rimuovere un progetto, procedere come segue:
+1. Accedere alla piattaforma RECCO
+2. Aprire il menu `Progetti`
+3. Cliccare il bottone `Visualizza` per aprire il progetto da rimuovere
+4. Cliccare il bottone `Scarica` all'interno della scheda `Download dei dati di rendiconto di progetto` per procedere con l'esportazione
+5. Verrà scaricato il [file CSV](https://it.wikipedia.org/wiki/Comma-separated_values) contenente le informazioni richieste
+
 #### Modifica di un progetto ####
 
 E' possibile modificare le informazioni associate ad un progetto (bottone `Modifica`).
