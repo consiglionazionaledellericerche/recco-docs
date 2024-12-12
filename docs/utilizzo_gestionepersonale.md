@@ -21,6 +21,13 @@ Tale finestra mostra una lista di unità di personale registrate all'interno del
 * ore giornaliere da svolgere
 * ore annuali da svolgere
 * percentuale di ore rendicontate nell'anno corrente, rispetto al totale delle ore annuali
+* flags
+
+Per quanto riguarda i flags, questi permettono di abilitare la possibilità di rendicontare ore secondo determinate regole, generando fogli orari da compilare specifici personalizzati per ogni utente, secondo quanto definito dai relativi flag.
+In particolare:
+* rendicontazione fuori sede (identificata da un ombrello): è possibile abilitare o disabilitare la possibilità per una specifica unità di personale di rendicontare ore in periodi fuori sede
+* rendicontazione oltre le ore giornaliere (identificata da un orologio): è possibile abilitare o disabilitare la possibilità di rendicontare più delle ore giornaliere previste (es. più di 7:12 ore); può essere ad esempio utile abilitare questa funzionalità per personale con contratto a tempo determinato
+* rendicontazione in missione (identificata da un aereo): è possibile abilitare o disabilitare la possibilità di rendicontare periodi in missione
 
 #### Modifica di una unità di personale ####
 
@@ -62,7 +69,7 @@ Per rimuovere una unità di personale, procedere come segue:
 
 E' inoltre possibile registrare una nuova unità di personale all'interno del sistema, tramite il bottone `Aggiungi unità di personale`.
 
-<img src="img/interfaccia_personale_lista_aggiungi.png">
+<img src="img/interfaccia_personale_lista_aggiunta.png">
 
 *Finestra di aggiunta di una nuova unità di personale*
 
