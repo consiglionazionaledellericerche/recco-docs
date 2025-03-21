@@ -11,7 +11,7 @@ E' possibile vedere quanti progetti sono registrati all'interno della piattaform
 
 Cliccando sul bottone `Gestisci progetti` viene aperta una nuova finestra dedicata.
 
-Diversamente, cliccando sul bottone `Scarica` all'interno della scheda `Download dei dati dei progetti` sarà possibile scaricare l'elenco dei progetti registrati sulla piattaforma.
+Diversamente, se disponibile, cliccando sul bottone `Scarica` all'interno della scheda `Download dei dati dei progetti` sarà possibile scaricare l'elenco dei progetti registrati sulla piattaforma.
 
 #### Consultazione dei progetti registrati all'interno della piattaforma ####
 
@@ -319,7 +319,7 @@ Per rimuovere un partecipante da un progetto, procedere come segue:
 
 #### Download dei dati relativi ai progetti registrati sulla piattaforma ####
 
-E' possibile scaricare un documento in [formato CSV](https://it.wikipedia.org/wiki/Comma-separated_values) (dunque, importabile in modo molto semplice su Microsoft Excel, o facilmente interpretabile da un software) contenente i dettagli dei progetti registrati sulla piattaforma.
+Nel caso in cui si assuma un ruolo tale da permettere l'accesso a tutti i progetti registrati sul sistema, è possibile scaricare un documento in [formato CSV](https://it.wikipedia.org/wiki/Comma-separated_values) (dunque, importabile in modo molto semplice su Microsoft Excel, o facilmente interpretabile da un software) contenente i dettagli dei progetti registrati sulla piattaforma.
 Occorre notare che tale documento includerà anche i progetti ultimati.
 Inoltre, nel caso di suddivisione di un progetto in WP/OR/Spoke, verrà ritornata un record per ogni singolo WP/OR/Spoke, con l'indicazione del relativo progetto principale.
 
