@@ -29,6 +29,8 @@ Il documento assume la forma mostrata in figura seguente.
 
 Come è possibile notare, una prima parte in alto mostra le informazioni personali dell'unità di personale e il periodo di rendicontazione considerato.
 Dunque, sulla parte a sinistra del documento vengono mostrate informazioni sulle ore lavorate, compilate a partire dai dati presenti sulla piattaforma [ePAS](https://epas.amministrazione.cnr.it).
+A tal proposito, occorre notare che le ore di formazione indicate vengono recuperate automaticamente dalla piattaforma [ePAS](https://epas.amministrazione.cnr.it); nel caso in cui una registrazione si riferisca a più giornate, il sistema andrà a distribuire in modo uniforme le ore. Ad esempio, nel caso di registrazione di un corso settimanale della durata complessiva di 20 ore, verranno distribuite 4 ore al giorno per tutta la settimana di riferimento. Nel caso in cui tale opzione non è in linea con l'effettiva frequenza del corso, sarà necessario distribuire le ore giornalmente all'interno della piattaforma [ePAS](https://epas.amministrazione.cnr.it), che permette la registrazione di più eventi nello stesso mese.
+
 Dunque, la parte al centro del documento, l'unica parte compilabile dall'utente, è demandata alla segnalazione delle ore lavorate per ogni singolo progetto.
 In particolare, per ogni colonna, è necessario specificare, compilando da sinistra a destra (celle `F4:O4`), il singolo progetto per il quale si intende rendicontare ore, tra quelli disponibili da menu a tendina.
 I progetti mostrati in tale menu a tendina sono tutti i progetti in corso per almeno un giorno del periodo di riferimento corrente che vedono la partecipazione della specifica unità di personale.

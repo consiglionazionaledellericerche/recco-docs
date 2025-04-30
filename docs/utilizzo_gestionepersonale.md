@@ -28,6 +28,7 @@ In particolare:
 * rendicontazione fuori sede (identificata da un ombrello): è possibile abilitare o disabilitare la possibilità per una specifica unità di personale di rendicontare ore in periodi fuori sede
 * rendicontazione oltre le ore giornaliere (identificata da un orologio): è possibile abilitare o disabilitare la possibilità di rendicontare più delle ore giornaliere previste (es. più di 7:12 ore); può essere ad esempio utile abilitare questa funzionalità per personale con contratto a tempo determinato
 * rendicontazione in missione (identificata da un aereo): è possibile abilitare o disabilitare la possibilità di rendicontare periodi in missione
+* rendicontazione di periodi di formazione abilitata (identificata da un libro): è possibile abilitare o disabilitare la possibilità di rendicontare periodi di formazione
 
 #### Modifica di una unità di personale ####
 
