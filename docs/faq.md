@@ -86,3 +86,9 @@ In questo caso, [verificare il foglio orario compilato](utilizzo_gestionerendico
 In particolare, [verificare che sia stato indicato almeno un progetto (vedi riga 4 del documento) e verificare che non vi siano errori nella compilazione](comunicazioneorerendicontate.md#fogli-orari-da-compilare).
 Dunque, se necessario, [sostituire](sostituzione-di-un-foglio-orario-compilato) il documento con quello corretto.
 Infine, procedere con la [produzione manuale dei timesheet](utilizzo_gestionerendicontazione.md#produzione-manuale-di-timesheet-mensili) per l'unità di personale di riferimento.
+
+#### Le ore di formazione indicate nei fogli orari da compilare non rispecchiano l'effettiva frequenza
+
+Le ore di formazione indicate all'interno della piattaforma RECCO vengono recuperate automaticamente dalla piattaforma [ePAS](https://epas.amministrazione.cnr.it); nel caso in cui una registrazione si riferisca a più giornate, il sistema andrà a distribuire in modo uniforme le ore. Ad esempio, nel caso di registrazione di un corso settimanale della durata complessiva di 20 ore, verranno distribuite 4 ore al giorno per tutta la settimana di riferimento. Nel caso in cui tale opzione non è in linea con l'effettiva frequenza del corso, sarà necessario distribuire le ore giornalmente all'interno della piattaforma [ePAS](https://epas.amministrazione.cnr.it), che permette la registrazione di più eventi nello stesso mese.
+
+Per maggiori informazioni, consultare i dettagli in merito ai [fogli orari da compilare](comunicazioneorerendicontate.md#fogli-orari-da-compilare).
