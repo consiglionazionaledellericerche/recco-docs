@@ -44,6 +44,10 @@ Nel caso in cui fosse indispensabile modificare l'acronimo di un progetto, l'uni
 Al reinserimento, sarà necessario [assegnare uno o più Principal Investigator al progetto](aggiunta-di-un-principal-investigator-ad-un-progetto), [assegnare uno o più partecipanti al progetto](utilizzo_gestioneprogetti.md#aggiunta-di-un-partecipante-ad-un-progetto) e, se necessario, [aggiornare l'effort iniziale per i partecipanti al progetto](utilizzo_gestioneprogetti.md#aggiornamento-delleffort-iniziale-di-un-partecipante-per-un-progetto).
 E' importante considerare che questa operazione può portare ad una perdita di informazioni relative alle ore rendicontate fino al momento attuale, e, a meno di progetti inseriti di recente e per i quali non si sono rendicontate ore, è pertanto altamente sconsigliata.
 
+#### Un sottoprogetto non è visibile in piattaforma
+
+In questo caso, occorre notare che se il sottoprogetto ha come progetto principale l'acronimo di un progetto già presente in piattaforma, il sottoprogetto non sarà accessibile da RECCO. In questo caso, è necessario eliminare il sottoprogetto appena creato accedendo via web alla URL del progetto (`https://<dominio_recco>/project/<acronimo_progetto>`), dunque [rimuovendo il progetto creato](utilizzo_gestioneprogetti.md#rimozione-di-un-progetto).
+
 #### E' necessario suddividere un progetto in più sottoprogetti (es. Work Package/Obiettivi Realizzativi/Spoke)
 
 In questo caso, se l'acronimo del progetto presente in piattaforma identifica già il sottoprogetto (es. viene indicato lo Spoke) e le ore registrate/rendicontate all'interno della piattaforma si riferiscono esclusivamente al sottoprogetto, è possibile [modificare il progetto](utilizzo_gestioneprogetti.md#modifica-di-un-progetto) già presente per assegnargli un [progetto principale](utilizzo_gestioneprogetti.md#informazioni-sul-progetto-principale), dunque [aggiungere un nuovo progetto](utilizzo_gestioneprogetti.md#aggiunta-di-un-progetto) specificando lo stesso progetto principale configurato per il progetto già presente.
