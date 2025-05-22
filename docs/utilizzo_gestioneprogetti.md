@@ -134,7 +134,7 @@ Nella parte in alto vengono mostrati i dettagli del progetto, includendo informa
 * la tipologia di progetto (i valori possibili sono EU, MISE, MUR, PNRR, PRIN, Altro)
 * il tipo di raggruppamento (fare riferimento a quanto descritto in precedenza per ulteriori dettagli)
 * il template di generazione di timesheet associato (fare riferimento a quanto descritto in precedenza per ulteriori dettagli)
-* informazioni sulla forzatura della produzione mensile di timesheet
+* informazioni sulla [forzatura della produzione mensile di timesheet](utilizzo_gestioneprogetti.md#informazioni-sulla-forzatura-della-produzione-mensile-di-timesheet)
 * la data di inizio
 * la data di fine
 

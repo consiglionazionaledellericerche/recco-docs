@@ -228,6 +228,7 @@ All'interno di questa sezione della pagina vengono mostrati dettagli sul progett
 * tipo di progetto
 * tipologia di raggruppamento (come descritto nella [sezione relativa](utilizzo_gestioneprogetti.md#modifica-di-un-progetto), questa informazione è in particolare utile per utenti con il ruolo di gestore di progetti)
 * template di esportazione da utilizzare (come descritto nella [sezione relativa](utilizzo_gestionerendicontazione.md#gestione-dei-template-dei-timesheet-mensili), questa informazione è in particolare utile per utenti con il ruolo di gestore degli aspetti di rendicontazione)
+* informazioni sulla [forzatura della produzione mensile di timesheet](utilizzo_gestioneprogetti.md#informazioni-sulla-forzatura-della-produzione-mensile-di-timesheet)
 * data di inizio progetto
 * data di fine progetto
 
