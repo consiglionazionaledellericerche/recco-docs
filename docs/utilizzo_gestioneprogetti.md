@@ -59,6 +59,12 @@ Per rimuovere un progetto, procedere come segue:
 4. Cliccare il bottone `Scarica` all'interno della scheda `Download dei dati di rendiconto di progetto` per procedere con l'esportazione
 5. Verrà scaricato il [file CSV](https://it.wikipedia.org/wiki/Comma-separated_values) contenente le informazioni richieste
 
+#### Informazioni sulla forzatura della produzione mensile di timesheet ####
+
+Nel caso in cui sia necessario o preferibile generare timesheet mensili anche per progetti per i quali non sono state rendicontate ore nel mese di riferimento corrente (ad esempio, tale funzionalità è richiesta per progetti PRIN PNRR), è possibile forzare tale generazione attraverso la relativa voce disponibile nel menu di [modifica di un progetto](utilizzo_gestioneprogetti.md#modifica-di-un-progetto).
+
+Nel caso in cui si intenda abilitare/disabilitare tale opzione per un [progetto principale](utilizzo_gestioneprogetti.md#informazioni-sul-progetto-principale) sarà necessario abilitarla/disabilitarla per tutti i relativi sotto-progetti.
+
 #### Modifica di un progetto ####
 
 E' possibile modificare le informazioni associate ad un progetto (bottone `Modifica`).
@@ -128,6 +134,7 @@ Nella parte in alto vengono mostrati i dettagli del progetto, includendo informa
 * la tipologia di progetto (i valori possibili sono EU, MISE, MUR, PNRR, PRIN, Altro)
 * il tipo di raggruppamento (fare riferimento a quanto descritto in precedenza per ulteriori dettagli)
 * il template di generazione di timesheet associato (fare riferimento a quanto descritto in precedenza per ulteriori dettagli)
+* informazioni sulla forzatura della produzione mensile di timesheet
 * la data di inizio
 * la data di fine
 
