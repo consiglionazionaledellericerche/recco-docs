@@ -10,17 +10,13 @@ In questo caso, la generazione del PDF ha dato errore, probabilmente a causa di 
 
 E' possibile risolvere il problema eseguendo l'[operazione di generazione manuale di timesheet mensili](utilizzo_gestionerendicontazione.md#produzione-manuale-di-timesheet-mensili), selezionando il nominativo dell'unità di personale per la quale occorre generare il/i timesheet in formato PDF in fase di generazione.
 
-#### Non è stato creato alcun foglio da compilare per una unità di personale non più parte dell'organico
+#### Una unità di personale non più parte dell'organico non riesce ad accedere al portale
 
-Nel caso di dimissioni di una unità di personale durante il mese, o, più in generale, nel caso in cui al momento della generazione dei fogli da compilare tale unità di personale non sia più in rapporto con l'Ente, questa non comparirà più su [ePAS](https://epas.amministrazione.cnr.it).
-Per questo motivo, non sarà possibile scaricare i dati sulle ore lavorate durante il mese da tale unità di personale.
-In tal caso, è necessario procedere manualmente alla generazione del foglio orario ed all'intera gestione del processo.
-
-#### Non è stato creato alcun timesheet per una unità di personale non più parte dell'organico
-
-Analogamente a quanto [descritto in precedenza](faq.md#non-è-stato-creato-alcun-foglio-da-compilare-per-una-unità-di-personale-non-più-parte-dellorganico), nel caso di dimissioni di una unità di personale durante il mese, o, più in generale, nel caso in cui al momento della generazione dei timesheet (ma, in questo caso, non dei fogli da compilare) tale unità di personale non sia più in rapporto con l'Ente, questa non comparirà più su [ePAS](https://epas.amministrazione.cnr.it).
-Per questo motivo, non sarà possibile scaricare informazioni specifiche (es. il codice fiscale) utili alla generazione dei timesheet per tale unità di personale.
-In tal caso, è necessario procedere manualmente alla generazione dei timesheet a partire dagli eventuali fogli orari compilati ed all'intera gestione del processo.
+Nel caso di dimissioni di una unità di personale durante il mese, o, più in generale, nel caso in cui al momento della generazione dei fogli da compilare tale unità di personale non sia più in rapporto con l'Ente, questa potrebbe non avere più un account Microsoft attivo e, di conseguenza, potrebbe non essere in grado di accedere a RECCO.
+Per questo motivo, un utente di RECCO con i privilegi di `gestione-personale` o `gestione-completa` (o di amministrazione) dovrà in questo caso [scaricare il foglio orario da compilare](utilizzo_gestionepersonale.md#consultazione-dei-fogli-orari-prodotti) e condividerlo con l'unità di personale dimessa.
+Una volta compilato e ricevuto il documento debitamente compilato, un utente di RECCO con i privilegi di `gestione-rendicontazione` o `gestione-completa` (o di amministrazione) dovrà [caricare manualmente](utilizzo_gestionerendicontazione.md#aggiunta-di-un-foglio-orario-compilato) tale file su RECCO, dunque procedere con l'[operazione di generazione manuale di timesheet mensili](utilizzo_gestionerendicontazione.md#produzione-manuale-di-timesheet-mensili) per il relativo utente.
+Infine, una volta prodotti i timesheet, un utente di RECCO con i privilegi di `gestione-rendicontazione` o `gestione-completa` (o di amministrazione) dovrà [scaricare i timesheet prodotti in formato PDF](utilizzo_gestionerendicontazione.md#consultazione-dei-timesheet-mensili-prodotti-in-formato-pdf) (o in [formato Microsoft Excel](utilizzo_gestionerendicontazione.md#consultazione-dei-timesheet-mensili-prodotti-in-formato-microsoft-excel), se la generazione dei PDF non è abilitata) e condividerli con l'unità di personale dimessa.
+Infine, una volta firmati i documenti, questi potranno essere condivisi caricandoli tramite la [relativa funzione](comunicazioneorerendicontate.md#caricamento-dei-timesheet-mensili-firmati), che non è vincolata sull'utente collegato.
 
 #### E' necessario caricare un foglio orario compilato oltre i termini
 

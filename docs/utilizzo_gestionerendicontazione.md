@@ -428,7 +428,7 @@ Siccome la conversione dei timesheet mensili dal formato Microsoft Excel al form
 In tal caso, come menzionato in precedenza, all'interno della scheda `Timesheet prodotti in PDF` sarà visibile un bottone `Mostra errori`, volto ad elencare i documetni non correttamente convertiti.
 Nel caso in cui non siano stati riscontrati errori, il bottone non sarà visibile.
 
-Occorre notare che la conversione a PDF deve essere effettuata manualmente attraverso l'opportuna funzioanlità di [produzione manuale dei timesheet mensili](utilizzo_gestionerendicontazione.md#produzione-manuale-di-timesheet-mensili).
+Occorre notare che la conversione a PDF deve essere effettuata manualmente attraverso l'opportuna funzionalità di [produzione manuale dei timesheet mensili](utilizzo_gestionerendicontazione.md#produzione-manuale-di-timesheet-mensili).
 
 Pertanto, per poter visualizzare i report testuali mensili non correttamente prodotti in formato PDF per il periodo di riferimento corrente, procedere come segue:
 1. Accedere alla piattaforma RECCO
@@ -673,7 +673,7 @@ Siccome la conversione dei report testuali mensili dal formato Microsoft Word al
 In tal caso, come menzionato in precedenza, all'interno della scheda `Report testuali prodotti in PDF` sarà visibile un bottone `Mostra errori`, volto ad elencare i documetni non correttamente convertiti.
 Nel caso in cui non siano stati riscontrati errori, il bottone non sarà visibile.
 
-Occorre notare che la conversione a PDF deve essere effettuata manualmente attraverso l'opportuna funzioanlità di [produzione manuale di report testuali mensili](utilizzo_gestionerendicontazione.md#produzione-manuale-di-report-testuali-mensili).
+Occorre notare che la conversione a PDF deve essere effettuata manualmente attraverso l'opportuna funzionalità di [produzione manuale di report testuali mensili](utilizzo_gestionerendicontazione.md#produzione-manuale-di-report-testuali-mensili).
 
 Pertanto, per poter visualizzare i report testuali mensili non correttamente prodotti in formato PDF per il periodo di riferimento corrente, procedere come segue:
 1. Accedere alla piattaforma RECCO
