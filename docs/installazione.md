@@ -2,6 +2,10 @@
 
 Al momento, essendo una fase iniziale, per l'installazione del sistema si invita a contattare [Enrico Cambiaso](https://www.ieiit.cnr.it/people/Cambiaso-Enrico).
 
+### Requisiti formali ###
+
+Il sistema viene fornito gratuitamente agli istituti CNR che ne fanno richiesta, a fronte di un incarico nei confronti di [Enrico Cambiaso](https://www.ieiit.cnr.it/people/Cambiaso-Enrico).
+
 ### Requisti di installazione ###
 
 L'installazione della piattaforma RECCO richiede:

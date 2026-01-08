@@ -65,6 +65,8 @@ Nel caso in cui sia necessario o preferibile generare timesheet mensili anche pe
 
 Nel caso in cui si intenda abilitare/disabilitare tale opzione per un [progetto principale](utilizzo_gestioneprogetti.md#informazioni-sul-progetto-principale) sarà necessario abilitarla/disabilitarla per tutti i relativi sotto-progetti.
 
+Occorre considerare che per poter produrre timesheet "a zero ore" è comunque necessario il caricamento del foglio orario compilato: si consulti la relativa FAQ per maggiori informazioni.
+
 #### Modifica di un progetto ####
 
 E' possibile modificare le informazioni associate ad un progetto (bottone `Modifica`).
@@ -239,6 +241,7 @@ Per estendere un progetto terminato, procedere come segue:
 #### Aggiunta di un Principal Investigator ad un progetto ####
 
 Come menzionato in precedenza, è possibile aggiungere un Principal Investigator ad un progetto.
+Se la relativa opzione è abilitata, tale operazione notificherà via email l'unità di personale aggiunta ed altri eventuali Principal Investigator del progetto.
 
 <img src="img/interfaccia_progetti_aggiuntapi.png">
 
@@ -256,6 +259,7 @@ Per aggiungere un Principal Investigator ad un progetto, procedere come segue:
 #### Rimozione di un Principal Investigator da un progetto ####
 
 Come menzionato in precedenza, è possibile rimuovere (previa conferma) un Principal Investigator da un progetto.
+Se la relativa opzione è abilitata, tale operazione notificherà via email l'unità di personale rimossa ed altri eventuali Principal Investigator del progetto.
 
 <img src="img/interfaccia_progettirimozionepi.png">
 
@@ -272,6 +276,7 @@ Per rimuovere un Principal Investigator da un progetto, procedere come segue:
 #### Aggiunta di un partecipante ad un progetto ####
 
 Come menzionato in precedenza, è possibile aggiungere un partecipante ad un progetto.
+Se la relativa opzione è abilitata, tale operazione notificherà via email l'unità di personale aggiunta ed i Principal Investigator del progetto.
 
 <img src="img/interfaccia_progetti_aggiuntapartecipante.png">
 
@@ -287,6 +292,23 @@ Per aggiungere un partecipante ad un progetto, procedere come segue:
 7. Cliccare il bottone `Conferma` per confermare l'operazione
 
 In base alle tempistiche dell'inserimento, occorre notare che a seguito dello stesso potrebbe esser necessario [produrre nuovamente i fogli orari da compilare](utilizzo_gestionepersonale.md#produzione-di-fogli-orari) per l'unità di personale aggiunta al progetto.
+
+#### Rimozione di un partecipante da un progetto ####
+
+Come menzionato in precedenza, è possibile rimuovere (previa conferma) un partecipante da un progetto.
+Se la relativa opzione è abilitata, tale operazione notificherà via email l'unità di personale aggiunta ed i Principal Investigator del progetto.
+
+<img src="img/interfaccia_progettirimozionepartecipante.png">
+
+*Finestra di conferma di rimozione di un partecipante da un progetto*
+
+Per rimuovere un partecipante da un progetto, procedere come segue:
+1. Accedere alla piattaforma RECCO
+2. Aprire il menu `Progetti`
+3. Cliccare il bottone `Visualizza` per aprire il progetto da rimuovere
+4. Eventualmente, se il progetto aperto mostra le informazioni sul "progetto principale" del progetto da rimuovere, cliccare il bottone `Visualizza` per aprire il (sotto-)progetto da rimuovere
+5. Cliccare il bottone `Rimuovi dal progetto` a fianco al nominativo del partecipante al progetto da rimuovere per procedere con la rimozione dello stesso
+6. Si aprirà una finestra di conferma: cliccare il bottone `Conferma` per confermare l'operazione
 
 #### Aggiornamento dell'effort iniziale di un partecipante per un progetto ####
 
@@ -307,22 +329,6 @@ Per aggiungere o modificare l'effort iniziale di un partecipante ad un progetto,
 5. Cliccare il bottone `Aggiorna effort iniziale` a fianco al nominativo del relativo partecipante al progetto
 6. Si aprirà una schermata: inserire i dettagli secondo le necessità
 7. Cliccare il bottone `Conferma` per confermare l'operazione
-
-#### Rimozione di un partecipante da un progetto ####
-
-Come menzionato in precedenza, è possibile rimuovere (previa conferma) un partecipante da un progetto.
-
-<img src="img/interfaccia_progettirimozionepartecipante.png">
-
-*Finestra di conferma di rimozione di un partecipante da un progetto*
-
-Per rimuovere un partecipante da un progetto, procedere come segue:
-1. Accedere alla piattaforma RECCO
-2. Aprire il menu `Progetti`
-3. Cliccare il bottone `Visualizza` per aprire il progetto da rimuovere
-4. Eventualmente, se il progetto aperto mostra le informazioni sul "progetto principale" del progetto da rimuovere, cliccare il bottone `Visualizza` per aprire il (sotto-)progetto da rimuovere
-5. Cliccare il bottone `Rimuovi dal progetto` a fianco al nominativo del partecipante al progetto da rimuovere per procedere con la rimozione dello stesso
-6. Si aprirà una finestra di conferma: cliccare il bottone `Conferma` per confermare l'operazione
 
 #### Download dei dati relativi ai progetti registrati sulla piattaforma ####
 

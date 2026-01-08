@@ -13,7 +13,11 @@ Questo repository riporta una guida di utilizzo della piattaforma RECCO, svilupp
 3. [Prima configurazione](docs/primaconfigurazione.md)
 4. [Utilizzo del sistema](docs/utilizzo.md)
 
-La versione considerata è la versione `1.5`.
+La versione considerata è la versione `1.6`.
+
+### Changelog ###
+
+Consultare la [pagina relativa al changelog](docs/changelog.md).
 
 ### FAQ ###
 
