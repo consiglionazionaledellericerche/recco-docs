@@ -65,7 +65,7 @@ Nel caso in cui sia necessario o preferibile generare timesheet mensili anche pe
 
 Nel caso in cui si intenda abilitare/disabilitare tale opzione per un [progetto principale](utilizzo_gestioneprogetti.md#informazioni-sul-progetto-principale) sarà necessario abilitarla/disabilitarla per tutti i relativi sotto-progetti.
 
-Occorre considerare che per poter produrre timesheet "a zero ore" è comunque necessario il caricamento del foglio orario compilato: si consulti la relativa FAQ per maggiori informazioni.
+Occorre considerare che per poter produrre timesheet "a zero ore" è comunque necessario il caricamento del foglio orario compilato: si consulti la [relativa FAQ](faq.md#non-è-stato-generato-un-timesheet-a-zero-ore-per-una-unità-di-personale) per maggiori informazioni.
 
 #### Modifica di un progetto ####
 
