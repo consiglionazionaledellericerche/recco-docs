@@ -469,7 +469,7 @@ Al momento del caricamento, viene mostrato un form come quello riportato in figu
 
 Occorre in particolare considerare i seguenti aspetti:
 * Nel caso in cui siano presenti più file con lo stesso nome in cartelle differenti, verrà mantenuto solo uno dei file
-* Per ottimizzare l'accesso ai documenti all'interno della piattaforma, il nome di ogni file deve includere sia l'acronimo del progetto (o del progetto padre), sia il nome utente dell'utente di riferimento (es. `mario.rossi`)
+* Per ottimizzare l'accesso ai documenti all'interno della piattaforma, il nome di ogni file deve includere sia l'acronimo del progetto (o del progetto principale), sia il nome utente dell'utente di riferimento (es. `mario.rossi`)
 * E' possibile caricare più archivi in formato ZIP per lo stesso mese di riferimento: in questo caso, i documenti verranno integrati (ed eventualmente sostituiti) con i nuovi, mantenendo quelli già archiviati in precedenza
 
 Pertanto, per poter caricare i timesheet definitivi per uno specifico periodo di riferimento, procedere come segue:

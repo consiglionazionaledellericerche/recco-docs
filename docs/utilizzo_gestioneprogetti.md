@@ -194,12 +194,12 @@ Informazioni di dettaglio sulle ore rendicontate per ogni partecipante sono infi
 **Download delle lettere di incarico per il progetto**
 
 Se l'accesso è effettuato come account con privilegi di `gestione-rendicontazione` o `gestione-completa` (o di amministrazione), o come Principal Investigator del progetto, è possibile scaricare le lettere di incarico presenti, sia dei responsabili del progetto, sia dei partecipanti allo stesso.
-Se il progetto non ha un progetto padre configurato, tale opzione è disponibile attraverso le schede `Lettere di incarico dei responsabili di progetto` e `Lettere di incarico dei partecipanti al progetto`.
+Se il progetto non ha un progetto principale configurato, tale opzione è disponibile attraverso le schede `Lettere di incarico dei responsabili di progetto` e `Lettere di incarico dei partecipanti al progetto`.
 
 **Download dei timesheet definitivi di progetto**
 
 Se l'accesso è effettuato come account con privilegi di `gestione-rendicontazione` o `gestione-completa` (o di amministrazione), o come Principal Investigator del progetto, è possibile scaricare i timesheet definitivi presenti in piattaforma, riferiti al progetto.
-Se il progetto non ha un progetto padre configurato, tale opzione è disponibile attraverso la scheda `Timesheet definitivi di progetto`.
+Se il progetto non ha un progetto principale configurato, tale opzione è disponibile attraverso la scheda `Timesheet definitivi di progetto`.
 
 **Download dei dati relativi alla rendicontazione del progetto**
 
