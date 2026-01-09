@@ -35,6 +35,16 @@ Ad esempio, l'utilizzo di tale parametro può tornare utile per poter raggruppar
 In fase di visualizzazione, un "progetto principale" erediterà i valori di campi quale il titolo dal primo "sotto-progetto" (il primo progetto, in ordine alfabetico, che fa uso dell'acronimo del "progetto principale").
 Inoltre, non sarà possibile modificare un "progetto principale", ma soltanto i singoli "sotto-progetti" ad esso associati.
 
+**Download delle lettere di incarico per il progetto**
+
+Se l'accesso è effettuato come account con privilegi di `gestione-rendicontazione` o `gestione-completa` (o di amministrazione), o come Principal Investigator del progetto, è possibile scaricare le lettere di incarico presenti, sia dei responsabili del progetto, sia dei partecipanti allo stesso.
+Tale opzione è disponibile attraverso le schede `Lettere di incarico dei responsabili di progetto` e `Lettere di incarico dei partecipanti al progetto`.
+
+**Download dei timesheet definitivi di progetto**
+
+Se l'accesso è effettuato come account con privilegi di `gestione-rendicontazione` o `gestione-completa` (o di amministrazione), o come Principal Investigator del progetto, è possibile scaricare i timesheet definitivi presenti in piattaforma, riferiti al progetto.
+Tale opzione è disponibile attraverso la scheda `Timesheet definitivi di progetto`.
+
 **Download dei dati relativi alla rendicontazione di un progetto principale**
 
 In aggiunta all'elenco dei "sotto-progetti", alla visualizzazione di un "progetto principale", per gli amministratori di sistema e per i Principal Investigator di tutti i sotto-progetti è possibile visualizzare una scheda che permette di scaricare dati riassuntivi di rendiconto sull'intero progetto.
@@ -181,7 +191,17 @@ Da una parte, viene mostrato un grafico "a ciambella" che mostra, per ogni parte
 Dall'altra, viene mostrato, mese per mese, quante ore ogni singolo partecipante ha rendicontato sul progetto.
 Informazioni di dettaglio sulle ore rendicontate per ogni partecipante sono infine disponibili in una tabella dedicata.
 
-**Download dei dati relativi alla rendicontazione sul progetto**
+**Download delle lettere di incarico per il progetto**
+
+Se l'accesso è effettuato come account con privilegi di `gestione-rendicontazione` o `gestione-completa` (o di amministrazione), o come Principal Investigator del progetto, è possibile scaricare le lettere di incarico presenti, sia dei responsabili del progetto, sia dei partecipanti allo stesso.
+Se il progetto non ha un progetto padre configurato, tale opzione è disponibile attraverso le schede `Lettere di incarico dei responsabili di progetto` e `Lettere di incarico dei partecipanti al progetto`.
+
+**Download dei timesheet definitivi di progetto**
+
+Se l'accesso è effettuato come account con privilegi di `gestione-rendicontazione` o `gestione-completa` (o di amministrazione), o come Principal Investigator del progetto, è possibile scaricare i timesheet definitivi presenti in piattaforma, riferiti al progetto.
+Se il progetto non ha un progetto padre configurato, tale opzione è disponibile attraverso la scheda `Timesheet definitivi di progetto`.
+
+**Download dei dati relativi alla rendicontazione del progetto**
 
 E' possibile scaricare un documento in [formato CSV](https://it.wikipedia.org/wiki/Comma-separated_values) (dunque, importabile in modo molto semplice su Microsoft Excel, o facilmente interpretabile da un software) contenente i dettagli delle ore rendicontate sul progetto.
 Occorre tuttavia notare che tale documento includerà solamente le informazioni sulle ore rendicontate tramite la piattaforma RECCO: dunque, eventuali ore rendicontate antecedentemente all'utilizzo della piattaforma non verranno esportate.
@@ -243,9 +263,11 @@ Per estendere un progetto terminato, procedere come segue:
 Come menzionato in precedenza, è possibile aggiungere un Principal Investigator ad un progetto.
 Se la relativa opzione è abilitata, tale operazione notificherà via email l'unità di personale aggiunta ed altri eventuali Principal Investigator del progetto.
 
-<img src="img/interfaccia_progetti_aggiuntapi.png">
+<img src="img/interfaccia_progetti_aggiuntapi.png" height="250">
 
 *Finestra di aggiunta di un Principal Investigator ad un progetto*
+
+Opzionalmente, è possibile caricare un documento (in formato PDF) con la relativa lettera di incarico.
 
 Per aggiungere un Principal Investigator ad un progetto, procedere come segue:
 1. Accedere alla piattaforma RECCO
@@ -255,6 +277,8 @@ Per aggiungere un Principal Investigator ad un progetto, procedere come segue:
 5. Cliccare il bottone `Aggiungi Principal Investigator` per procedere con l'aggiunta
 6. Si aprirà una schermata: inserire i dettagli secondo le necessità
 7. Cliccare il bottone `Conferma` per confermare l'operazione
+
+Se abilitata, tale operazione notificherà l'unità di personale coinvolta, così come eventuali altri Principal Investigator del progetto.
 
 #### Rimozione di un Principal Investigator da un progetto ####
 
@@ -273,14 +297,18 @@ Per rimuovere un Principal Investigator da un progetto, procedere come segue:
 5. Cliccare il bottone `Rimuovi` a fianco al nominativo del Principal Investigator da rimuovere per procedere con la rimozione dello stesso
 6. Si aprirà una finestra di conferma: cliccare il bottone `Conferma` per confermare l'operazione
 
+Se abilitata, tale operazione notificherà l'unità di personale coinvolta, così come eventuali altri Principal Investigator del progetto.
+
 #### Aggiunta di un partecipante ad un progetto ####
 
 Come menzionato in precedenza, è possibile aggiungere un partecipante ad un progetto.
 Se la relativa opzione è abilitata, tale operazione notificherà via email l'unità di personale aggiunta ed i Principal Investigator del progetto.
 
-<img src="img/interfaccia_progetti_aggiuntapartecipante.png">
+<img src="img/interfaccia_progetti_aggiuntapartecipante.png" height="250">
 
 *Finestra di aggiunta di un partecipante ad un progetto*
+
+Opzionalmente, è possibile caricare un documento (in formato PDF) con la relativa lettera di incarico.
 
 Per aggiungere un partecipante ad un progetto, procedere come segue:
 1. Accedere alla piattaforma RECCO
@@ -290,6 +318,8 @@ Per aggiungere un partecipante ad un progetto, procedere come segue:
 5. Cliccare il bottone `Aggiungi partecipante` per procedere con l'aggiunta
 6. Si aprirà una schermata: inserire i dettagli secondo le necessità
 7. Cliccare il bottone `Conferma` per confermare l'operazione
+
+Se abilitata, tale operazione notificherà l'unità di personale coinvolta, così come eventuali altri Principal Investigator del progetto.
 
 In base alle tempistiche dell'inserimento, occorre notare che a seguito dello stesso potrebbe esser necessario [produrre nuovamente i fogli orari da compilare](utilizzo_gestionepersonale.md#produzione-di-fogli-orari) per l'unità di personale aggiunta al progetto.
 

@@ -454,6 +454,62 @@ Pertanto, per poter visualizzare tutti i timesheet mensili in formato PDF presen
 5. Selezionare il periodo di riferimento di interesse cliccando sul bottone `Visualizza`
 6. Si aprirà una nuova pagina contenente tutti i documenti, con la possibilità di scaricarli, sostiuirli o eliminarli
 
+#### Caricamento dei timesheet definitivi ####
+
+E' possibile caricare manualmente i timesheet definitivi per un mese di riferimento specifico.
+Per timesheet definitivo si intende in particolare il documento firmato da tutte le entità coinvolte nello stesso.
+In questo caso, è necessario produrre un file in formato ZIP che contiene al suo interno i documenti di interesse per il mese di riferimento.
+Nel caso in cui i documenti siano organizzati in cartelle o sottocartelle, queste verranno analizzate per recuperare tutti i file ed estrarli.
+
+Al momento del caricamento, viene mostrato un form come quello riportato in figura seguente.
+
+<img src="img/interfaccia_rendicontazione_home_form_caricamentotimesheetdefinitivi.png" height="200">
+
+*Scheda di dettaglio del caricamento dei timesheet definitivi per un mese specifico*
+
+Occorre in particolare considerare i seguenti aspetti:
+* Nel caso in cui siano presenti più file con lo stesso nome in cartelle differenti, verrà mantenuto solo uno dei file
+* Per ottimizzare l'accesso ai documenti all'interno della piattaforma, il nome di ogni file deve includere sia l'acronimo del progetto (o del progetto padre), sia il nome utente dell'utente di riferimento (es. `mario.rossi`)
+* E' possibile caricare più archivi in formato ZIP per lo stesso mese di riferimento: in questo caso, i documenti verranno integrati (ed eventualmente sostituiti) con i nuovi, mantenendo quelli già archiviati in precedenza
+
+Pertanto, per poter caricare i timesheet definitivi per uno specifico periodo di riferimento, procedere come segue:
+1. Accedere alla piattaforma RECCO
+2. Aprire il menu `Rendicontazione`
+3. Cliccare il bottone `Carica` all'interno della scheda `Caricamento di timesheet definitivi`
+4. Compilare il form secondo le proprie necessità
+5. Confermare l'operazione
+
+L'importazione potrebbe richiedere diverso tempo, in funzione della dimensione del file caricato.
+
+#### Consultazione dei timesheet definitivi ####
+
+E' disponibile una scheda di dettaglio relativa ai timesheet mensili definitivi memorizzati all'interno della piattaforma, per il periodo di riferimento corrente.
+Questi documenti vengono caricati (manualmente o automaticamente) ed importati sulla piattaforma.
+
+In particolare, la scheda mostra informazioni quali il numero di timesheet definitivi mensili presenti.
+
+Cliccando il bottone `Visualizza documenti` all'interno della scheda `Timesheet definitivi` è possibile consultare tutti i documenti disponibili: per ogni documento è possibile scaricare lo stesso.
+
+Pertanto, per poter visualizzare i timesheet definitivi mensili presenti per il periodo di riferimento corrente, procedere come segue:
+1. Accedere alla piattaforma RECCO
+2. Aprire il menu `Rendicontazione`
+3. Cliccare il bottone `Visualizza documenti` all'interno della scheda `Timesheet definitivi`
+4. Si aprirà una pagina contenente tutti i documenti, con la possibilità di scaricarli
+
+#### Consultazione dell'archivio dei timesheet definitivi ####
+
+Analogamente alla consultazione dei timesheet definitivi per il periodo di riferimento corrente, è disponibile una scheda di dettaglio relativa all'archivio di tutti i timesheet definitivi presenti in piattaforma.
+
+Cliccando il bottone `Visualizza documenti` all'interno della scheda `Archivio timesheet definitivi` è possibile selezionare il periodo di riferimento di interesse (espresso nel formato `YYYYMM`), dunque accedere ai documenti di interesse, con possibilità di scaricarli.
+
+Pertanto, per poter visualizzare tutti i timesheet definitivi presenti all'interno della piattaforma, procedere come segue:
+1. Accedere alla piattaforma RECCO
+2. Aprire il menu `Rendicontazione`
+3. Cliccare il bottone `Visualizza documenti` all'interno della scheda `Archivio timesheet definitivi`
+4. Si aprirà una pagina contenente tutti i periodi di riferimento, espressi nel formato `YYYYMM`
+5. Selezionare il periodo di riferimento di interesse cliccando sul bottone `Visualizza`
+6. Si aprirà una nuova pagina contenente tutti i documenti, con la possibilità di scaricarli
+
 ### Report testuali ###
 
 I report testuali sono report generati a partire da un documento Microsoft Word e associati ad uno o più progetti specifici.
