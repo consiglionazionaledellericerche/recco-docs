@@ -263,7 +263,7 @@ Per estendere un progetto terminato, procedere come segue:
 Come menzionato in precedenza, è possibile aggiungere un Principal Investigator ad un progetto.
 Se la relativa opzione è abilitata, tale operazione notificherà via email l'unità di personale aggiunta ed altri eventuali Principal Investigator del progetto.
 
-<img src="img/interfaccia_progetti_aggiuntapi.png" height="250">
+<img src="img/interfaccia_progetti_aggiuntapi.png" height="500">
 
 *Finestra di aggiunta di un Principal Investigator ad un progetto*
 
@@ -304,7 +304,7 @@ Se abilitata, tale operazione notificherà l'unità di personale coinvolta, cos�
 Come menzionato in precedenza, è possibile aggiungere un partecipante ad un progetto.
 Se la relativa opzione è abilitata, tale operazione notificherà via email l'unità di personale aggiunta ed i Principal Investigator del progetto.
 
-<img src="img/interfaccia_progetti_aggiuntapartecipante.png" height="250">
+<img src="img/interfaccia_progetti_aggiuntapartecipante.png" height="500">
 
 *Finestra di aggiunta di un partecipante ad un progetto*
 
