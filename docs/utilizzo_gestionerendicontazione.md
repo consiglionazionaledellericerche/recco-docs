@@ -456,7 +456,7 @@ Pertanto, per poter visualizzare tutti i timesheet mensili in formato PDF presen
 
 #### Caricamento dei timesheet definitivi ####
 
-E' possibile caricare manualmente i timesheet definitivi per un mese di riferimento specifico.
+Nel caso in cui l'opzione sia abilitata, è possibile caricare manualmente i timesheet definitivi per un mese di riferimento specifico.
 Per timesheet definitivo si intende in particolare il documento firmato da tutte le entità coinvolte nello stesso.
 In questo caso, è necessario produrre un file in formato ZIP che contiene al suo interno i documenti di interesse per il mese di riferimento.
 Nel caso in cui i documenti siano organizzati in cartelle o sottocartelle, queste verranno analizzate per recuperare tutti i file ed estrarli.
@@ -483,7 +483,7 @@ L'importazione potrebbe richiedere diverso tempo, in funzione della dimensione d
 
 #### Consultazione dei timesheet definitivi ####
 
-E' disponibile una scheda di dettaglio relativa ai timesheet mensili definitivi memorizzati all'interno della piattaforma, per il periodo di riferimento corrente.
+Nel caso in cui l'opzione sia abilitata, è disponibile una scheda di dettaglio relativa ai timesheet mensili definitivi memorizzati all'interno della piattaforma, per il periodo di riferimento corrente.
 Questi documenti vengono caricati (manualmente o automaticamente) ed importati sulla piattaforma.
 
 In particolare, la scheda mostra informazioni quali il numero di timesheet definitivi mensili presenti.
@@ -498,7 +498,7 @@ Pertanto, per poter visualizzare i timesheet definitivi mensili presenti per il 
 
 #### Consultazione dell'archivio dei timesheet definitivi ####
 
-Analogamente alla consultazione dei timesheet definitivi per il periodo di riferimento corrente, è disponibile una scheda di dettaglio relativa all'archivio di tutti i timesheet definitivi presenti in piattaforma.
+Analogamente alla consultazione dei timesheet definitivi per il periodo di riferimento corrente, nel caso in cui l'opzione sia abilitata, è disponibile una scheda di dettaglio relativa all'archivio di tutti i timesheet definitivi presenti in piattaforma.
 
 Cliccando il bottone `Visualizza documenti` all'interno della scheda `Archivio timesheet definitivi` è possibile selezionare il periodo di riferimento di interesse (espresso nel formato `YYYYMM`), dunque accedere ai documenti di interesse, con possibilità di scaricarli.
 

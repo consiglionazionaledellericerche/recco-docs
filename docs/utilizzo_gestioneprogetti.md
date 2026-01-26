@@ -42,7 +42,7 @@ Tale opzione è disponibile attraverso le schede `Lettere di incarico dei respon
 
 **Download dei timesheet definitivi di progetto**
 
-Se l'accesso è effettuato come account con privilegi di `gestione-rendicontazione` o `gestione-completa` (o di amministrazione), o come Principal Investigator del progetto, è possibile scaricare i timesheet definitivi presenti in piattaforma, riferiti al progetto.
+Se l'accesso è effettuato come account con privilegi di `gestione-rendicontazione` o `gestione-completa` (o di amministrazione), o come Principal Investigator del progetto, e nel caso in cui la relativa opzione sia abilitata, è possibile scaricare i timesheet definitivi presenti in piattaforma, riferiti al progetto.
 Tale opzione è disponibile attraverso la scheda `Timesheet definitivi di progetto`.
 
 **Download dei dati relativi alla rendicontazione di un progetto principale**
@@ -198,7 +198,7 @@ Se il progetto non ha un progetto principale configurato, tale opzione è dispon
 
 **Download dei timesheet definitivi di progetto**
 
-Se l'accesso è effettuato come account con privilegi di `gestione-rendicontazione` o `gestione-completa` (o di amministrazione), o come Principal Investigator del progetto, è possibile scaricare i timesheet definitivi presenti in piattaforma, riferiti al progetto.
+Se l'accesso è effettuato come account con privilegi di `gestione-rendicontazione` o `gestione-completa` (o di amministrazione), o come Principal Investigator del progetto, e nel caso in cui la relativa opzione sia abilitata, è possibile scaricare i timesheet definitivi presenti in piattaforma, riferiti al progetto.
 Se il progetto non ha un progetto principale configurato, tale opzione è disponibile attraverso la scheda `Timesheet definitivi di progetto`.
 
 **Download dei dati relativi alla rendicontazione del progetto**

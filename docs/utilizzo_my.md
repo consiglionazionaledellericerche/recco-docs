@@ -139,6 +139,12 @@ Nel caso in cui i documenti non siano disponibili, viene mostrato un messaggio d
 
 In tal caso, il problema può essere risolto eventualmente caricando il proprio foglio orario compilato: dopo pochi minuti verranno generati i timesheet relativi (per maggiori dettagli, consultare le informazioni relative al [processo implementato](introduzione.md#il-processo-implementato)).
 
+Nel caso in cui la relativa opzione sia abilitata, è possibile accedere ai timesheet definitivi per il periodo di riferimento corrente, o all'archivio degli stessi.
+
+<img src="img/interfaccia_timesheets_finaltimesheetspersonal.png">
+
+*Interfaccia di accesso ai timesheet personali per il periodo di riferimento corrente e al relativo archivio storico*
+
 #### Ore allocate nel tempo ####
 
 E' possibile ottenere informazioni riassuntive sulle ore rendicontate sui vari progetti da parte dell'unità di personale collegata.
