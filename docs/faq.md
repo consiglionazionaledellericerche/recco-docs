@@ -109,3 +109,5 @@ PROGETTO1_stefanomario.rossi.pdf
 202001_stefanomario.rossi_PROGETTO1_signed.pdf
 Stefano Mario Rossi_stefanomario.rossi_gennaio2020_PROGETTO1_signed.pdf
 ```
+
+Occorre notare che nel caso di presenza di più file che rispettano queste caratteristiche, tutti i documenti verranno mostrati, anche se riferiti allo stesso utente ed alla stesso progetto.
