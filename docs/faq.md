@@ -96,3 +96,16 @@ Dunque, nel caso in cui non sia stato generato un timesheet per un progetto nel 
 
 Per procedere con la generazione sarà dunque necessario, da parte dell'unità di personale oggetto della problematica, [comunicare le ore rendicontate per il periodo di riferimento corrente](comunicazione-delle-ore-rendicontate-per-il-periodo-di-riferimento-corrente).
 In alternativa, utenti della piattaforma con il permesso di `gestione-rendicontazione` o `gestione-completa` (o di amministrazione) possono procedere con il [caricamento manuale del foglio orario compilato](utilizzo_gestionerendicontazione.md#aggiunta-di-un-foglio-orario-compilato), dunque con l'[operazione di generazione manuale di timesheet mensili](utilizzo_gestionerendicontazione.md#produzione-manuale-di-timesheet-mensili) per il relativo utente.
+
+#### Non è possibile visualizzare correttamente i timesheet definitivi per un utente e/o un progetto specifico
+
+Al fine di poter visualizzare correttamente i timesheet definitivi all'interno della piattaforma ed associarli ad un utente e/o ad un progetto, è necessario che il nome del file (o dei file) di riferimento includa lo username dell'utente (es. `stefanomario.rossi` nel caso di utenza con email `stefanomario.rossi@cnr.it`) e l'acronimo del progetto (o del progetto principale).
+
+Ad esempio, per l'utente `stefanomario.rossi@cnr.it` ed il progetto `PROGETTO1`, i file con nome tra i seguenti risulteranno correttamente accessibili:
+```
+stefanomario.rossi_PROGETTO1.pdf
+PROGETTO1_stefanomario.rossi.pdf
+202001_stefanomario.rossi_PROGETTO1.pdf
+202001_stefanomario.rossi_PROGETTO1_signed.pdf
+Stefano Mario Rossi_stefanomario.rossi_gennaio2020_PROGETTO1_signed.pdf
+```
